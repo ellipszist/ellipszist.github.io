@@ -84,7 +84,7 @@
 
     .app-img-container {
       /* 65vh + border width */
-      height: 67vh;
+      height: 43vh;
       /* 65 * (9/16) ~= 37vh + (2 * border width) */
       width: 67vh;
     }
@@ -97,6 +97,16 @@
       border-width: 2vh 2vh 2vh 2vh;
       box-shadow: 0 30px 80px rgba(0, 0, 0, 0.24);
       box-sizing: content-box;
+    }
+
+    .download-text-box {
+      height: 10vh;
+      font-family: 'Sriracha', sans-serif;
+      font-weight: 400;
+      margin-bottom: 12vh;
+      position: relative;
+      text-align: center;
+      width: 80vw;
     }
   </style>
 </head>
@@ -132,6 +142,18 @@
           height="450"
           layout="responsive">
       </amp-img>
+    </div>
+    <div class="download-text-box">
+      <!-- Recommended text font size is min 16pt and max 64pt. Color can be flexible. -->
+      <amp-fit-text
+        id="text"
+        width="70"
+        height="12"
+        layout="fill"
+        min-font-size="16"
+        max-font-size="24">
+         <a href="https://github.com/ellipszist/StardewMods/releases"><font color="#2188ff">DOWNLOAD</font></a></div>
+      </amp-fit-text>
     </div>
   </div>
 </body>
