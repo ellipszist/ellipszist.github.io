@@ -95,9 +95,11 @@ article:nth-child(2){
 }
 article:nth-child(3){
     background-color: var(--third-color);
+	background-image: linear-gradient(to left bottom, #ffd4fe, #ffd4fe 30%, #ffd26a 100%)
 }
 article:nth-child(4){
     background-color: var(--second-color);
+	background-image: linear-gradient(to left bottom, #60375f, #913371, #de7f5f);
 }
 .card__img{
     width: 180px;
