@@ -88,6 +88,7 @@ a{
 }
 article:nth-child(1){
     background-color: var(--first-color);
+	background-image: linear-gradient(to left bottom, #F9F871, #FFC75F, #FF9671);
 }
 article:nth-child(2){
     background-color: var(--second-color);
