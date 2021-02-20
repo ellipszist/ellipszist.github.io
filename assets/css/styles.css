@@ -119,7 +119,8 @@ article:nth-child(4){
     transform: rotate(180deg);
     text-align: center;
     background-color: var(--dark-color);
-    color: #fff;
+    /*color: #fff;*/
+    color: #e0a100;
     font-weight: bold;
     transition: .5s;
 }
