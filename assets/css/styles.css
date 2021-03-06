@@ -3,11 +3,11 @@
 /*-- VARIABLES CSS--*/
 /*Colores*/
 :root{
-    --first-color: #E3F8FF;
-    --second-color: #DCFAFB;
-    --third-color: #FFE8DF;
-    --accent-color: #FF5151;
-    --dark-color: #161616;
+    --first-color: #fbe3bd;
+    --second-color: #fbe3bd;
+    --third-color: #fbe3bd;
+    --accent-color: #5a2c0a;
+    --dark-color: #5a2c0a;
 }
 
 /*Tipografia responsive*/
@@ -32,7 +32,7 @@
 }
 body{
     margin: 2rem 0 0 0;
-    background-color: #fff;
+    background-color: #fdddac;
     color: var(--dark-color);
     font-family: var(--body-font);
 }
@@ -88,19 +88,19 @@ a{
 }
 article:nth-child(1){
     background-color: var(--first-color);
-    background-image: linear-gradient(to right bottom, #ffd26a, #ffd4fe 70%, #ffd4fe);
+    /*background-image: linear-gradient(to right bottom, #ffd26a, #ffd4fe 70%, #ffd4fe);*/
 }
 article:nth-child(2){
-    /*background-color: var(--second-color);*/
-    background-image: linear-gradient(to bottom, #e6f4f1, #b3efff);
+    background-color: var(--second-color);
+    /*background-image: linear-gradient(to bottom, #e6f4f1, #b3efff);*/
 }
 article:nth-child(3){
     background-color: var(--third-color);
-    background-image: linear-gradient(to bottom, #f9f871, #ffc75f, #ff9671);
+    /*background-image: linear-gradient(to bottom, #f9f871, #ffc75f, #ff9671);*/
 }
 article:nth-child(4){
     background-color: var(--second-color);
-    background-image: linear-gradient(to left bottom, #de7f5f, #913371, #60375f);
+    /*background-image: linear-gradient(to left bottom, #de7f5f, #913371, #60375f);*/
 }
 .card__img{
     width: 180px;
