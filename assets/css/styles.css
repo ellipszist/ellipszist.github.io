@@ -153,7 +153,7 @@ article:nth-child(4){
 }
 /*Move left*/
 .card:hover{
-    box-shadow: 0 .5rem 1rem #D1D9E6;
+    box-shadow: 0 .5rem 1rem #f7c887;
 }
 .card:hover .card__name{
     left: 0;
