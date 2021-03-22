@@ -2946,7 +2946,7 @@ amp-carousel .ampstart-image-with-caption {
 
 .land-see-blockquote:before {
   content: "";
-  background: url(../../img/land-see/structure/green-up-full-20.svg) 0 0/198px 156px no-repeat;
+  background: url(../img/land-see/structure/green-up-full-20.svg) 0 0/198px 156px no-repeat;
   position: absolute;
   top: 50%;
   left: 1rem;
@@ -3011,7 +3011,7 @@ amp-carousel .ampstart-image-with-caption {
 .land-see-instagram>h3 span:before {
   content: "";
   position: absolute;
-  background: url(../../img/icons/instagram.svg) -5px -3px/35px 35px no-repeat;
+  background: url(../icons/instagram.svg) -5px -3px/35px 35px no-repeat;
   height: 29px;
   width: 29px;
   top: 0;
