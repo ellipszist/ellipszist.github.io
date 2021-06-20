@@ -186,7 +186,7 @@ article:nth-child(4){
 }
 
 /*-- Glow Effects --*/
-article:nth-child(1) a.card__icon{
+/*article:nth-child(1) a.card__icon{
     color: #FB4264;
     text-shadow: 0 0 3vw #F40A35;
     animation: neon 1s ease infinite;
@@ -239,4 +239,4 @@ article:nth-child(4) a.card__icon{
         text-shadow: 0 0 .5vw #082180, 0 0 1.5vw #082180, 0 0 5vw #082180, 0 0 5vw #082180, 0 0 .2vw #082180, .5vw .5vw .1vw #0A3940;
         color: #146C80;
     }
-}
+}*/
