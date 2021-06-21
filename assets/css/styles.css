@@ -31,7 +31,7 @@
     box-sizing: border-box;
 }
 body{
-    margin: 2rem 0 0 0;
+    margin: 2rem 0;
     background-color: #fdddac;
     color: var(--dark-color);
     font-family: var(--body-font);
@@ -174,7 +174,7 @@ article:nth-child(4){
 /*-- MEDIA QUERIES --*/
 @media screen and (min-width: 1200px){
     body{
-        margin: 3rem 0 0 0;
+        margin: 3rem 0;
     }
     .title-shop{
         margin: 0 5rem;
