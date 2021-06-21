@@ -51,6 +51,9 @@ a{
 .main{
     padding: 2rem 0;
 }
+.mobile{
+    padding: 0 0 2rem 0;
+}
 .bd-grid{
     display: grid;
     grid-template-columns: repeat(auto-fit, minmax(220px, 1fr));
