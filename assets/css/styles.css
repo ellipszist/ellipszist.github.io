@@ -171,6 +171,10 @@ article:nth-child(4){
     padding: 0 0.5rem;
 }
 
+ion-icon{
+    pointer-events: none;
+}
+
 /*-- MEDIA QUERIES --*/
 @media screen and (min-width: 1200px){
     body{
