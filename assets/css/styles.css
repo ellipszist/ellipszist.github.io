@@ -3,11 +3,39 @@
 /*-- VARIABLES CSS--*/
 /*Colores*/
 :root{
+    /*
+    -light
+    #1d1d1f
+    #86868b
+    #fbfbfd
+    #fff
     --first-color: #fbe3bd;
     --second-color: #fbe3bd;
     --third-color: #fbe3bd;
     --accent-color: #5a2c0a;
-    --dark-color: #5a2c0a;
+    --text-color: #5a2c0a;
+	*/
+    --accent-color: #1d1d1f;
+    --text-color: #1d1d1f;
+    --bg-color: #f2f2f2; /*fdddac*/
+    --card-color: #fff;
+}
+
+/*Colores for dark mode*/
+@media (prefers-color-scheme: dark){
+    /*
+    -dark
+    #ffff
+    #98989f
+    #000
+    #1c1c1e
+    */
+    :root{
+        --bg-color: #000;
+        --text-color: #fff;
+		--card-color: #1c1c1e;
+		--accent-color: #fff;
+    }
 }
 
 /*Tipografia responsive*/
@@ -32,8 +60,8 @@
 }
 body{
     margin: 2rem 0;
-    background-color: #fdddac;
-    color: var(--dark-color);
+    background-color: var(--bg-color);
+    color: var(--text-color);
     font-family: var(--body-font);
 }
 h1{
@@ -75,7 +103,7 @@ a{
     top: 50%;
     width: 72px;
     height: 2px;
-    background-color: var(--dark-color);
+    background-color: var(--text-color);
     margin-left: .25rem;
 }
 
@@ -89,21 +117,8 @@ a{
     border-radius: 1rem;
     overflow: hidden;
 }
-article:nth-child(1){
-    background-color: var(--first-color);
-    /*background-image: linear-gradient(to right bottom, #ffd26a, #ffd4fe 70%, #ffd4fe);*/
-}
-article:nth-child(2){
-    background-color: var(--second-color);
-    /*background-image: linear-gradient(to bottom, #e6f4f1, #b3efff);*/
-}
-article:nth-child(3){
-    background-color: var(--third-color);
-    /*background-image: linear-gradient(to bottom, #f9f871, #ffc75f, #ff9671);*/
-}
-article:nth-child(4){
-    background-color: var(--second-color);
-    /*background-image: linear-gradient(to left bottom, #de7f5f, #913371, #60375f);*/
+article{
+    background-color: var(--card-color);
 }
 .card__img{
     width: 180px;
@@ -121,7 +136,7 @@ article:nth-child(4){
     writing-mode: vertical-rl;
     transform: rotate(180deg);
     text-align: center;
-    background-color: var(--dark-color);
+    background-color: var(--text-color);
     /*color: #fff;*/
     color: #e0a100;
     font-weight: bold;
@@ -129,7 +144,7 @@ article:nth-child(4){
 }
 .card__icon{
     font-size: 1.5rem;
-    color: var(--dark-color);
+    color: var(--text-color);
 }
 .card__icon:hover{
     color: var(--accent-color);
@@ -153,6 +168,7 @@ article:nth-child(4){
 .card__preci--now{
     font-size: var(--h3-font-size);
     font-weight: bold;
+    color: #86868b;
 }
 /*Move left*/
 .card:hover{
@@ -191,59 +207,3 @@ ion-icon{
         padding: 0 1rem;
     }
 }
-
-/*-- Glow Effects --*/
-/*article:nth-child(1) a.card__icon{
-    color: #FB4264;
-    text-shadow: 0 0 3vw #F40A35;
-    animation: neon 1s ease infinite;
-    -moz-animation: neon 1s ease infinite;
-    -webkit-animation: neon 1s ease infinite;
-    -o-animation: neon 1s linear infinite;
-}
-article:nth-child(2) a.card__icon{
-    color: #426DFB;
-    text-shadow: 0 0 3vw #2356FF;
-    animation: flux 1.5s linear infinite;
-    -moz-animation: flux 1.5s linear infinite;
-    -webkit-animation: flux 1.5s linear infinite;
-    -o-animation: flux 1.5s linear infinite;
-}
-article:nth-child(3) a.card__icon{
-    color: #FB4264;
-    text-shadow: 0 0 3vw #F40A35;
-    animation: neon 2s ease infinite;
-    -moz-animation: neon 2s ease infinite;
-    -webkit-animation: neon 2s ease infinite;
-    -o-animation: neon 2s linear infinite;
-}
-article:nth-child(4) a.card__icon{
-    color: #426DFB;
-    text-shadow: 0 0 3vw #2356FF;
-    animation: flux 2.5s linear infinite;
-    -moz-animation: flux 2.5s linear infinite;
-    -webkit-animation: flux 2.5s linear infinite;
-    -o-animation: flux 2.5s linear infinite;
-}
-@keyframes neon{
-    0%,
-    100%{
-        text-shadow: 0 0 1vw #FA1C16, 0 0 3vw #FA1C16, 0 0 10vw #FA1C16, 0 0 10vw #FA1C16, 0 0 .4vw #FED128, .5vw .5vw .1vw #806914;
-        color: #FED128;
-    }
-    50%{
-        text-shadow: 0 0 .5vw #800E0B, 0 0 1.5vw #800E0B, 0 0 5vw #800E0B, 0 0 5vw #800E0B, 0 0 .2vw #800E0B, .5vw .5vw .1vw #40340A;
-        color: #806914;
-    }
-}
-@keyframes flux{
-    0%,
-    100%{
-        text-shadow: 0 0 1vw #1041FF, 0 0 3vw #1041FF, 0 0 10vw #1041FF, 0 0 10vw #1041FF, 0 0 .4vw #8BFDFE, .5vw .5vw .1vw #147280;
-        color: #28D7FE;
-    }
-    50%{
-        text-shadow: 0 0 .5vw #082180, 0 0 1.5vw #082180, 0 0 5vw #082180, 0 0 5vw #082180, 0 0 .2vw #082180, .5vw .5vw .1vw #0A3940;
-        color: #146C80;
-    }
-}*/
