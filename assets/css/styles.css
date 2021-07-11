@@ -12,13 +12,12 @@
     --first-color: #fbe3bd;
     --second-color: #fbe3bd;
     --third-color: #fbe3bd;
+    */
     --accent-color: #5a2c0a;
     --text-color: #5a2c0a;
-	*/
-    --accent-color: #1d1d1f;
-    --text-color: #1d1d1f;
-    --bg-color: #f2f2f2; /*fdddac*/
-    --card-color: #fff;
+    --bg-color: #fdddac;
+    --card-color: #fbe3bd;
+    --box-shadow: 0 .5rem 1rem #f7c887;
 }
 
 /*Colores for dark mode*/
@@ -31,10 +30,14 @@
     #1c1c1e
     */
     :root{
-        --bg-color: #000;
+        --accent-color: #fff;
         --text-color: #fff;
-		--card-color: #1c1c1e;
-		--accent-color: #fff;
+        --bg-color: #000;
+        --card-color: rgba(255, 255, 255, 0.25);
+        --box-shadow: 0 .5rem 1rem #ffffff80;
+    }
+    body{
+        background: radial-gradient(#870000, #53346d);
     }
 }
 
@@ -139,7 +142,7 @@ article{
     background-color: var(--text-color);
     /*color: #fff;*/
     color: #e0a100;
-    font-weight: bold;
+    font-weight: 700;
     transition: .5s;
 }
 .card__icon{
@@ -167,12 +170,11 @@ article{
 }
 .card__preci--now{
     font-size: var(--h3-font-size);
-    font-weight: bold;
-    color: #86868b;
+    font-weight: 700;
 }
 /*Move left*/
 .card:hover{
-    box-shadow: 0 .5rem 1rem #f7c887;
+    box-shadow: var(--box-shadow);
 }
 .card:hover .card__name{
     left: 0;
