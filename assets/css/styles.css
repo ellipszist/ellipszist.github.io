@@ -85,6 +85,10 @@ a{
 .mobile,.adsense{
     padding: 0 0 2rem 0;
 }
+.footer{
+    padding: 3rem 0 2rem 0;
+    text-align: center;
+}
 .bd-grid{
     display: grid;
     grid-template-columns: repeat(auto-fit, minmax(220px, 1fr));
