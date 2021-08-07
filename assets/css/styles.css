@@ -250,7 +250,7 @@ ion-icon{
     position: relative;
     height: 20vh;
     text-align: center;
-    background-color: white;
+    background-color: #00acc1;
 }
 .flex{ /*Flexbox for containers*/
     display: flex;
@@ -261,6 +261,7 @@ ion-icon{
 .footer p{
     letter-spacing: 1px;
     font-size: 14px;
+    color: #fff;
 }
 
 /*-- MEDIA QUERIES --*/
