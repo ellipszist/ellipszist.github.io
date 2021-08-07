@@ -234,21 +234,11 @@ ion-icon{
         transform: translate3d(85px,0,0);
     }
 }
-/*Shrinking for mobile*/
-@media (max-width: 768px){
-    .waves{
-        height: 40px;
-        min-height: 40px;
-    }
-    .footer{
-        height: 30vh;
-    }
-}
 
 /*-- FOOTER --*/
 .footer{
     position: relative;
-    height: 20vh;
+    height: 15vh;
     text-align: center;
     background-color: #00acc1;
 }
@@ -262,6 +252,17 @@ ion-icon{
     letter-spacing: 1px;
     font-size: 14px;
     color: #fff;
+}
+
+/*Shrinking for mobile*/
+@media (max-width: 768px){
+    .waves{
+        height: 40px;
+        min-height: 40px;
+    }
+    .footer{
+        height: 10vh;
+    }
 }
 
 /*-- MEDIA QUERIES --*/
