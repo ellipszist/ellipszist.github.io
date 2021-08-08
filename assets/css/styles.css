@@ -43,6 +43,9 @@
     body{
         background: linear-gradient(60deg, rgba(84,58,183,1) 0%, rgba(0,172,193,1) 100%);
     }
+    header::after{
+        background: none !important;
+    }
     .parallax>use:nth-child(1){
         fill: rgba(255,255,255,0.7);
     }
@@ -78,10 +81,69 @@
     box-sizing: border-box;
 }
 body{
-    margin: 2rem 0 0 0;
+    margin: 0; /*2rem 0 0 0;*/
     background-color: var(--bg-color);
     color: var(--text-color);
     font-family: var(--body-font);
+}
+
+/* HEADER with drop-shadow on scroll */
+header{
+    margin: 0 0 2rem 0;
+    height: 60px;  /* 44 + 16px */
+    position: sticky;
+    -webkit-position: sticky;
+    /* negative top allows for 16 pixels of movement before sticking */
+    top: -16px;
+    /* make sure header overlaps main*/
+    z-index: 1;
+    color: white;
+    text-align: center;
+    /* fix weird flickering issue in chrome: https://stackoverflow.com/a/22224884/286685 */
+    -webkit-backface-visibility: hidden;
+}
+header a{
+    color: white;
+}
+/* PSEUDO ELEMENTS to create drop-shadow */
+header::before,
+header::after{
+    content: '';
+    display: block;
+    height: 16px;
+    /* make pseudo elements sticky as well */
+    position: sticky;
+    -webkit-position: sticky;
+}
+/* SHADOW */
+header::before{
+    top: 28px; /* shadow is at bottom of element, so at 28 + 16 = 44px */
+    box-shadow: 0px 2px 5px rgba(0,0,0,0.5);
+}
+/* COVER */
+header::after{
+    /* linear gradient from background color to transparent acts as
+       a transition effect so the shadow appears gradually */
+    background: linear-gradient(#fdddac 10%, rgba(253,221,172,0.8) 50%, rgba(253,221,172,0.4) 70%, transparent);
+    top: 0;
+    /* cover should fall over shadow */
+    z-index: 2;
+}
+/* HEADER CONTENT */
+header>div{
+    background: orange;
+    height: 44px;
+    padding: 8px;
+    position: sticky;
+    -webkit-position: sticky;
+    top: 0px;
+    /* compensate for shadow with negative margin */
+    margin-top: -16px;
+    /* content should fall over shadow and cover */
+    z-index: 3;
+}
+header>div h3{
+    margin: 0;
 }
 h1{
     font-size: var(--h1-font-size);
@@ -258,7 +320,8 @@ ion-icon{
     text-align: center;
     background-color: var(--footer-background);
 }
-.flex{ /*Flexbox for containers*/
+/*Flexbox for containers*/
+.flex{
     display: flex;
     justify-content: center;
     align-items: center;
@@ -272,6 +335,16 @@ ion-icon{
 
 /*Shrinking for mobile*/
 @media (max-width: 768px){
+    header{
+        height: 64px;  /* 48 + 16px */
+    }
+    header::before{
+        top: 32px; /* shadow is at bottom of element, so at 32 + 16 = 48px */
+    }
+    header>div{
+        height: 48px;
+        padding: 10px;
+    }
     .waves{
         height: 40px;
         min-height: 40px;
@@ -284,8 +357,11 @@ ion-icon{
 /*-- MEDIA QUERIES --*/
 @media screen and (min-width: 1200px){
     body{
-        margin: 3rem 0 0 0;
+        /*margin: 3rem 0 0 0;*/
     }
+	header{
+        margin: 0 0 3rem 0;
+	}
     .title-shop{
         margin: 0 5rem;
     }
