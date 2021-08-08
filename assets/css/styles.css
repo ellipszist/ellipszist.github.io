@@ -19,6 +19,7 @@
     --card-color: #fbe3bd;
     --box-shadow: 0 .5rem 1rem #f7c887;
     --footer-background: #00acc1;
+    --footer-color: #fff;
 }
 
 /*Colores for dark mode*/
@@ -37,6 +38,7 @@
         --card-color: rgba(255, 255, 255, 0.25);
         --box-shadow: 0 .5rem 1rem #ffffff80;
         --footer-background: #fff;
+        --footer-color: #333;
     }
     body{
         background: linear-gradient(60deg, rgba(84,58,183,1) 0%, rgba(0,172,193,1) 100%);
@@ -265,7 +267,7 @@ ion-icon{
 .footer p{
     letter-spacing: 1px;
     font-size: 14px;
-    color: #fff;
+    color: var(--footer-color);
 }
 
 /*Shrinking for mobile*/
