@@ -36,22 +36,22 @@
         --bg-color: #000;
         --card-color: rgba(255, 255, 255, 0.25);
         --box-shadow: 0 .5rem 1rem #ffffff80;
-        --footer-background: #543ab7;
+        --footer-background: #3972a7;
     }
     body{
         background: radial-gradient(#870000, #53346d);
     }
     .parallax>use:nth-child(1){
-        fill: rgba(84,58,183,0.7);
+        fill: rgba(57,114,167,0.7);
     }
     .parallax>use:nth-child(2){
-        fill: rgba(84,58,183,0.5);
+        fill: rgba(57,114,167,0.5);
     }
     .parallax>use:nth-child(3){
-        fill: rgba(84,58,183,0.3);
+        fill: rgba(57,114,167,0.3);
     }
     .parallax>use:nth-child(4){
-        fill: #543ab7;
+        fill: #3972a7;
     }
 }
 
