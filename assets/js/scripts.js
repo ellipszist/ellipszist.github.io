@@ -1,0 +1,2 @@
+/* Sticky Navbar - Vanilla JS */
+function stickyElement(a){a=document.querySelector(".header");a=getComputedStyle(a).height.split("px")[0];var b=document.querySelector(".navigation"),c=window.scrollY;c>a?b.classList.add("is-fixed"):c<a&&b.classList.remove("is-fixed")}window.addEventListener("scroll",stickyElement);
