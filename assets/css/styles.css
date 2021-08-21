@@ -188,14 +188,13 @@ a{
 }
 
 /*-- LAYAOUT --*/
-.main{
+.main,
+.mobile,
+.adsense{
     padding: 2rem 0;
 }
-.mobile,.adsense{
-    padding: 0 0 2rem 0;
-}
 .ginger-island{
-    padding: 3rem 0 2rem 0;
+    padding: 9rem 0 2rem 0;
     text-align: center;
 }
 .bd-grid{
