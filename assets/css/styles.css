@@ -121,6 +121,7 @@ section{
 .latest_news {
     margin: 1rem 0;
     width: 350px;
+    border: 5px solid #804000;
 }
 .navigation__title a {
     color: #fff;
