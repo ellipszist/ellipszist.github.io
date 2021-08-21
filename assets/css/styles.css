@@ -121,7 +121,9 @@ section{
 .latest_news {
     margin: 2rem 0;
     width: 350px;
-    border: 5px solid #804000;
+    background-color:  var(--text-color);
+    background-image: -webkit-linear-gradient(45deg,rgba(255, 255, 255, .1) 25%,transparent 25%,transparent 50%,rgba(255, 255, 255, .1) 50%,rgba(255, 255, 255, .1) 75%,transparent 75%,transparent);
+    padding: 5px;
 }
 .navigation__title a {
     color: #fff;
