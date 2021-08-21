@@ -106,20 +106,20 @@ body{
 /*-- NAV --*/
 section{
     width: 100%;
-    height: 350px;
+    height: 375px;
 }
 .header{
     box-sizing: border-box;
     position: absolute;
     top: 0;
     width: 100%;
-    height: 350px;
+    height: 375px;
     text-align: center;
     /*background-color: #38a2a4;*/
     color: #fff;
 }
 .latest_news {
-    margin: 1rem 0;
+    margin: 2rem 0;
     width: 350px;
     border: 5px solid #804000;
 }
