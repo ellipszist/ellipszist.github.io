@@ -181,7 +181,7 @@ section{
 /* Autoplay audio with mute and play */
 .song{
     position: absolute;
-    padding-right: 2.5rem;
+    padding: 10px;
     right: 0;
     font-size: x-large;
 }
