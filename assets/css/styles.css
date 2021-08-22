@@ -88,7 +88,7 @@
 }
 
 ::-webkit-scrollbar-thumb{
-    background-color: #F90;	
+    background-color: #F90;    
     background-image: -webkit-linear-gradient(45deg,rgba(255, 255, 255, .2) 25%,transparent 25%,transparent 50%,rgba(255, 255, 255, .2) 50%,rgba(255, 255, 255, .2) 75%,transparent 75%,transparent)
 }*/
 
@@ -176,6 +176,17 @@ section{
     .navigation__title .donations .alt{
         display: none;
     }
+}
+
+/* Autoplay audio with mute and play */
+.song{
+    position: absolute;
+    padding-right: 2.5rem;
+    right: 0;
+    font-size: x-large;
+}
+.pause{
+    cursor:pointer;
 }
 
 .latest_news{
