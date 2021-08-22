@@ -88,7 +88,7 @@
 }
 
 ::-webkit-scrollbar-thumb{
-    background-color: #F90;    
+    background-color: #F90;
     background-image: -webkit-linear-gradient(45deg,rgba(255, 255, 255, .2) 25%,transparent 25%,transparent 50%,rgba(255, 255, 255, .2) 50%,rgba(255, 255, 255, .2) 75%,transparent 75%,transparent)
 }*/
 
@@ -162,10 +162,10 @@ section{
     left: 15px;
     top: 10px;
 }
-.navigation__title .site-title{
+.navigation.is-fixed .navigation__title .site-title{
     padding-left: 85px;
 }
-.navigation__title .donations{
+.navigation.is-fixed .navigation__title .donations{
     float: right;
     padding: 3px 11px;
     background: #4caf50;
@@ -173,7 +173,7 @@ section{
     margin: -3px;
 }
 @media (max-width: 450px){
-    .navigation__title .donations .alt{
+    .navigation.is-fixed .navigation__title .donations .alt{
         display: none;
     }
 }
@@ -386,7 +386,7 @@ ion-icon{
 /*Shrinking for mobile*/
 @media (max-width: 768px){
     header{
-        height: 64px;  /* 48 + 16px */
+        height: 64px; /* 48 + 16px */
     }
     header::before{
         top: 32px; /* shadow is at bottom of element, so at 32 + 16 = 48px */
