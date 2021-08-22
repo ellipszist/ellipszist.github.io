@@ -210,6 +210,7 @@ a{
 /*-- LAYAOUT --*/
 .main,
 .mobile,
+.screenshot,
 .adsense{
     padding: 2rem 0;
 }
@@ -321,6 +322,27 @@ article{
     padding: 0 0.5rem;
 }
 
+/* Screenshot */
+.s-grid{
+    display: grid;
+    grid-template-columns: repeat(auto-fit, minmax(300px, 1fr));
+    max-width: 1200px;
+    margin-left: 2.5rem;
+    margin-right: 2.5rem;
+    align-items: center;
+    gap: 2rem;
+}
+.s-card{
+    position: relative;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    /*padding: 1.5rem 2rem;*/
+    /*border-radius: 1rem;*/
+    overflow: hidden;
+    background: none;
+}
+
 ion-icon{
     pointer-events: none;
 }
@@ -415,7 +437,8 @@ ion-icon{
     .title-shop{
         margin: 0 5rem;
     }
-    .bd-grid{
+    .bd-grid,
+    .s-grid{
         margin-left: auto;
         margin-right: auto;
     }
