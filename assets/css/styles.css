@@ -1,4 +1,8 @@
 @import url('https://fonts.googleapis.com/css?family=Open+Sans:400,700&display=swap');
+@font-face{
+    font-family: SDV;
+    src: url(../fonts/stardew_valley/Stardew_Valley.woff2);
+}
 
 /*-- VARIABLES CSS --*/
 /*Colores*/
@@ -63,14 +67,14 @@
 /*Tipografia responsive*/
 :root{
     --body-font: 'Open Sans';
-    --h1-font-size: 1.5rem;
+    --h1-font-size: 2rem;
     --h3-font-size: 1rem;
     --normal-font-size: 0.938rem;
     --smaller-font-size: 0.75rem;
 }
 @media screen and (min-width: 768px){
     :root{
-        --h1-font-size: 2rem;
+        --h1-font-size: 2.5rem;
         --normal-font-size: 1rem;
         --smaller-font-size: 0.813rem;
     }
@@ -234,8 +238,12 @@ a{
 
 /*-- PAGES --*/
 .title-shop{
+    font-family: SDV;
+    letter-spacing: 2px;
+    color: #5a1700;
     position: relative;
     margin: 0 2.5rem;
+    text-shadow: -2px 1px #9d6036;
 }
 .title-shop::after{
     content: '';
