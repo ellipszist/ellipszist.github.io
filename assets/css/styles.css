@@ -169,6 +169,7 @@ section{
     left: 15px;
     top: 10px;
 }
+.navigation .navigation__title .site-title,
 .navigation.is-fixed .navigation__title .site-title{
     padding-left: 85px;
     font-family: SDV;
@@ -177,17 +178,13 @@ section{
     color: #ffffff;
     text-shadow: -2px 1px #db9756;
 }
+.navigation .navigation__title .donations,
 .navigation.is-fixed .navigation__title .donations{
     float: right;
     padding: 3px 11px;
     background: #4caf50;
     border-radius: 25px;
     /*margin: -3px;*/
-}
-@media (max-width: 450px){
-    .navigation.is-fixed .navigation__title .donations .alt{
-        display: none;
-    }
 }
 
 /* Autoplay audio with mute and play */
@@ -426,6 +423,23 @@ ion-icon{
     letter-spacing: 1px;
     font-size: 14px;
     color: var(--footer-color);
+}
+
+@media (max-width: 380px){
+    .s-grid{
+        grid-template-columns: repeat(auto-fit,minmax(220px,1fr));
+    }
+}
+
+@media (max-width: 600px){
+    .navigation .navigation__title .site-title,
+    .navigation.is-fixed .navigation__title .site-title{
+        font-size: 1.5rem;
+    }
+    .navigation .navigation__title .donations .alt,
+    .navigation.is-fixed .navigation__title .donations .alt{
+        display: none;
+    }
 }
 
 /*Shrinking for mobile*/
