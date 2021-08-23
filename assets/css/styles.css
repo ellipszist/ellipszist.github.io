@@ -107,6 +107,9 @@ body{
 section{
     width: 100%;
     height: 375px;
+    background: url(../img/castle_village.jpg) no-repeat;
+    background-size: cover;
+    margin-bottom: 2rem;
 }
 .header{
     box-sizing: border-box;
@@ -115,7 +118,7 @@ section{
     width: 100%;
     height: 375px;
     text-align: center;
-    /*background-color: #38a2a4;*/
+    background-color: rgba(0, 0, 0, 0.05);
     color: #fff;
 }
 .navigation__title a{
