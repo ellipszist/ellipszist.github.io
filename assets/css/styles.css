@@ -158,7 +158,7 @@ section{
     box-shadow: 0 0 10px 0 rgb(0 0 0 / 30%);
 }
 .navigation.is-fixed .navigation__title{
-    margin: 3px 0;
+    /*margin: 3px 0;*/
 }
 .navigation.is-fixed .navigation__title .site-logo{
     width: 70px;
@@ -171,13 +171,18 @@ section{
 }
 .navigation.is-fixed .navigation__title .site-title{
     padding-left: 85px;
+    font-family: SDV;
+    font-size: 1.7rem;
+    letter-spacing: 1.7rem;
+    color: #ffffff;
+    text-shadow: -2px 1px #db9756;
 }
 .navigation.is-fixed .navigation__title .donations{
     float: right;
     padding: 3px 11px;
     background: #4caf50;
     border-radius: 25px;
-    margin: -3px;
+    /*margin: -3px;*/
 }
 @media (max-width: 450px){
     .navigation.is-fixed .navigation__title .donations .alt{
