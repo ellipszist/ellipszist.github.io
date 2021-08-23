@@ -327,12 +327,10 @@ article{
     left: 0;
 }
 .card:hover .card__img{
-    /*transform: rotate(30deg);*/
     margin-left: 3.5rem;
 }
 .card:hover .card__precis{
     margin-left: 3.5rem;
-    /*padding: 0 1.5rem;*/
     padding: 0 0.5rem;
 }
 
@@ -425,7 +423,7 @@ ion-icon{
     color: var(--footer-color);
 }
 
-@media (max-width: 380px){
+@media (max-width: 1060px){
     .s-grid{
         grid-template-columns: repeat(auto-fit,minmax(220px,1fr));
     }
