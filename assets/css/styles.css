@@ -343,6 +343,12 @@ article{
     background: none;
 }
 
+/* Lazy-Load images with ScrollOut */
+.photo{ 
+}
+.photo[data-scroll="in"]{
+}
+
 ion-icon{
     pointer-events: none;
 }
