@@ -35,7 +35,7 @@
     #000
     #1c1c1e
     */
-    :root{
+    /*:root{
         --accent-color: #fff;
         --text-color: #fff;
         --bg-color: #000;
@@ -61,7 +61,7 @@
     }
     .parallax>use:nth-child(4){
         fill: #fff;
-    }
+    }*/
 }
 
 /*Tipografia responsive*/
