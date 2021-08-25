@@ -353,9 +353,12 @@ article{
     overflow: hidden;
     background: none;
 }
+.screenshot a{
+    width: 100%;
+}
 
 /** LIGHTBOX MARKUP **/
-.lightbox {
+.lightbox{
     /* Default to hidden */
     display: none;
 
@@ -375,11 +378,11 @@ article{
 }
 
 /* Unhide the lightbox when it's the target */
-.lightbox:target {
+.lightbox:target{
     display: block;
 }
 
-.lightbox span {
+.lightbox span{
     /* Full width and height */
     display: block;
     width: 100%;
@@ -399,6 +402,7 @@ article{
     background-color: blanchedalmond;
     background-image: -webkit-linear-gradient(45deg,rgba(255,255,255,.1) 25%,transparent 25%,transparent 50%,rgba(255,255,255,.1) 50%,rgba(255,255,255,.1) 75%,transparent 75%,transparent);
     padding: 5px;
+    width: 100%;
 }
 .photo{ 
 }
