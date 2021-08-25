@@ -356,6 +356,9 @@ article{
 .screenshot a{
     width: 100%;
 }
+.screenshot img:hover{
+    box-shadow: var(--box-shadow);
+}
 
 /** LIGHTBOX MARKUP **/
 .lightbox{
@@ -501,12 +504,6 @@ ion-icon{
 
 /*-- MEDIA QUERIES --*/
 @media screen and (min-width: 1200px){
-    body{
-        /*margin: 3rem 0 0 0;*/
-    }
-    .title-shop{
-        margin: 0 5rem;
-    }
     .title-shop,
     .bd-grid,
     .s-grid{
