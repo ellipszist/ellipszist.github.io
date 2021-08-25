@@ -241,6 +241,7 @@ a{
     letter-spacing: 5px;
     color: #5a1700;
     position: relative;
+    max-width: 1200px;
     margin: 0 2.5rem;
     text-shadow: -2px 1px #db9756;
 }
@@ -502,6 +503,7 @@ ion-icon{
     .title-shop{
         margin: 0 5rem;
     }
+    .title-shop,
     .bd-grid,
     .s-grid{
         margin-left: auto;
