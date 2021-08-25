@@ -269,6 +269,13 @@ a{
 article{
     background-color: var(--card-color);
 }
+.text-sve{
+    margin: 2rem 2.5rem 0;
+    max-width: 1200px;
+    padding: 2rem;
+    color: #fff;
+    background-color: rgb(224 0 75 / 90%);
+}
 .card__img{
     width: 180px;
     height: auto;
@@ -504,6 +511,7 @@ ion-icon{
 
 /*-- MEDIA QUERIES --*/
 @media screen and (min-width: 1200px){
+    .text-sve,
     .title-shop,
     .bd-grid,
     .s-grid{
