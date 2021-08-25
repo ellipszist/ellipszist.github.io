@@ -196,8 +196,8 @@ section{
 }
 
 .latest_news{
-    margin: 2rem 0;
-    width: 350px;
+    margin: 1.4rem 0;
+    width: 380px;
     background-color: #650100;
     background-image: -webkit-linear-gradient(90deg,rgba(255,255,255,.1) 25%,transparent 25%,transparent 50%,rgba(255,255,255,.1) 50%,rgba(255,255,255,.1) 75%,transparent 75%,transparent);
     padding: 5px;
