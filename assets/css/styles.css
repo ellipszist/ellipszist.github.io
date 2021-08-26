@@ -1,7 +1,8 @@
 @import url('https://fonts.googleapis.com/css?family=Open+Sans:400,700&display=swap');
 @font-face {
-    font-family: SDV;
+    font-family: 'SDV';
     src: url(../fonts/stardew_valley/Stardew_Valley.woff2);
+    font-display: swap;
 }
 
 /*-- VARIABLES CSS --*/
@@ -414,10 +415,6 @@ article {
     background-image: -webkit-linear-gradient(45deg,rgba(255,255,255,.1) 25%,transparent 25%,transparent 50%,rgba(255,255,255,.1) 50%,rgba(255,255,255,.1) 75%,transparent 75%,transparent);
     padding: 5px;
     width: 100%;
-}
-.photo {
-}
-.photo[data-scroll="in"] {
 }
 
 ion-icon {
