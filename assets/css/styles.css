@@ -25,6 +25,7 @@
     --box-shadow: 0 .5rem 1rem #f7c887;
     --footer-background: #00acc1;
     --footer-color: #fff;
+    --swiper-theme-color: rgb(255 255 255 / 50%);
 }
 
 /*Colores for dark mode*/
