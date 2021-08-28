@@ -1,4 +1,4 @@
-@import url('https://fonts.googleapis.com/css2?family=Prompt:wght@400&display=swap');
+@import url('https://fonts.googleapis.com/css?family=Open+Sans:400,700&display=swap');
 @font-face {
     font-family: 'SDV';
     src: url(../fonts/stardew_valley/Stardew_Valley.woff2);
@@ -64,7 +64,7 @@
 
 /*Tipografia responsive*/
 :root {
-    --body-font: 'Prompt';
+    --body-font: 'Open Sans';
     --h1-font-size: 2rem;
     --h3-font-size: 1rem;
     --normal-font-size: 0.938rem;
@@ -103,14 +103,13 @@ body {
     background-color: var(--bg-color);
     color: var(--text-color);
     font-family: var(--body-font);
-	font-size: 17px;
 }
 
 /*-- NAV --*/
 section {
     width: 100%;
-    height: 655px;
-    background: url(../img/ginger_island_top.jpg) top center no-repeat;
+    height: 375px;
+    background: url(../img/castle_village.jpg) top center no-repeat;
     background-size: cover;
     margin-bottom: 2rem;
 }
@@ -129,7 +128,7 @@ section {
 }
 .navigation__title h1 {
     margin: 0;
-    font-family: 'Prompt';
+    font-family: sans-serif;
     font-size: 1.17em;
 }
 .navigation {
@@ -171,7 +170,7 @@ section {
 .navigation .navigation__title .site-title,
 .navigation.is-fixed .navigation__title .site-title {
     padding-left: 85px;
-    font-family: 'SDV';
+    font-family: SDV;
     font-size: 1.7rem;
     letter-spacing: 3px;
     color: #ffffff;
@@ -198,9 +197,9 @@ section {
 }
 
 .latest_news {
-    margin: 1.7rem 0;
+    margin: 1.4rem 0;
     width: 380px;
-    background-color: #03aadf;
+    background-color: #650100;
     background-image: -webkit-linear-gradient(90deg,rgba(255,255,255,.1) 25%,transparent 25%,transparent 50%,rgba(255,255,255,.1) 50%,rgba(255,255,255,.1) 75%,transparent 75%,transparent);
     padding: 5px;
 }
@@ -214,36 +213,6 @@ img {
 }
 a {
     text-decoration: none;
-}
-
-.swiper {
-    width: 100%;
-    height: 100%;
-}
-.swiper-slide {
-    text-align: center;
-    font-size: 18px;
-    background: transparent;
-
-    /* Center slide text vertically */
-    display: -webkit-box;
-    display: -ms-flexbox;
-    display: -webkit-flex;
-    display: flex;
-    -webkit-box-pack: center;
-    -ms-flex-pack: center;
-    -webkit-justify-content: center;
-    justify-content: center;
-    -webkit-box-align: center;
-    -ms-flex-align: center;
-    -webkit-align-items: center;
-    align-items: center;
-}
-.swiper-slide img {
-    display: block;
-    width: 100%;
-    height: 100%;
-    object-fit: cover;
 }
 
 /*-- LAYAOUT --*/
@@ -260,29 +229,31 @@ a {
 .bd-grid {
     display: grid;
     grid-template-columns: repeat(auto-fit, minmax(220px, 1fr));
-    max-width: 960px;
+    max-width: 1200px;
     margin-left: 2.5rem;
     margin-right: 2.5rem;
     align-items: center;
-    gap: 2.5rem;
+    gap: 2rem;
 }
 
 /*-- PAGES --*/
 .title-shop {
-    font-family: 'Prompt';
+    font-family: SDV;
     letter-spacing: 5px;
-    color: #0066cc;
-    font-size: 45px;
-    text-align: center;
+    color: #5a1700;
     position: relative;
-    max-width: 960px;
-    margin: 0 1rem;
-    /* text-shadow: -2px 1px #db9756; */
+    max-width: 1200px;
+    margin: 0 2.5rem;
+    text-shadow: -2px 1px #db9756;
 }
-
-.highlight {
-    color: #ff6633;
-    font-weight: bold;
+.title-shop::after {
+    content: '';
+    position: absolute;
+    top: 50%;
+    width: 72px;
+    height: 2px;
+    background-color: var(--text-color);
+    margin-left: .25rem;
 }
 
 /*-- COMPONENT --*/
@@ -300,13 +271,12 @@ article {
     background-color: var(--card-color);
 }
 .text-sve {
-    margin: 2.5rem 2.5rem;
-    max-width: 960px;
-    padding: 0 0 2rem;
-    /* background-color: rgb(224 0 75 / 90%); */
-	background-color: transparent;
+    margin: 2rem 2.5rem 0;
+    max-width: 1200px;
+    padding: 2rem;
+    background-color: rgb(224 0 75 / 90%);
     text-align: center;
-    /* color: #fff; */
+    color: #fff;
 }
 .card__img {
     width: 180px;
@@ -372,45 +342,15 @@ article {
     padding: 0 0.5rem;
 }
 
-hr {
-    padding: 0;
-    margin: 80px 0;
-}
-hr.hr-0,
-hr.hr-1,
-hr.hr-2 {
-    border: 0;
-    border-top: 1px dashed #8c8c8c;
-    text-align: center;
-}
-hr.hr-0 {
-    margin: 0;
-    margin-left: auto;
-	margin-right: auto;
-    max-width: 960px;
-}
-hr.hr-1:after {
-    content: '\002702';
-    display: inline-block;
-    position: relative;
-    top: -13px;
-    padding: 0 3px;
-    color: #8c8c8c;
-    font-size: 18px;
-}
-hr.hr-2 {
-    margin: 1rem 0;
-}
-
 /* Screenshot */
 .s-grid {
     display: grid;
-    /* grid-template-columns: repeat(auto-fit, minmax(300px, 1fr)); */
-    max-width: 960px;
+    grid-template-columns: repeat(auto-fit, minmax(300px, 1fr));
+    max-width: 1200px;
     margin-left: 2.5rem;
     margin-right: 2.5rem;
     align-items: center;
-    gap: 2.5rem;
+    gap: 2rem;
 }
 .s-card {
     position: relative;
@@ -421,6 +361,60 @@ hr.hr-2 {
     /*border-radius: 1rem;*/
     overflow: hidden;
     background: none;
+}
+.screenshot a {
+    width: 100%;
+}
+.screenshot img:hover {
+    box-shadow: var(--box-shadow);
+}
+
+/** LIGHTBOX MARKUP **/
+.lightbox {
+    /* Default to hidden */
+    display: none;
+
+    /* Overlay entire screen */
+    position: fixed;
+    z-index: 999;
+    top: 44px;
+    left: 0;
+    right: 0;
+    bottom: 0;
+
+    /* A bit of padding around image */
+    padding: 1em;
+
+    /* Translucent background */
+    background: rgba(0, 0, 0, 0.8);
+}
+
+/* Unhide the lightbox when it's the target */
+.lightbox:target {
+    display: block;
+}
+
+.lightbox span {
+    /* Full width and height */
+    display: block;
+    width: 100%;
+    height: 100%;
+
+    /* Size and position background image */
+    background-position: center;
+    background-repeat: no-repeat;
+    background-size: contain;
+    transition: opacity .25s ease-in-out;
+    -moz-transition: opacity .25s ease-in-out;
+    -webkit-transition: opacity .25s ease-in-out;
+}
+
+/* Lazy-Load images with ScrollOut */
+.photo {
+    background-color: blanchedalmond;
+    background-image: -webkit-linear-gradient(45deg,rgba(255,255,255,.1) 25%,transparent 25%,transparent 50%,rgba(255,255,255,.1) 50%,rgba(255,255,255,.1) 75%,transparent 75%,transparent);
+    padding: 5px;
+    width: 100%;
 }
 
 ion-icon {
@@ -507,8 +501,14 @@ ion-icon {
     }
 }
 
+@media (max-width: 1060px) {
+    .s-grid {
+        grid-template-columns: repeat(auto-fit,minmax(220px,1fr));
+    }
+}
+
 /*-- MEDIA QUERIES --*/
-@media screen and (min-width: 960px) {
+@media screen and (min-width: 1200px) {
     .text-sve,
     .title-shop,
     .bd-grid,
