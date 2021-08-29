@@ -181,10 +181,10 @@ section {
 .navigation .navigation__title .donations,
 .navigation.is-fixed .navigation__title .donations {
     float: right;
-    padding: 3px 11px;
+    padding: 1px 11px 3px;
     background: #4caf50;
     border-radius: 25px;
-    /*margin: -3px;*/
+    margin: -1px;
 }
 
 /* Autoplay audio with mute and play */
