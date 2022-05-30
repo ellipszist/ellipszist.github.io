@@ -1,0 +1,165 @@
+{
+	"items": [
+		{
+			"name": "Stardew Valley",
+			"description": "You've inherited your grandfather's old farm plot in Stardew Valley.",
+			"price": 315,
+			"url": "https://store.steampowered.com/app/413150/",
+			"image": "https://cdn.cloudflare.steamstatic.com/steam/apps/413150/library_600x900.jpg",
+			"css": "sponsored",
+			"category": "indie"
+		},
+		{
+			"name": "HSH : Survive",
+			"description": "ร่วมกันเอาชีวิตรอดและต่อสู้กับผีร้ายเพื่อกลับไปยังโลกแห่งความจริงอีกครั้ง",
+			"price": 139,
+			"url": "https://store.steampowered.com/app/1056600/",
+			"image": "https://cdn.cloudflare.steamstatic.com/steam/apps/1056600/library_600x900.jpg",
+			"category": "indie"
+		},
+		{
+			"name": "Timelie",
+			"description": "เกมแนวพัซเซิลผจญภัย ที่ให้คุณพาสาวน้อยและเจ้าเหมียวตะลุยในห้วงแห่งเวลา",
+			"price": 329,
+			"url": "https://store.steampowered.com/app/1150950/",
+			"image": "https://cdn.cloudflare.steamstatic.com/steam/apps/1150950/library_600x900.jpg",
+			"category": "indie"
+		},
+		{
+			"name": "M.A.S.S. Builder",
+			"description": "Customize and build your Mechanical Assault Skeleton Suit (M.A.S.S.).",
+			"price": 468.77,
+			"url": "https://store.steampowered.com/app/956680/",
+			"image": "https://cdn.cloudflare.steamstatic.com/steam/apps/956680/library_600x900.jpg",
+			"category": "indie"
+		},
+		{
+			"name": "Planet Zoo",
+			"description": "Build a world for wildlife in Planet Zoo. From the developers of Planet Coaster and Zoo Tycoon comes the ultimate zoo sim.",
+			"price": 975,
+			"url": "https://www.facebook.com/Othertranslator/",
+			"image": "https://cdn.cloudflare.steamstatic.com/steam/apps/703080/library_600x900.jpg",
+			"category": "simulation"
+		},
+		{
+			"name": "Mafia: Definitive Edition",
+			"description": "An inadvertent brush with the mob thrusts cabdriver Tommy Angelo into the world of organized crime.",
+			"price": 969,
+			"url": "https://www.facebook.com/Othertranslator/",
+			"image": "https://cdn.cloudflare.steamstatic.com/steam/apps/1030840/library_600x900.jpg",
+			"category": "action"
+		},
+		{
+			"name": "Car Mechanic Simulator 2018",
+			"description": "Build and expand your repair service empire in this incredibly detailed and highly realistic simulation game.",
+			"price": 369,
+			"url": "https://www.facebook.com/Othertranslator/",
+			"image": "https://cdn.cloudflare.steamstatic.com/steam/apps/645630/library_600x900.jpg",
+			"category": "simulation"
+		},
+		{
+			"name": "The Walking Dead: The Final Season",
+			"description": "A secluded school might finally be Clementine’s chance for a home, but protecting it will mean sacrifice.",
+			"price": 289,
+			"url": "https://www.facebook.com/Othertranslator/",
+			"image": "https://cdn.cloudflare.steamstatic.com/steam/apps/866800/library_600x900.jpg",
+			"category": "adventure"
+		},
+		{
+			"name": "The Park",
+			"description": "Set in a creepy amusement park hiding a dark and sinister secret.",
+			"price": 289,
+			"url": "https://www.facebook.com/Othertranslator/",
+			"image": "https://cdn.cloudflare.steamstatic.com/steam/apps/402020/library_600x900.jpg",
+			"category": "adventure"
+		},
+		{
+			"name": "Phasmophobia",
+			"description": "Phasmophobia is a 4 player online co-op psychological horror.",
+			"price": 229,
+			"url": "https://www.facebook.com/Othertranslator/",
+			"image": "https://cdn.cloudflare.steamstatic.com/steam/apps/739630/library_600x900.jpg",
+			"category": "indie"
+		},
+		{
+			"name": "Desperados III",
+			"description": "Desperados III is a story-driven, hardcore tactical stealth game, set in a ruthless Wild West scenario.",
+			"price": 929,
+			"url": "https://www.nexusmods.com/desperados3/mods/2",
+			"image": "https://cdn.cloudflare.steamstatic.com/steam/apps/610370/library_600x900.jpg",
+			"category": "strategy"
+		},
+		{
+			"name": "Shadow Tactics: Blades of the Shogun",
+			"description": "ญี่ปุ่น ปี 1615, โชกุนใหม่ผู้หนึ่งได้ยึดอำนาจในการครอบครองญี่ปุ่นและรักษาความสงบเรียบร้อยของประเทศ",
+			"price": 729,
+			"url": "https://www.nexusmods.com/shadowtacticsbladesoftheshogun/mods/1",
+			"image": "https://cdn.cloudflare.steamstatic.com/steam/apps/418240/library_600x900.jpg",
+			"category": "strategy"
+		},
+		{
+			"name": "Hard West",
+			"description": "When a tragic turn of events sets one man down a path of supernatural chaos and revenge, he must brutally hunt down all those who wronged him.",
+			"price": 369,
+			"url": "https://www.nexusmods.com/hardwest/mods/2",
+			"image": "https://cdn.cloudflare.steamstatic.com/steam/apps/307670/library_600x900.jpg",
+			"category": "strategy"
+		},
+		{
+			"name": "Into the Breach",
+			"description": "Control powerful mechs from the future to defeat an alien threat.",
+			"price": 239,
+			"url": "https://www.nexusmods.com/intothebreach/mods/8",
+			"image": "https://cdn.cloudflare.steamstatic.com/steam/apps/590380/library_600x900.jpg",
+			"category": "strategy"
+		},
+		{
+			"name": "Mortal Shell",
+			"description": "Mortal Shell is a deep action-RPG that tests your sanity and resilience in a shattered world.",
+			"price": 450,
+			"url": "https://www.nexusmods.com/mortalshell/mods/2",
+			"image": "https://cdn.cloudflare.steamstatic.com/steam/apps/1110910/library_600x900.jpg",
+			"category": "action"
+		},
+		{
+			"name": "Ancestors: The Humankind Odyssey",
+			"description": "Survive your evolution in Neogene Africa starting 10 million years ago.",
+			"price": 960,
+			"url": "https://www.nexusmods.com/ancestorsthehumankindodyssey/mods/1",
+			"image": "https://cdn.cloudflare.steamstatic.com/steam/apps/536270/library_600x900.jpg",
+			"category": "action"
+		},
+		{
+			"name": "Raji: An Ancient Epic",
+			"description": "A young girl named Raji has been chosen by the gods to stand against the demonic invasion of the human realm.",
+			"price": 399,
+			"url": "https://www.nexusmods.com/rajianancientepic/mods/1",
+			"image": "https://cdn.cloudflare.steamstatic.com/steam/apps/730390/library_600x900.jpg",
+			"category": "action"
+		},
+		{
+			"name": "MudRunner",
+			"description": "MudRunner is the ultimate off-road experience putting the players in the driver seat and dares them to take charge of incredible all-terrain vehicles.",
+			"price": 440,
+			"url": "https://www.nexusmods.com/spintires/mods/19",
+			"image": "https://cdn.cloudflare.steamstatic.com/steam/apps/675010/library_600x900.jpg",
+			"category": "simulation"
+		},
+		{
+			"name": "Call of the Sea",
+			"description": "Call of the Sea คือเรื่องเล่าเกี่ยวกับความลึกลับและความรักในโลกอื่นที่แปซิฟิกใต้ในช่วงปี 1930 สำรวจเกาะสวรรค์อันเขียวชอุ่ม ไขปริศนา และปลดล็อกความลับในการออกเดินทางค้นหาสามีของคุณที่หายตัวไป",
+			"price": 289,
+			"url": "https://www.nexusmods.com/callofthesea/mods/1",
+			"image": "https://cdn.cloudflare.steamstatic.com/steam/apps/1042490/library_600x900.jpg",
+			"category": "adventure"
+		},
+		{
+			"name": "Idol Manager",
+			"description": "A business sim about conquering the entertainment industry using any means you deem necessary.",
+			"price": 289,
+			"url": "https://www.facebook.com/Seasons-X-109735244645019",
+			"image": "https://cdn.cloudflare.steamstatic.com/steam/apps/821880/library_600x900.jpg",
+			"category": "simulation"
+		}
+	]
+}

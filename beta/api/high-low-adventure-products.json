@@ -1,0 +1,108 @@
+{
+	"items": [
+		{
+			"name": "Outlast",
+			"description": "Hell is an experiment you can't survive in Outlast.",
+			"price": 289,
+			"url": "https://www.facebook.com/noobTranslator/photos/a.455558828588447/1007362546741403",
+			"image": "https://cdn.cloudflare.steamstatic.com/steam/apps/238320/library_600x900.jpg",
+			"category": "adventure"
+		},
+		{
+			"name": "Outlast 2",
+			"description": "Outlast 2 introduces you to Sullivan Knoth and his followers.",
+			"price": 379,
+			"url": "https://www.facebook.com/noobTranslator/photos/a.455558828588447/1007362546741403",
+			"image": "https://cdn.cloudflare.steamstatic.com/steam/apps/414700/library_600x900.jpg",
+			"category": "adventure"
+		},
+		{
+			"name": "The Awesome Adventures of Captain Spirit",
+			"description": "Have you ever dreamt of being a superhero? Meet Chris, a creative and imaginative 9 year old boy who escapes reality with fantastical adventures as his alter ego.",
+			"price": 0,
+			"url": "https://sites.google.com/view/paredaitranslate#h.o3vvwc9d159n",
+			"image": "https://cdn.cloudflare.steamstatic.com/steam/apps/845070/library_600x900.jpg",
+			"category": "adventure"
+		},
+		{
+			"name": "Little Nightmares",
+			"description": "Immerse yourself in Little Nightmares, a dark whimsical tale that will confront you with your childhood fears!",
+			"price": 890,
+			"url": "https://sites.google.com/view/paredaitranslate#h.cgq9cowfd1k2",
+			"image": "https://cdn.cloudflare.steamstatic.com/steam/apps/424840/library_600x900.jpg",
+			"category": "adventure"
+		},
+		{
+			"name": "The Walking Dead: The Final Season",
+			"description": "A secluded school might finally be Clementine’s chance for a home, but protecting it will mean sacrifice.",
+			"price": 289,
+			"url": "https://www.facebook.com/Othertranslator/",
+			"image": "https://cdn.cloudflare.steamstatic.com/steam/apps/866800/library_600x900.jpg",
+			"category": "adventure"
+		},
+		{
+			"name": "The Park",
+			"description": "Set in a creepy amusement park hiding a dark and sinister secret.",
+			"price": 289,
+			"url": "https://www.facebook.com/Othertranslator/",
+			"image": "https://cdn.cloudflare.steamstatic.com/steam/apps/402020/library_600x900.jpg",
+			"category": "adventure"
+		},
+		{
+			"name": "Call of the Sea",
+			"description": "Call of the Sea คือเรื่องเล่าเกี่ยวกับความลึกลับและความรักในโลกอื่นที่แปซิฟิกใต้ในช่วงปี 1930 สำรวจเกาะสวรรค์อันเขียวชอุ่ม ไขปริศนา และปลดล็อกความลับในการออกเดินทางค้นหาสามีของคุณที่หายตัวไป",
+			"price": 289,
+			"url": "https://www.nexusmods.com/callofthesea/mods/1",
+			"image": "https://cdn.cloudflare.steamstatic.com/steam/apps/1042490/library_600x900.jpg",
+			"category": "adventure"
+		},
+		{
+			"name": "The Medium",
+			"description": "Discover a dark mystery only a medium can solve. Travel to an abandoned communist resort and use your unique psychic abilities to uncover its deeply disturbing secrets.",
+			"price": 1190,
+			"url": "https://www.nexusmods.com/themedium/mods/4",
+			"image": "https://cdn.cloudflare.steamstatic.com/steam/apps/1293160/library_600x900.jpg",
+			"category": "adventure"
+		},
+		{
+			"name": "The Pathless",
+			"description": "From the creators of ABZÛ, The Pathless is the mythic adventure of an archer and an eagle in a vast forest.",
+			"price": "???",
+			"url": "https://www.nexusmods.com/thepathless/mods/1",
+			"image": "https://cdn.cloudflare.steamstatic.com/steam/apps/1492680/library_600x900.jpg",
+			"category": "adventure"
+		},
+		{
+			"name": "LOST EMBER",
+			"description": "Explore the remains of a fallen world from fascinating perspectives! Slip into the role of different animals to uncover the fate of an ancient world.",
+			"price": 379,
+			"url": "https://www.nexusmods.com/lostember/mods/1",
+			"image": "https://cdn.cloudflare.steamstatic.com/steam/apps/563840/library_600x900.jpg",
+			"category": "adventure"
+		},
+		{
+			"name": "Omno",
+			"description": "A single-player journey of discovery through an ancient world of wonders, created by solo developer Jonas Manke.",
+			"price": 279,
+			"url": "https://www.nexusmods.com/omno/mods/1",
+			"image": "https://cdn.cloudflare.steamstatic.com/steam/apps/969760/library_600x900.jpg",
+			"category": "adventure"
+		},
+		{
+			"name": "Draugen",
+			"description": "Draugen is a single-player, first-person Fjord Noir mystery set in 1920s Norway. Explore a forgotten coastal village in your search for your missing sister.",
+			"price": 289,
+			"url": "https://www.nexusmods.com/draugen/mods/2",
+			"image": "https://cdn.cloudflare.steamstatic.com/steam/apps/770390/library_600x900.jpg",
+			"category": "adventure"
+		},
+		{
+			"name": "Kena: Bridge of Spirits",
+			"description": "A story-driven, action adventure combining exploration with fast-paced combat. As Kena, players find and grow a team of charming spirit companions called the Rot.",
+			"price": 552,
+			"url": "https://www.nexusmods.com/kenabridgeofspirits/mods/8",
+			"image": "https://cdn1.epicgames.com/7c53d7dc86494d5abcdc974b0ef0a843/offer/EGS_KenaBridgeofSpirits_EmberLab_S6-1200x1600-e701bd947727ee14b81626c7f9757e4f.jpg?h=450&resize=1&w=300",
+			"category": "adventure"
+		}
+	]
+}
