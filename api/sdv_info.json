@@ -3,11 +3,11 @@
         "Pufferfish": {
             "name": "Pufferfish",
             "image_url": "https://stardewvalleywiki.com/mediawiki/images/b/ba/Pufferfish.png",
-            "description": "Inflates when threatened.",
-            "location": "Ocean, Ginger Island oceans",
+            "description": "(ปลาปักเป้า) จะพองตัวขึ้นเมื่อถูกคุกคาม",
+            "location": "ทะเล, ทะเลแกะขิง",
             "time": "12pm – 4pm",
-            "season": "Summer (All Seasons on Ginger Island)",
-            "weather": "Sun"
+            "season": "ฤดูร้อน (ทุกฤดูกาลบนเกาะขิง)",
+            "weather": "แจ่มใส"
         }
     }
 }
