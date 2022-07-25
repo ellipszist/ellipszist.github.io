@@ -1,0 +1,13 @@
+{
+    "Fish": {
+        "Pufferfish": {
+            "name": "Pufferfish",
+            "image_url": "https://stardewvalleywiki.com/mediawiki/images/b/ba/Pufferfish.png",
+            "description": "Inflates when threatened.",
+            "location": "Ocean, Ginger Island oceans",
+            "time": "12pm – 4pm",
+            "season": "Summer (All Seasons on Ginger Island)",
+            "weather": "Sun"
+        }
+    }
+}
