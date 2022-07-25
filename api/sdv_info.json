@@ -8,6 +8,15 @@
             "time": "12pm – 4pm",
             "season": "ฤดูร้อน (ทุกฤดูกาลบนเกาะขิง)",
             "weather": "แจ่มใส"
+        },
+        "Anchovy": {
+            "name": "Anchovy",
+            "image_url": "https://stardewvalleywiki.com/mediawiki/images/7/79/Anchovy.png",
+            "description": "(ปลาแอนโชวี่) ปลาตัวเล็กสีเงิน พบเจอได้ในทะเล",
+            "location": "ทะเล",
+            "time": "ทุกเวลา",
+            "season": "ฤดูใบไม้ผลิ, ฤดูใบไม้ร่วง",
+            "weather": "ทุกสภาพอากาศ"
         }
     }
 }
