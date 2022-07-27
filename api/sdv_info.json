@@ -17,6 +17,15 @@
             "time": "ทุกเวลา",
             "season": "ฤดูใบไม้ผลิ, ฤดูใบไม้ร่วง",
             "weather": "ทุกสภาพอากาศ"
+        },
+        "Tuna": {
+            "name": "Tuna",
+            "image_url": "https://stardewvalleywiki.com/mediawiki/images/c/c5/Tuna.png",
+            "description": "(ปลาทูน่า) ปลาทูน่าขนาดใหญ่ อาศัยอยู่ในมหาสมุทร",
+            "location": "ทะเล, ทะเลเกาะขิง",
+            "time": "6am – 7pm",
+            "season": "summer winter",
+            "weather": "ทุกสภาพอากาศ"
         }
     }
 }
