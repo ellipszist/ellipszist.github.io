@@ -10,9 +10,9 @@
   <script async src="https://cdn.ampproject.org/v0.js"></script>
   <style amp-custom>
     :root {
-      --color-error: #B00020;
-      --color-primary: #69a6a9;
-      --color-link: #497376;
+      --s-error: #c00;
+      --s-accent: #69a6a9;
+      --s-accent-hover: #7fcbcf;
     }
     @font-face {
       font-family: 'Maledpan';
@@ -24,8 +24,11 @@
       font-family: 'Maledpan', serif, sans-serif;
     }
     a {
-      color: var(--color-link);
+      color: var(--s-accent);
       text-decoration: none;
+    }
+    a:hover {
+      color: var(--s-accent-hover);
     }
     h1 {
       font-size: 50px;
@@ -50,10 +53,10 @@
       justify-content: center;
     }
     .maledpan-font-loading {
-      color: var(--color-primary);
+      color: var(--s-accent);
     }
     .maledpan-font-missing {
-      color: var(--color-error);
+      color: var(--s-error);
     }
     </style>
 </head>
