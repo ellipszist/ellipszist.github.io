@@ -15,18 +15,8 @@
       font-weight: 400;
       src: url(https://ellipszist.github.io/beta/fonts/maledpan/maledpan-regular.woff2) format('woff2');
     }
-    @font-face {
-      font-family: 'Maledpan Bold';
-      font-style: bold;
-      font-weight: 700;
-      src: url(https://ellipszist.github.io/beta/fonts/maledpan/maledpan-bold.woff2) format('woff2');
-    }
     .maledpan-font-loaded {
       font-family: 'Maledpan', serif, sans-serif;
-    }
-    .maledpan-bold-font-loaded .maledpan-bold {
-      font-family: 'Maledpan Bold', serif, sans-serif;
-      color: #69a6a9;
     }
     a {
       color: #497376;
@@ -57,16 +47,12 @@
     .maledpan-font-loading {
       color: #69a6a9;
     }
-    .maledpan-bold-font-loading .maledpan-bold {
-      color: #69a6a9;
-    }
-    .maledpan-font-missing,
-    .maledpan-bold-font-missing .maledpan-bold {
+    .maledpan-font-missing {
       color: #f00;
     }
     </style>
 </head>
-<body class="maledpan-font-loading maledpan-bold-font-loading">
+<body class="maledpan-font-loading">
   <div class="container">
     <header>
       <h1>ELL STORE</h1>
@@ -109,16 +95,6 @@
     on-error-add-class="maledpan-font-missing"
     on-load-remove-class="maledpan-font-loading"
     on-load-add-class="maledpan-font-loaded">
-  </amp-font>
-  <amp-font
-    layout="nodisplay"
-    font-family="Maledpan Bold"
-    timeout="3000"
-    font-weight="bold"
-    on-error-remove-class="maledpan-bold-font-loading"
-    on-error-add-class="maledpan-bold-font-missing"
-    on-load-remove-class="maledpan-bold-font-loading"
-    on-load-add-class="maledpan-bold-font-loaded">
   </amp-font>
 </body>
 </html>
