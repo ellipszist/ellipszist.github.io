@@ -41,6 +41,27 @@
       grid-template-rows: auto 1fr auto;
       text-align: center;
     }
+    @media (prefers-color-scheme: dark) {
+      .container, .container h1 {
+        color: white;
+        background-color: black;
+      }
+      #dark-mode-checkbox,
+      #dark-mode-label {
+        display: none;
+      }
+    }
+    #dark-mode-checkbox:checked ~ * {
+      color: white;
+      background-color: black;
+    }
+    #dark-mode-checkbox,
+    #dark-mode-label {
+      position: absolute;
+    }
+    #dark-mode-checkbox {
+      display: none;
+    }
     p {
       font-size: 20px;
       font-weight: normal;
@@ -61,6 +82,8 @@
     </style>
 </head>
 <body class="maledpan-font-loading">
+  <input id="dark-mode-checkbox" type="checkbox">
+  <label id="dark-mode-label" for="dark-mode-checkbox">เปิดโหมดมืด</label>
   <div class="container">
     <header>
       <h1>ELL STORE</h1>
