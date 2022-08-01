@@ -25,54 +25,43 @@
     .maledpan-font-loaded {
       font-family: 'Maledpan', serif, sans-serif;
     }
-    a {
-      color: var(--s-accent);
-      text-decoration: none;
-    }
-    a:hover {
-      color: var(--s-accent-hover);
-    }
-    h1 {
-      font-size: 50px;
-      font-weight: bold;
-      margin: 1rem;
-    }
-    .container {
-      height: 100vh;
-      display: grid;
-      grid-template-rows: auto 1fr auto;
-      text-align: center;
+    body {
       background-image: url('https://cdn.discordapp.com/attachments/137350419121700864/712309851233189908/junispring.png');
       background-repeat: no-repeat;
       background-attachment: fixed;
       background-position: left bottom;
       background-size: 111px 100px;
     }
+    .container {
+      height: 100vh;
+      display: grid;
+      grid-template-rows: auto 1fr auto;
+      text-align: center;
+    }
     @media (prefers-color-scheme: dark) {
-      .container {
-        color: #c9d1d9;
+      body {
         background-color: #0d1117;
       }
-      #dark-mode-checkbox,
-      #dark-mode-label {
-        display: none;
+      .container {
+        color: #c9d1d9;
       }
     }
-    #dark-mode-checkbox:checked ~ * {
-      color: #c9d1d9;
-      background-color: #0d1117;
-    }
-    #dark-mode-checkbox,
-    #dark-mode-label {
-      position: absolute;
-    }
-    #dark-mode-checkbox {
-      display: none;
+    h1 {
+      font-size: 50px;
+      font-weight: bold;
+      margin: 1rem;
     }
     p {
       font-size: 20px;
       font-weight: normal;
       margin: 0.5em;
+    }
+    a {
+      color: var(--s-accent);
+      text-decoration: none;
+    }
+    a:hover {
+      color: var(--s-accent-hover);
     }
     footer {
       height: 40px;
@@ -89,8 +78,6 @@
     </style>
 </head>
 <body class="maledpan-font-loading">
-  <input id="dark-mode-checkbox" type="checkbox">
-  <label id="dark-mode-label" for="dark-mode-checkbox">เปิดโหมดมืด</label>
   <div class="container">
     <header>
       <h1>ELL STORE</h1>
