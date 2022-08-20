@@ -3064,40 +3064,40 @@
       .icon-star-empty {
         color: #dadada;
       }
-      .tmc-product-btn-wrapper {
+      .tmc-mod-btn-wrapper {
         text-align: center;
       }
       @media (min-width: 52.06rem) {
-        .tmc-product-btn-wrapper {
+        .tmc-mod-btn-wrapper {
           text-align: initial;
         }
       }
-      .tmc-product-color-swatch {
+      .tmc-mod-color-swatch {
         height: 24px;
         width: 24px;
         margin-left: 0.5rem;
       }
-      .tmc-product-color-swatch:first-child {
+      .tmc-mod-color-swatch:first-child {
         margin-left: 0;
       }
-      .tmc-product-color-blue {
+      .tmc-mod-color-blue {
         background-color: #1d4cdf;
       }
-      .tmc-product-color-black {
+      .tmc-mod-color-black {
         background-color: #000;
       }
-      .tmc-product-thumb {
+      .tmc-mod-thumb {
         width: 43px;
         margin-left: 0.5rem;
       }
-      .tmc-product-thumb:first-child {
+      .tmc-mod-thumb:first-child {
         margin-left: 0;
       }
       @media (min-width: 52.06rem) {
-        .tmc-product-thumb {
+        .tmc-mod-thumb {
           width: 80px;
         }
-        .tmc-product-desc {
+        .tmc-mod-desc {
           margin-right: 8.33333%;
         }
       }
@@ -3171,16 +3171,16 @@
       .tmc-listing-content {
         max-width: 1280px;
       }
-      .tmc-listing-product,
-      .tmc-listing-product > div {
+      .tmc-listing-mod,
+      .tmc-listing-mod > div {
         /* min-height: 275px; */
       }
-      .tmc-listing-product-image {
+      .tmc-listing-mod-image {
         /* border-bottom: 1px dashed #dadada; */
       }
       .amp-mode-mouse
-        .tmc-listing-product:hover
-        > .tmc-listing-product-name {
+        .tmc-listing-mod:hover
+        > .tmc-listing-mod-name {
         text-decoration: underline;
       }
       .tmc-footer {
@@ -3275,7 +3275,7 @@
           opacity: 1;
         }
       }
-      .tmc-cart .tmc-related-products {
+      .tmc-cart .tmc-related-mods {
         border-top: none;
       }
       @media (min-width: 52.06rem) {
@@ -3289,10 +3289,10 @@
           max-width: 100px;
         }
       }
-      .tmc-related-products {
+      .tmc-related-mods {
         border-top: 1px solid #f3f3f3;
       }
-      .tmc-related-products .amp-carousel-button {
+      .tmc-related-mods .amp-carousel-button {
         background: url('data:image/svg+xml;charset=utf-8,<svg xmlns="http://www.w3.org/2000/svg" width="30" height="30" viewBox="0 0 24 24"><path d="M15.41 16.09l-4.58-4.59 4.58-4.59L14 5.5l-6 6 6 6z"/><path d="M0-.5h24v24H0z" fill="none"/></svg>')
           30px 30px transparent;
         cursor: pointer;
@@ -3300,25 +3300,25 @@
         width: 30px;
         top: 40%;
       }
-      .tmc-related-products .amp-carousel-button-next,
-      .tmc-related-products .amp-carousel-button-prev {
+      .tmc-related-mods .amp-carousel-button-next,
+      .tmc-related-mods .amp-carousel-button-prev {
         display: initial;
       }
-      .tmc-related-products .amp-carousel-button-prev {
+      .tmc-related-mods .amp-carousel-button-prev {
         left: 0;
       }
-      .tmc-related-products .amp-carousel-button-next {
+      .tmc-related-mods .amp-carousel-button-next {
         right: 0;
         transform: translateY(-50%) rotate(180deg);
       }
-      .tmc-related-product {
+      .tmc-related-mod {
         width: 105px;
         overflow: hidden;
         text-overflow: ellipsis;
       }
       .amp-mode-mouse
-        .tmc-related-product:hover
-        .tmc-related-product-name {
+        .tmc-related-mod:hover
+        .tmc-related-mod-name {
         text-decoration: underline;
       }
     </style>
@@ -3527,7 +3527,7 @@
     <!-- End Sidebar -->
     <!-- End Navbar -->
     <main id="content" role="main" class="main tmc-listing">
-      <amp-state id="products">
+      <amp-state id="mods">
         <script type="application/json">
           {
             "category": "all",
@@ -3541,7 +3541,7 @@
         width="1500"
         height="500"
         layout="responsive"
-        alt="Product listing"
+        alt="Mod listing"
         noloading=""
         ><div placeholder="" class="tmc-loader"></div
       ></amp-img>
@@ -3553,7 +3553,7 @@
             <!-- Start Radio -->
             <div
               class="ampstart-input ampstart-input-radio inline-block relative m0 p0 mb3"
-              on="change: AMP.setState({products: {category: &#39;all&#39;}})"
+              on="change: AMP.setState({mods: {category: &#39;all&#39;}})"
             >
               <input
                 type="radio"
@@ -3569,7 +3569,7 @@
             <!-- Start Radio -->
             <div
               class="ampstart-input ampstart-input-radio inline-block relative m0 p0 mb3"
-              on="change: AMP.setState({products: {category: &#39;indie&#39;}})"
+              on="change: AMP.setState({mods: {category: &#39;indie&#39;}})"
             >
               <input
                 type="radio"
@@ -3584,7 +3584,7 @@
             <!-- Start Radio -->
             <div
               class="ampstart-input ampstart-input-radio inline-block relative m0 p0 mb3"
-              on="change: AMP.setState({products: {category: &#39;action&#39;}})"
+              on="change: AMP.setState({mods: {category: &#39;action&#39;}})"
             >
               <input
                 type="radio"
@@ -3601,7 +3601,7 @@
             <!-- Start Radio -->
             <div
               class="ampstart-input ampstart-input-radio inline-block relative m0 p0 mb3"
-              on="change: AMP.setState({products: {category: &#39;adventure&#39;}})"
+              on="change: AMP.setState({mods: {category: &#39;adventure&#39;}})"
             >
               <input
                 type="radio"
@@ -3618,7 +3618,7 @@
             <!-- Start Radio -->
             <div
               class="ampstart-input ampstart-input-radio inline-block relative m0 p0 mb3"
-              on="change: AMP.setState({products: {category: &#39;wip&#39;}})"
+              on="change: AMP.setState({mods: {category: &#39;wip&#39;}})"
             >
               <input
                 type="radio"
@@ -3649,7 +3649,7 @@
                   name="categories"
                   id="categories"
                   class="tmc-select h6 md-h7"
-                  on="change: AMP.setState({products: {category: event.value}})"
+                  on="change: AMP.setState({mods: {category: event.value}})"
                 >
                   <option value="all">ทั้งหมด</option>
                   <option value="indie">อินดี้</option>
@@ -3664,7 +3664,7 @@
                   name="price"
                   id="price"
                   class="tmc-select h6 md-h7"
-                  on="change: AMP.setState({products: {filter: event.value}})"
+                  on="change: AMP.setState({mods: {filter: event.value}})"
                 >
                   <option value="high-low">คะแนนรีวิว</option>
                   <option value="low-high">ราคาเกม</option>
@@ -3675,8 +3675,8 @@
 
           <amp-list
             class="mx1 md-mxn1"
-            [src]="'api/' + products.filter + '-' + products.category + '-products.json'"
-            src="api/high-low-all-products.json"
+            [src]="'api/' + mods.filter + '-' + mods.category + '-mods.json'"
+            src="api/high-low-all-mods.json"
             height="1000"
             width="300"
             layout="responsive"
@@ -3685,12 +3685,12 @@
               <a
                 href="{{url}}"
                 target="_blank"
-                class="tmc-listing-product text-decoration-none inline-block col-6 md-col-4 lg-col-3 px1 mb2 md-mb4 relative {{css}}"
+                class="tmc-listing-mod text-decoration-none inline-block col-6 md-col-4 lg-col-3 px1 mb2 md-mb4 relative {{css}}"
               >
                 <div class="flex flex-column justify-between">
                   <div>
                     <amp-img
-                      class="tmc-listing-product-image mb2"
+                      class="tmc-listing-mod-image mb2"
                       src="{{image}}"
                       width="300"
                       height="450"
