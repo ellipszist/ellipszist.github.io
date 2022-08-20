@@ -3267,7 +3267,6 @@
     </style>
   </head>
   <body>
-    <!-- Start Navbar -->
     <header
       class="ampstart-headerbar fixed flex justify-start items-center top-0 left-0 right-0 pl2 pr4 pt2 md-pt0"
     >
@@ -3342,7 +3341,6 @@
       </div>
     </header>
 
-    <!-- Start Sidebar -->
     <amp-sidebar
       id="header-sidebar"
       class="ampstart-sidebar px3 md-flex flex-column justify-content items-center justify-center"
@@ -3448,21 +3446,8 @@
           ></a>
         </li>
       </ul>
-
-      <ul class="ampstart-sidebar-faq list-reset m0">
-        <li class="ampstart-faq-item">
-          <a href="#" class="text-decoration-none">ลิขสิทธิ์การแปล</a>
-        </li>
-        <li class="ampstart-faq-item">
-          <a href="#" class="text-decoration-none">นโยบายทางธุรกิจ</a>
-        </li>
-        <li class="ampstart-faq-item">
-          <a href="#" class="text-decoration-none">นโยบายความเป็นส่วนตัว</a>
-        </li>
-      </ul>
     </amp-sidebar>
-    <!-- End Sidebar -->
-    <!-- End Navbar -->
+
     <main id="content" role="main" class="main tmc-listing">
       <amp-state id="mods">
         <script type="application/json">
@@ -3487,7 +3472,6 @@
           <div class="tmc-side-panel pt4 pr4 self-center">
             <h2 class="h5 mb2">ประเภท</h2>
 
-            <!-- Start Radio -->
             <div
               class="ampstart-input ampstart-input-radio inline-block relative m0 p0 mb3"
               on="change: AMP.setState({mods: {category: &#39;all&#39;}})"
@@ -3502,8 +3486,7 @@
               />
               <label for="all" class="" aria-hidden="true">ทั้งหมด</label>
             </div>
-            <!-- End Radio -->
-            <!-- Start Radio -->
+
             <div
               class="ampstart-input ampstart-input-radio inline-block relative m0 p0 mb3"
               on="change: AMP.setState({mods: {category: &#39;indie&#39;}})"
@@ -3517,8 +3500,7 @@
               />
               <label for="indie" class="" aria-hidden="true">อินดี้</label>
             </div>
-            <!-- End Radio -->
-            <!-- Start Radio -->
+
             <div
               class="ampstart-input ampstart-input-radio inline-block relative m0 p0 mb3"
               on="change: AMP.setState({mods: {category: &#39;action&#39;}})"
@@ -3534,8 +3516,7 @@
                 >แอ็คชัน</label
               >
             </div>
-            <!-- End Radio -->
-            <!-- Start Radio -->
+
             <div
               class="ampstart-input ampstart-input-radio inline-block relative m0 p0 mb3"
               on="change: AMP.setState({mods: {category: &#39;adventure&#39;}})"
@@ -3551,8 +3532,7 @@
                 >ผจญภัย</label
               >
             </div>
-            <!-- End Radio -->
-            <!-- Start Radio -->
+
             <div
               class="ampstart-input ampstart-input-radio inline-block relative m0 p0 mb3"
               on="change: AMP.setState({mods: {category: &#39;wip&#39;}})"
@@ -3568,7 +3548,7 @@
                 >กำลังแปล</label
               >
             </div>
-            <!-- End Radio -->
+
           </div>
         </div>
 
