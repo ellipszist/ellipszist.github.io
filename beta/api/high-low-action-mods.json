@@ -5,7 +5,7 @@
 			"description": "A deadly virus engulfs the residents of Raccoon City in September of 1998.",
 			"price": 799,
 			"url": "https://www.noob-translator.com/resident-evil-2-remake",
-			"image": "https://cdn.cloudflare.steamstatic.com/steam/apps/883710/library_600x900.jpg",
+			"app_id": "883710",
 			"category": "action"
 		},
 		{
@@ -13,7 +13,7 @@
 			"description": "Jill Valentine is one of the last remaining people in Raccoon City to witness the atrocities Umbrella performed.",
 			"price": 1809,
 			"url": "https://www.noob-translator.com/resident-evil-3-remake",
-			"image": "https://cdn.cloudflare.steamstatic.com/steam/apps/952060/library_600x900.jpg",
+			"app_id": "952060",
 			"category": "action"
 		},
 		{
@@ -21,7 +21,7 @@
 			"description": "Fear and isolation seep through the walls of an abandoned southern farmhouse.",
 			"price": 599,
 			"url": "https://www.noob-translator.com/resident-evil-7",
-			"image": "https://cdn.cloudflare.steamstatic.com/steam/apps/418370/library_600x900.jpg",
+			"app_id": "418370",
 			"category": "adventure"
 		},
 		{
@@ -29,7 +29,7 @@
 			"description": "พบกับความสยองขวัญในการเอาชีวิตรอดแบบที่คุณไม่เคยสัมผัสมาก่อนในเกมภาคที่ 8 ของแฟรนไชส์ Resident Evil",
 			"price": 2429,
 			"url": "https://www.facebook.com/permalink.php?story_fbid=118537293942557&id=104970521965901",
-			"image": "https://cdn.cloudflare.steamstatic.com/steam/apps/1196590/library_600x900.jpg",
+			"app_id": "1196590",
 			"category": "action"
 		},
 		{
@@ -37,7 +37,7 @@
 			"description": "The ultimate Devil Hunter is back in style, in the game action fans have been waiting for.",
 			"price": 919,
 			"url": "https://www.noob-translator.com/devil-may-cry-5",
-			"image": "https://cdn.cloudflare.steamstatic.com/steam/apps/601150/library_600x900.jpg",
+			"app_id": "601150",
 			"category": "action"
 		},
 		{
@@ -45,7 +45,7 @@
 			"description": "คุณจะได้สวมบทบาทเป็นพาดาวันผู้ถูกทอดทิ้งที่ต้องสำเร็จการฝึกฝนของเขาด้วยตนเองทั้งด้านทักษะการใช้พลังและด้านเพลงดาบเลเซอร์พร้อมกับหนีจากการไล่ล่าของกองทัพจักรวรรดิ",
 			"price": 1099,
 			"url": "https://www.facebook.com/noobTranslator/posts/1003981370412854",
-			"image": "https://cdn.cloudflare.steamstatic.com/steam/apps/1172380/library_600x900.jpg",
+			"app_id": "1172380",
 			"category": "action"
 		},
 		{
@@ -53,7 +53,7 @@
 			"description": "Assassin's Creed® Unity tells the story of Arno, a young man who embarks upon an extraordinary journey to expose the true powers behind the French Revolution.",
 			"price": 800,
 			"url": "https://www.facebook.com/Othertranslator/",
-			"image": "https://cdn.cloudflare.steamstatic.com/steam/apps/289650/library_600x900.jpg",
+			"app_id": "289650",
 			"category": "action"
 		},
 		{
@@ -61,7 +61,7 @@
 			"description": "The dead have risen and civilization has fallen. Now it's up to you to gather survivors.",
 			"price": 499,
 			"url": "https://sites.google.com/view/paredaitranslate#h.hl3ckd8d8eay",
-			"image": "https://cdn.cloudflare.steamstatic.com/steam/apps/495420/library_600x900.jpg",
+			"app_id": "495420",
 			"category": "action"
 		},
 		{
@@ -69,7 +69,7 @@
 			"description": "Dead Cells is a rogue-lite, metroidvania inspired, action-platformer.",
 			"price": 389,
 			"url": "https://steamcommunity.com/sharedfiles/filedetails/?id=1135654798",
-			"image": "https://cdn.cloudflare.steamstatic.com/steam/apps/588650/library_600x900.jpg",
+			"app_id": "588650",
 			"category": "action"
 		},
 		{
@@ -77,7 +77,7 @@
 			"description": "An inadvertent brush with the mob thrusts cabdriver Tommy Angelo into the world of organized crime.",
 			"price": 969,
 			"url": "https://www.facebook.com/Othertranslator/",
-			"image": "https://cdn.cloudflare.steamstatic.com/steam/apps/1030840/library_600x900.jpg",
+			"app_id": "1030840",
 			"category": "action"
 		},
 		{
@@ -85,7 +85,7 @@
 			"description": "Mortal Shell is a deep action-RPG that tests your sanity and resilience in a shattered world.",
 			"price": 450,
 			"url": "https://www.nexusmods.com/mortalshell/mods/2",
-			"image": "https://cdn.cloudflare.steamstatic.com/steam/apps/1110910/library_600x900.jpg",
+			"app_id": "1110910",
 			"category": "action"
 		},
 		{
@@ -93,7 +93,7 @@
 			"description": "Survive your evolution in Neogene Africa starting 10 million years ago.",
 			"price": 960,
 			"url": "https://www.nexusmods.com/ancestorsthehumankindodyssey/mods/1",
-			"image": "https://cdn.cloudflare.steamstatic.com/steam/apps/536270/library_600x900.jpg",
+			"app_id": "536270",
 			"category": "action"
 		},
 		{
@@ -101,7 +101,7 @@
 			"description": "A young girl named Raji has been chosen by the gods to stand against the demonic invasion of the human realm.",
 			"price": 399,
 			"url": "https://www.nexusmods.com/rajianancientepic/mods/1",
-			"image": "https://cdn.cloudflare.steamstatic.com/steam/apps/730390/library_600x900.jpg",
+			"app_id": "730390",
 			"category": "action"
 		},
 		{
@@ -109,7 +109,7 @@
 			"description": "จากผู้สร้าง Heavenly Sword, Enslaved: Odyssey to the West และ DmC: Devil May Cry เตรียมตัวพบกับการเดินทางของนักรบผู้ป่าเถื่อนสู่โลกแห่งเทพนิยายและความบ้าคลั่ง",
 			"price": 559,
 			"url": "https://www.nexusmods.com/hellbladesenuassacrifice/mods/1",
-			"image": "https://cdn.cloudflare.steamstatic.com/steam/apps/414340/library_600x900.jpg",
+			"app_id": "414340",
 			"category": "action"
 		},
 		{
@@ -117,7 +117,7 @@
 			"description": "Set in a far corner of space, Valfaris is a heavy metal infused 2D action-platformer and the next game from the team behind Unity Awards finalist.",
 			"price": 319,
 			"url": "https://www.nexusmods.com/valfaris/mods/4",
-			"image": "https://cdn.cloudflare.steamstatic.com/steam/apps/600130/library_600x900.jpg",
+			"app_id": "600130",
 			"category": "action"
 		},
 		{
@@ -125,7 +125,7 @@
 			"description": "DAYMARE: 1998 is a third-person survival horror game that recreates the mood of iconic titles from the '90s, with a fresh storyline.",
 			"price": 379,
 			"url": "https://www.nexusmods.com/daymare1998/mods/2",
-			"image": "https://cdn.cloudflare.steamstatic.com/steam/apps/842100/library_600x900.jpg",
+			"app_id": "842100",
 			"category": "action"
 		},
 		{
@@ -133,7 +133,7 @@
 			"description": "Fight through Mordor and uncover the truth of the spirit that compels you.",
 			"price": 369,
 			"url": "https://www.nexusmods.com/middleearthshadowofmordor/mods/11",
-			"image": "https://cdn.cloudflare.steamstatic.com/steam/apps/241930/library_600x900.jpg",
+			"app_id": "241930",
 			"category": "action"
 		},
 		{
@@ -141,7 +141,7 @@
 			"description": "Brutal Hack&Slash game with a challenging combat system plunges you into the harsh dark fantasy world to test your will and your skills.",
 			"price": 239,
 			"url": "https://www.nexusmods.com/demonskin/mods/1",
-			"image": "https://cdn.cloudflare.steamstatic.com/steam/apps/1522140/library_600x900.jpg",
+			"app_id": "1522140",
 			"category": "action"
 		},
 		{
@@ -149,7 +149,7 @@
 			"description": "ENDER LILIES is a dark fantasy 2D action RPG about unraveling the mysteries of a destroyed kingdom.",
 			"price": 330,
 			"url": "https://www.nexusmods.com/enderliliesquietusoftheknights/mods/1",
-			"image": "https://cdn.cloudflare.steamstatic.com/steam/apps/1369630/library_600x900.jpg",
+			"app_id": "1369630",
 			"category": "action"
 		},
 		{
@@ -157,7 +157,7 @@
 			"description": "A brutal exploration and survival game for 1-10 players, set in a procedurally-generated purgatory inspired by viking culture.",
 			"price": 289,
 			"url": "https://sites.google.com/view/valheimth/",
-			"image": "https://cdn.cloudflare.steamstatic.com/steam/apps/892970/library_600x900.jpg",
+			"app_id": "892970",
 			"category": "action"
 		}
 	]

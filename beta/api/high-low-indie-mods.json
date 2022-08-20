@@ -5,7 +5,7 @@
 			"description": "You've inherited your grandfather's old farm plot in Stardew Valley.",
 			"price": 315,
 			"url": "https://store.steampowered.com/app/413150/",
-			"image": "https://cdn.cloudflare.steamstatic.com/steam/apps/413150/library_600x900.jpg",
+			"app_id": "413150",
 			"css": "sponsored",
 			"category": "indie"
 		},
@@ -14,7 +14,7 @@
 			"description": "ร่วมกันเอาชีวิตรอดและต่อสู้กับผีร้ายเพื่อกลับไปยังโลกแห่งความจริงอีกครั้ง",
 			"price": 139,
 			"url": "https://store.steampowered.com/app/1056600/",
-			"image": "https://cdn.cloudflare.steamstatic.com/steam/apps/1056600/library_600x900.jpg",
+			"app_id": "1056600",
 			"category": "indie"
 		},
 		{
@@ -22,7 +22,7 @@
 			"description": "เกมแนวพัซเซิลผจญภัย ที่ให้คุณพาสาวน้อยและเจ้าเหมียวตะลุยในห้วงแห่งเวลา",
 			"price": 329,
 			"url": "https://store.steampowered.com/app/1150950/",
-			"image": "https://cdn.cloudflare.steamstatic.com/steam/apps/1150950/library_600x900.jpg",
+			"app_id": "1150950",
 			"category": "indie"
 		},
 		{
@@ -30,7 +30,7 @@
 			"description": "Customize and build your Mechanical Assault Skeleton Suit (M.A.S.S.).",
 			"price": 468.77,
 			"url": "https://store.steampowered.com/app/956680/",
-			"image": "https://cdn.cloudflare.steamstatic.com/steam/apps/956680/library_600x900.jpg",
+			"app_id": "956680",
 			"category": "indie"
 		}
 	]

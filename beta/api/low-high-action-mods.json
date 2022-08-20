@@ -5,7 +5,7 @@
 			"description": "Hunt your most wanted targets through the eye-catching nostalgic worlds.",
 			"price": "???",
 			"url": "https://store.steampowered.com/app/815200/",
-			"image": "https://cdn.cloudflare.steamstatic.com/steam/apps/815200/library_600x900.jpg",
+			"app_id": "815200",
 			"category": "action"
 		}
 	]
