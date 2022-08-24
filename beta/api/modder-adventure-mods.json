@@ -3,7 +3,7 @@
 		{
 			"name": "Outlast",
 			"created_by": "creator",
-			"price": 289,
+			"status": "100%",
 			"url": "https://www.facebook.com/noobTranslator/photos/a.455558828588447/1007362546741403",
 			"app_id": "238320",
 			"category": "adventure"
@@ -11,7 +11,7 @@
 		{
 			"name": "Outlast 2",
 			"created_by": "creator",
-			"price": 379,
+			"status": "100%",
 			"url": "https://www.facebook.com/noobTranslator/photos/a.455558828588447/1007362546741403",
 			"app_id": "414700",
 			"category": "adventure"
@@ -19,7 +19,7 @@
 		{
 			"name": "The Awesome Adventures of Captain Spirit",
 			"created_by": "creator",
-			"price": 0,
+			"status": "100%",
 			"url": "https://sites.google.com/view/paredaitranslate#h.o3vvwc9d159n",
 			"app_id": "845070",
 			"category": "adventure"
@@ -27,7 +27,7 @@
 		{
 			"name": "Little Nightmares",
 			"created_by": "creator",
-			"price": 890,
+			"status": "100%",
 			"url": "https://sites.google.com/view/paredaitranslate#h.cgq9cowfd1k2",
 			"app_id": "424840",
 			"category": "adventure"
@@ -35,7 +35,7 @@
 		{
 			"name": "The Walking Dead: The Final Season",
 			"created_by": "creator",
-			"price": 289,
+			"status": "100%",
 			"url": "https://www.facebook.com/Othertranslator/",
 			"app_id": "866800",
 			"category": "adventure"
@@ -43,7 +43,7 @@
 		{
 			"name": "The Park",
 			"created_by": "creator",
-			"price": 289,
+			"status": "100%",
 			"url": "https://www.facebook.com/Othertranslator/",
 			"app_id": "402020",
 			"category": "adventure"
@@ -51,7 +51,7 @@
 		{
 			"name": "Call of the Sea",
 			"created_by": "creator",
-			"price": 289,
+			"status": "100%",
 			"url": "https://www.nexusmods.com/callofthesea/mods/1",
 			"app_id": "1042490",
 			"category": "adventure"
@@ -59,7 +59,7 @@
 		{
 			"name": "The Medium",
 			"created_by": "creator",
-			"price": 1190,
+			"status": "100%",
 			"url": "https://www.nexusmods.com/themedium/mods/4",
 			"app_id": "1293160",
 			"category": "adventure"
@@ -75,7 +75,7 @@
 		{
 			"name": "LOST EMBER",
 			"created_by": "creator",
-			"price": 379,
+			"status": "100%",
 			"url": "https://www.nexusmods.com/lostember/mods/1",
 			"app_id": "563840",
 			"category": "adventure"
@@ -83,7 +83,7 @@
 		{
 			"name": "Omno",
 			"created_by": "creator",
-			"price": 279,
+			"status": "100%",
 			"url": "https://www.nexusmods.com/omno/mods/1",
 			"app_id": "969760",
 			"category": "adventure"
@@ -91,7 +91,7 @@
 		{
 			"name": "Draugen",
 			"created_by": "creator",
-			"price": 289,
+			"status": "100%",
 			"url": "https://www.nexusmods.com/draugen/mods/2",
 			"app_id": "770390",
 			"category": "adventure"
@@ -99,7 +99,7 @@
 		{
 			"name": "Kena: Bridge of Spirits",
 			"created_by": "creator",
-			"price": 552,
+			"status": "100%",
 			"url": "https://www.nexusmods.com/kenabridgeofspirits/mods/8",
 			"app_id": "1954200",
 			"category": "adventure"

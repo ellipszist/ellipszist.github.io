@@ -3,7 +3,7 @@
 		{
 			"name": "Resident Evil 2",
 			"created_by": "creator",
-			"price": 799,
+			"status": "100%",
 			"url": "https://www.noob-translator.com/resident-evil-2-remake",
 			"app_id": "883710",
 			"category": "action"
@@ -11,7 +11,7 @@
 		{
 			"name": "Resident Evil 3",
 			"created_by": "creator",
-			"price": 1809,
+			"status": "100%",
 			"url": "https://www.noob-translator.com/resident-evil-3-remake",
 			"app_id": "952060",
 			"category": "action"
@@ -19,7 +19,7 @@
 		{
 			"name": "Resident Evil 7 Biohazard",
 			"created_by": "creator",
-			"price": 599,
+			"status": "100%",
 			"url": "https://www.noob-translator.com/resident-evil-7",
 			"app_id": "418370",
 			"category": "adventure"
@@ -27,7 +27,7 @@
 		{
 			"name": "Resident Evil Village",
 			"created_by": "creator",
-			"price": 2429,
+			"status": "100%",
 			"url": "https://www.facebook.com/permalink.php?story_fbid=118537293942557&id=104970521965901",
 			"app_id": "1196590",
 			"category": "action"
@@ -35,7 +35,7 @@
 		{
 			"name": "Devil May Cry 5",
 			"created_by": "creator",
-			"price": 919,
+			"status": "100%",
 			"url": "https://www.noob-translator.com/devil-may-cry-5",
 			"app_id": "601150",
 			"category": "action"
@@ -43,7 +43,7 @@
 		{
 			"name": "STAR WARS Jedi: Fallen Order™",
 			"created_by": "creator",
-			"price": 1099,
+			"status": "100%",
 			"url": "https://www.facebook.com/noobTranslator/posts/1003981370412854",
 			"app_id": "1172380",
 			"category": "action"
@@ -51,7 +51,7 @@
 		{
 			"name": "Assassin's Creed® Unity",
 			"created_by": "creator",
-			"price": 800,
+			"status": "100%",
 			"url": "https://www.facebook.com/Othertranslator/",
 			"app_id": "289650",
 			"category": "action"
@@ -59,7 +59,7 @@
 		{
 			"name": "State of Decay 2: Juggernaut Edition",
 			"created_by": "creator",
-			"price": 499,
+			"status": "100%",
 			"url": "https://sites.google.com/view/paredaitranslate#h.hl3ckd8d8eay",
 			"app_id": "495420",
 			"category": "action"
@@ -67,7 +67,7 @@
 		{
 			"name": "Dead Cells",
 			"created_by": "creator",
-			"price": 389,
+			"status": "100%",
 			"url": "https://steamcommunity.com/sharedfiles/filedetails/?id=1135654798",
 			"app_id": "588650",
 			"category": "action"
@@ -75,7 +75,7 @@
 		{
 			"name": "Mafia: Definitive Edition",
 			"created_by": "creator",
-			"price": 969,
+			"status": "100%",
 			"url": "https://www.facebook.com/Othertranslator/",
 			"app_id": "1030840",
 			"category": "action"
@@ -83,7 +83,7 @@
 		{
 			"name": "Mortal Shell",
 			"created_by": "creator",
-			"price": 450,
+			"status": "100%",
 			"url": "https://www.nexusmods.com/mortalshell/mods/2",
 			"app_id": "1110910",
 			"category": "action"
@@ -91,7 +91,7 @@
 		{
 			"name": "Ancestors: The Humankind Odyssey",
 			"created_by": "creator",
-			"price": 960,
+			"status": "100%",
 			"url": "https://www.nexusmods.com/ancestorsthehumankindodyssey/mods/1",
 			"app_id": "536270",
 			"category": "action"
@@ -99,7 +99,7 @@
 		{
 			"name": "Raji: An Ancient Epic",
 			"created_by": "creator",
-			"price": 399,
+			"status": "100%",
 			"url": "https://www.nexusmods.com/rajianancientepic/mods/1",
 			"app_id": "730390",
 			"category": "action"
@@ -107,7 +107,7 @@
 		{
 			"name": "Hellblade: Senua's Sacrifice",
 			"created_by": "creator",
-			"price": 559,
+			"status": "100%",
 			"url": "https://www.nexusmods.com/hellbladesenuassacrifice/mods/1",
 			"app_id": "414340",
 			"category": "action"
@@ -115,7 +115,7 @@
 		{
 			"name": "Valfaris",
 			"created_by": "creator",
-			"price": 319,
+			"status": "100%",
 			"url": "https://www.nexusmods.com/valfaris/mods/4",
 			"app_id": "600130",
 			"category": "action"
@@ -123,7 +123,7 @@
 		{
 			"name": "Daymare: 1998",
 			"created_by": "creator",
-			"price": 379,
+			"status": "100%",
 			"url": "https://www.nexusmods.com/daymare1998/mods/2",
 			"app_id": "842100",
 			"category": "action"
@@ -131,7 +131,7 @@
 		{
 			"name": "Middle-earth™: Shadow of Mordor™",
 			"created_by": "creator",
-			"price": 369,
+			"status": "100%",
 			"url": "https://www.nexusmods.com/middleearthshadowofmordor/mods/11",
 			"app_id": "241930",
 			"category": "action"
@@ -139,7 +139,7 @@
 		{
 			"name": "Demon Skin",
 			"created_by": "creator",
-			"price": 239,
+			"status": "100%",
 			"url": "https://www.nexusmods.com/demonskin/mods/1",
 			"app_id": "1522140",
 			"category": "action"
@@ -147,7 +147,7 @@
 		{
 			"name": "ENDER LILIES: Quietus of the Knights",
 			"created_by": "creator",
-			"price": 330,
+			"status": "100%",
 			"url": "https://www.nexusmods.com/enderliliesquietusoftheknights/mods/1",
 			"app_id": "1369630",
 			"category": "action"
@@ -155,7 +155,7 @@
 		{
 			"name": "Valheim",
 			"created_by": "creator",
-			"price": 289,
+			"status": "100%",
 			"url": "https://sites.google.com/view/valheimth/",
 			"app_id": "892970",
 			"category": "action"
