@@ -1,37 +1,37 @@
 {
-	"items": [
-		{
-			"name": "Stardew Valley",
-			"created_by": "creator",
-			"status": "100%",
-			"url": "https://store.steampowered.com/app/413150/",
-			"app_id": "413150",
-			"css": "sponsored",
-			"category": "indie"
-		},
-		{
-			"name": "HSH : Survive",
-			"created_by": "creator",
-			"status": "100%",
-			"url": "https://store.steampowered.com/app/1056600/",
-			"app_id": "1056600",
-			"category": "indie"
-		},
-		{
-			"name": "Timelie",
-			"created_by": "creator",
-			"status": "100%",
-			"url": "https://store.steampowered.com/app/1150950/",
-			"app_id": "1150950",
-			"category": "indie"
-		},
-		{
-			"name": "M.A.S.S. Builder",
-			"created_by": "creator",
-			"status": "100%",
-			"url": "https://store.steampowered.com/app/956680/",
-			"app_id": "956680",
-			"category": "indie"
-		}
-	]
+    "items": [
+        {
+            "name": "Stardew Valley",
+            "created_by": "creator",
+            "status": "100%",
+            "url": "https://store.steampowered.com/app/413150/",
+            "app_id": "413150",
+            "css": "sponsored",
+            "category": "indie"
+        },
+        {
+            "name": "HSH : Survive",
+            "created_by": "creator",
+            "status": "100%",
+            "url": "https://store.steampowered.com/app/1056600/",
+            "app_id": "1056600",
+            "category": "indie"
+        },
+        {
+            "name": "Timelie",
+            "created_by": "creator",
+            "status": "100%",
+            "url": "https://store.steampowered.com/app/1150950/",
+            "app_id": "1150950",
+            "category": "indie"
+        },
+        {
+            "name": "M.A.S.S. Builder",
+            "created_by": "creator",
+            "status": "100%",
+            "url": "https://store.steampowered.com/app/956680/",
+            "app_id": "956680",
+            "category": "indie"
+        }
+    ]
 }

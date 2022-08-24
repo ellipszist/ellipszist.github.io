@@ -1,132 +1,132 @@
 {
-	"items": [
-		{
-			"name": "Far Cry® 3",
-			"created_by": "creator",
-			"status": "100%",
-			"url": "https://www.facebook.com/noobTranslator/",
-			"app_id": "220240",
-			"category": "wip"
-		},
-		{
-			"name": "Far Cry® 4",
-			"created_by": "creator",
-			"status": "100%",
-			"url": "https://www.facebook.com/layzitranslator/",
-			"app_id": "298110",
-			"category": "wip"
-		},
-		{
-			"name": "Far Cry® Primal",
-			"created_by": "creator",
-			"status": "100%",
-			"url": "https://www.facebook.com/notreadynotgive/",
-			"app_id": "371660",
-			"category": "wip"
-		},
-		{
-			"name": "Far Cry® New Dawn",
-			"created_by": "creator",
-			"status": "100%",
-			"url": "https://www.facebook.com/Othertranslator/",
-			"app_id": "939960",
-			"category": "wip"
-		},
-		{
-			"name": "Bounty Brawl",
-			"created_by": "creator",
-			"status": "???",
-			"url": "https://store.steampowered.com/app/815200/",
-			"app_id": "815200",
-			"category": "action"
-		},
-		{
-			"name": "Persona 4 Golden",
-			"created_by": "creator",
-			"status": "100%",
-			"url": "https://www.facebook.com/Seasons-X-109735244645019/",
-			"app_id": "1113000",
-			"category": "wip"
-		},
-		{
-			"name": "CODE VEIN",
-			"created_by": "creator",
-			"status": "100%",
-			"url": "https://www.facebook.com/Othertranslator/",
-			"app_id": "678960",
-			"category": "wip"
-		},
-		{
-			"name": "Red Dead Redemption 2",
-			"created_by": "creator",
-			"status": "100%",
-			"url": "https://www.facebook.com/Othertranslator/",
-			"app_id": "1174180",
-			"category": "wip"
-		},
-		{
-			"name": "Assassin's Creed® IV Black Flag™",
-			"created_by": "creator",
-			"status": "100%",
-			"url": "https://www.facebook.com/notreadynotgive/",
-			"app_id": "242050",
-			"category": "action"
-		},
-		{
-			"name": "Samurai Vandalism",
-			"created_by": "creator",
-			"status": "???",
-			"url": "https://www.facebook.com/Seasons-X-109735244645019/",
-			"app_id": "1551670",
-			"category": "wip"
-		},
-		{
-			"name": "Surviving Mars",
-			"created_by": "creator",
-			"status": "100%",
-			"url": "https://sites.google.com/view/layzitranslator/",
-			"app_id": "464920",
-			"category": "simulation"
-		},
-		{
-			"name": "Subnautica: Below Zero",
-			"created_by": "creator",
-			"status": "100%",
-			"url": "https://sites.google.com/view/layzitranslator/",
-			"app_id": "848450",
-			"category": "adventure"
-		},
-		{
-			"name": "Steins;Gate",
-			"created_by": "creator",
-			"status": "100%",
-			"url": "https://www.facebook.com/learningtranslator/",
-			"app_id": "412830",
-			"category": "wip"
-		},
-		{
-			"name": "Hatred",
-			"created_by": "creator",
-			"status": "100%",
-			"url": "https://sites.google.com/view/paredaitranslate#h.h87ce695i1yz",
-			"app_id": "341940",
-			"category": "action"
-		},
-		{
-			"name": "Ancestors Legacy",
-			"created_by": "creator",
-			"status": "100%",
-			"url": "https://sites.google.com/view/paredaitranslate#h.nb9t03pehvyg",
-			"app_id": "620590",
-			"category": "strategy"
-		},
-		{
-			"name": "Remnant: From the Ashes",
-			"created_by": "creator",
-			"status": "100%",
-			"url": "https://sites.google.com/view/paredaitranslate#h.84kqj0b2afj1",
-			"app_id": "617290",
-			"category": "action"
-		}
-	]
+    "items": [
+        {
+            "name": "Far Cry® 3",
+            "created_by": "creator",
+            "status": "100%",
+            "url": "https://www.facebook.com/noobTranslator/",
+            "app_id": "220240",
+            "category": "wip"
+        },
+        {
+            "name": "Far Cry® 4",
+            "created_by": "creator",
+            "status": "100%",
+            "url": "https://www.facebook.com/layzitranslator/",
+            "app_id": "298110",
+            "category": "wip"
+        },
+        {
+            "name": "Far Cry® Primal",
+            "created_by": "creator",
+            "status": "100%",
+            "url": "https://www.facebook.com/notreadynotgive/",
+            "app_id": "371660",
+            "category": "wip"
+        },
+        {
+            "name": "Far Cry® New Dawn",
+            "created_by": "creator",
+            "status": "100%",
+            "url": "https://www.facebook.com/Othertranslator/",
+            "app_id": "939960",
+            "category": "wip"
+        },
+        {
+            "name": "Bounty Brawl",
+            "created_by": "creator",
+            "status": "???",
+            "url": "https://store.steampowered.com/app/815200/",
+            "app_id": "815200",
+            "category": "action"
+        },
+        {
+            "name": "Persona 4 Golden",
+            "created_by": "creator",
+            "status": "100%",
+            "url": "https://www.facebook.com/Seasons-X-109735244645019/",
+            "app_id": "1113000",
+            "category": "wip"
+        },
+        {
+            "name": "CODE VEIN",
+            "created_by": "creator",
+            "status": "100%",
+            "url": "https://www.facebook.com/Othertranslator/",
+            "app_id": "678960",
+            "category": "wip"
+        },
+        {
+            "name": "Red Dead Redemption 2",
+            "created_by": "creator",
+            "status": "100%",
+            "url": "https://www.facebook.com/Othertranslator/",
+            "app_id": "1174180",
+            "category": "wip"
+        },
+        {
+            "name": "Assassin's Creed® IV Black Flag™",
+            "created_by": "creator",
+            "status": "100%",
+            "url": "https://www.facebook.com/notreadynotgive/",
+            "app_id": "242050",
+            "category": "action"
+        },
+        {
+            "name": "Samurai Vandalism",
+            "created_by": "creator",
+            "status": "???",
+            "url": "https://www.facebook.com/Seasons-X-109735244645019/",
+            "app_id": "1551670",
+            "category": "wip"
+        },
+        {
+            "name": "Surviving Mars",
+            "created_by": "creator",
+            "status": "100%",
+            "url": "https://sites.google.com/view/layzitranslator/",
+            "app_id": "464920",
+            "category": "simulation"
+        },
+        {
+            "name": "Subnautica: Below Zero",
+            "created_by": "creator",
+            "status": "100%",
+            "url": "https://sites.google.com/view/layzitranslator/",
+            "app_id": "848450",
+            "category": "adventure"
+        },
+        {
+            "name": "Steins;Gate",
+            "created_by": "creator",
+            "status": "100%",
+            "url": "https://www.facebook.com/learningtranslator/",
+            "app_id": "412830",
+            "category": "wip"
+        },
+        {
+            "name": "Hatred",
+            "created_by": "creator",
+            "status": "100%",
+            "url": "https://sites.google.com/view/paredaitranslate#h.h87ce695i1yz",
+            "app_id": "341940",
+            "category": "action"
+        },
+        {
+            "name": "Ancestors Legacy",
+            "created_by": "creator",
+            "status": "100%",
+            "url": "https://sites.google.com/view/paredaitranslate#h.nb9t03pehvyg",
+            "app_id": "620590",
+            "category": "strategy"
+        },
+        {
+            "name": "Remnant: From the Ashes",
+            "created_by": "creator",
+            "status": "100%",
+            "url": "https://sites.google.com/view/paredaitranslate#h.84kqj0b2afj1",
+            "app_id": "617290",
+            "category": "action"
+        }
+    ]
 }

@@ -1,12 +1,12 @@
 {
-	"items": [
-		{
-			"name": "Bounty Brawl",
-			"created_by": "creator",
-			"status": "???",
-			"url": "https://store.steampowered.com/app/815200/",
-			"app_id": "815200",
-			"category": "action"
-		}
-	]
+    "items": [
+        {
+            "name": "Bounty Brawl",
+            "created_by": "creator",
+            "status": "???",
+            "url": "https://store.steampowered.com/app/815200/",
+            "app_id": "815200",
+            "category": "action"
+        }
+    ]
 }
