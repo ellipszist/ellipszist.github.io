@@ -1,453 +1,405 @@
 {
-	"items": [
-		{
-			"name": "Stardew Valley",
-			"description": "You've inherited your grandfather's old farm plot in Stardew Valley.",
-			"price": 315,
-			"url": "https://www.nexusmods.com/stardewvalley/mods/7052",
-			"app_id": "413150",
-			"css": "sponsored",
-			"category": "indie"
-		},
-		{
-			"name": "HSH : Survive",
-			"description": "ร่วมกันเอาชีวิตรอดและต่อสู้กับผีร้ายเพื่อกลับไปยังโลกแห่งความจริงอีกครั้ง",
-			"price": 139,
-			"url": "https://store.steampowered.com/app/1056600/",
-			"app_id": "1056600",
-			"category": "indie"
-		},
-		{
-			"name": "Timelie",
-			"description": "เกมแนวพัซเซิลผจญภัย ที่ให้คุณพาสาวน้อยและเจ้าเหมียวตะลุยในห้วงแห่งเวลา",
-			"price": 329,
-			"url": "https://store.steampowered.com/app/1150950/",
-			"app_id": "1150950",
-			"category": "indie"
-		},
-		{
-			"name": "M.A.S.S. Builder",
-			"description": "Customize and build your Mechanical Assault Skeleton Suit (M.A.S.S.).",
-			"price": 468.77,
-			"url": "https://store.steampowered.com/app/956680/",
-			"app_id": "956680",
-			"category": "indie"
-		},
-		{
-			"name": "Resident Evil 2",
-			"description": "A deadly virus engulfs the residents of Raccoon City in September of 1998.",
-			"price": 799,
-			"url": "https://www.noob-translator.com/resident-evil-2-remake",
-			"app_id": "883710",
-			"category": "action"
-		},
-		{
-			"name": "Resident Evil 3",
-			"description": "Jill Valentine is one of the last remaining people in Raccoon City to witness the atrocities Umbrella performed.",
-			"price": 1809,
-			"url": "https://www.noob-translator.com/resident-evil-3-remake",
-			"app_id": "952060",
-			"category": "action"
-		},
-		{
-			"name": "Resident Evil 7 Biohazard",
-			"description": "Fear and isolation seep through the walls of an abandoned southern farmhouse.",
-			"price": 599,
-			"url": "https://www.noob-translator.com/resident-evil-7",
-			"app_id": "418370",
-			"category": "adventure"
-		},
-		{
-			"name": "Resident Evil Village",
-			"description": "พบกับความสยองขวัญในการเอาชีวิตรอดแบบที่คุณไม่เคยสัมผัสมาก่อนในเกมภาคที่ 8 ของแฟรนไชส์ Resident Evil",
-			"price": 2429,
-			"url": "https://www.facebook.com/permalink.php?story_fbid=118537293942557&id=104970521965901",
-			"app_id": "1196590",
-			"category": "action"
-		},
-		{
-			"name": "Devil May Cry 5",
-			"description": "The ultimate Devil Hunter is back in style, in the game action fans have been waiting for.",
-			"price": 919,
-			"url": "https://www.noob-translator.com/devil-may-cry-5",
-			"app_id": "601150",
-			"category": "action"
-		},
-		{
-			"name": "STAR WARS Jedi: Fallen Order™",
-			"description": "คุณจะได้สวมบทบาทเป็นพาดาวันผู้ถูกทอดทิ้งที่ต้องสำเร็จการฝึกฝนของเขาด้วยตนเองทั้งด้านทักษะการใช้พลังและด้านเพลงดาบเลเซอร์พร้อมกับหนีจากการไล่ล่าของกองทัพจักรวรรดิ",
-			"price": 1099,
-			"url": "https://www.facebook.com/noobTranslator/posts/1003981370412854",
-			"app_id": "1172380",
-			"category": "action"
-		},
-		{
-			"name": "Assassin's Creed® Unity",
-			"description": "Assassin's Creed® Unity tells the story of Arno, a young man who embarks upon an extraordinary journey to expose the true powers behind the French Revolution.",
-			"price": 800,
-			"url": "https://www.facebook.com/Othertranslator/",
-			"app_id": "289650",
-			"category": "action"
-		},
-		{
-			"name": "Outlast",
-			"description": "Hell is an experiment you can't survive in Outlast.",
-			"price": 289,
-			"url": "https://www.facebook.com/noobTranslator/photos/a.455558828588447/1007362546741403",
-			"app_id": "238320",
-			"category": "adventure"
-		},
-		{
-			"name": "Outlast 2",
-			"description": "Outlast 2 introduces you to Sullivan Knoth and his followers.",
-			"price": 379,
-			"url": "https://www.facebook.com/noobTranslator/photos/a.455558828588447/1007362546741403",
-			"app_id": "414700",
-			"category": "adventure"
-		},
-		{
-			"name": "State of Decay 2: Juggernaut Edition",
-			"description": "The dead have risen and civilization has fallen. Now it's up to you to gather survivors.",
-			"price": 499,
-			"url": "https://sites.google.com/view/paredaitranslate#h.hl3ckd8d8eay",
-			"app_id": "495420",
-			"category": "action"
-		},
-		{
-			"name": "The Awesome Adventures of Captain Spirit",
-			"description": "Have you ever dreamt of being a superhero? Meet Chris, a creative and imaginative 9 year old boy who escapes reality with fantastical adventures as his alter ego.",
-			"price": 0,
-			"url": "https://sites.google.com/view/paredaitranslate#h.o3vvwc9d159n",
-			"app_id": "845070",
-			"category": "adventure"
-		},
-		{
-			"name": "Little Nightmares",
-			"description": "Immerse yourself in Little Nightmares, a dark whimsical tale that will confront you with your childhood fears!",
-			"price": 890,
-			"url": "https://sites.google.com/view/paredaitranslate#h.cgq9cowfd1k2",
-			"app_id": "424840",
-			"category": "adventure"
-		},
-		{
-			"name": "Oxygen Not Included",
-			"description": "Oxygen Not Included is a space-colony simulation game. Deep inside an alien space rock your industrious crew will need to master science.",
-			"price": 319,
-			"url": "https://steamcommunity.com/sharedfiles/filedetails/?id=2769557641",
-			"app_id": "457140",
-			"category": "simulation"
-		},
-		{
-			"name": "Don't Starve Together",
-			"description": "Fight, Farm, Build and Explore Together in the standalone multiplayer expansion to the uncompromising wilderness survival game, Don't Starve.",
-			"price": 239,
-			"url": "https://steamcommunity.com/sharedfiles/filedetails/?id=807516498",
-			"app_id": "322330",
-			"category": "indie"
-		},
-		{
-			"name": "Cities: Skylines",
-			"description": "Cities: Skylines is a modern take on the classic city simulation.",
-			"price": 559,
-			"url": "https://steamcommunity.com/sharedfiles/filedetails/?id=417245527",
-			"app_id": "255710",
-			"category": "simulation"
-		},
-		{
-			"name": "Stellaris",
-			"description": "Explore a galaxy full of wonders in this sci-fi grand strategy game from Paradox Development Studios.",
-			"price": 579,
-			"url": "https://steamcommunity.com/sharedfiles/filedetails/?id=2330892068",
-			"app_id": "281990",
-			"category": "strategy"
-		},
-		{
-			"name": "Crusader Kings III",
-			"description": "Paradox Development Studio brings you the sequel to one of the most popular strategy games ever made.",
-			"price": 579,
-			"url": "https://steamcommunity.com/sharedfiles/filedetails/?id=2232031252",
-			"app_id": "1158310",
-			"category": "strategy"
-		},
-		{
-			"name": "Dead Cells",
-			"description": "Dead Cells is a rogue-lite, metroidvania inspired, action-platformer.",
-			"price": 389,
-			"url": "https://steamcommunity.com/sharedfiles/filedetails/?id=1135654798",
-			"app_id": "588650",
-			"category": "action"
-		},
-		{
-			"name": "Planet Zoo",
-			"description": "Build a world for wildlife in Planet Zoo. From the developers of Planet Coaster and Zoo Tycoon comes the ultimate zoo sim.",
-			"price": 975,
-			"url": "https://www.facebook.com/Othertranslator/",
-			"app_id": "703080",
-			"category": "simulation"
-		},
-		{
-			"name": "Mafia: Definitive Edition",
-			"description": "An inadvertent brush with the mob thrusts cabdriver Tommy Angelo into the world of organized crime.",
-			"price": 969,
-			"url": "https://www.facebook.com/Othertranslator/",
-			"app_id": "1030840",
-			"category": "action"
-		},
-		{
-			"name": "Car Mechanic Simulator 2018",
-			"description": "Build and expand your repair service empire in this incredibly detailed and highly realistic simulation game.",
-			"price": 369,
-			"url": "https://www.facebook.com/Othertranslator/",
-			"app_id": "645630",
-			"category": "simulation"
-		},
-		{
-			"name": "The Walking Dead: The Final Season",
-			"description": "A secluded school might finally be Clementine’s chance for a home, but protecting it will mean sacrifice.",
-			"price": 289,
-			"url": "https://www.facebook.com/Othertranslator/",
-			"app_id": "866800",
-			"category": "adventure"
-		},
-		{
-			"name": "The Park",
-			"description": "Set in a creepy amusement park hiding a dark and sinister secret.",
-			"price": 289,
-			"url": "https://www.facebook.com/Othertranslator/",
-			"app_id": "402020",
-			"category": "adventure"
-		},
-		{
-			"name": "Phasmophobia",
-			"description": "Phasmophobia is a 4 player online co-op psychological horror.",
-			"price": 229,
-			"url": "https://www.facebook.com/Othertranslator/",
-			"app_id": "739630",
-			"category": "indie"
-		},
-		{
-			"name": "Desperados III",
-			"description": "Desperados III is a story-driven, hardcore tactical stealth game, set in a ruthless Wild West scenario.",
-			"price": 929,
-			"url": "https://www.nexusmods.com/desperados3/mods/2",
-			"app_id": "610370",
-			"category": "strategy"
-		},
-		{
-			"name": "Shadow Tactics: Blades of the Shogun",
-			"description": "ญี่ปุ่น ปี 1615, โชกุนใหม่ผู้หนึ่งได้ยึดอำนาจในการครอบครองญี่ปุ่นและรักษาความสงบเรียบร้อยของประเทศ",
-			"price": 729,
-			"url": "https://www.nexusmods.com/shadowtacticsbladesoftheshogun/mods/1",
-			"app_id": "418240",
-			"category": "strategy"
-		},
-		{
-			"name": "Hard West",
-			"description": "When a tragic turn of events sets one man down a path of supernatural chaos and revenge, he must brutally hunt down all those who wronged him.",
-			"price": 369,
-			"url": "https://www.nexusmods.com/hardwest/mods/2",
-			"app_id": "307670",
-			"category": "strategy"
-		},
-		{
-			"name": "Into the Breach",
-			"description": "Control powerful mechs from the future to defeat an alien threat.",
-			"price": 239,
-			"url": "https://www.nexusmods.com/intothebreach/mods/8",
-			"app_id": "590380",
-			"category": "strategy"
-		},
-		{
-			"name": "Mortal Shell",
-			"description": "Mortal Shell is a deep action-RPG that tests your sanity and resilience in a shattered world.",
-			"price": 450,
-			"url": "https://www.nexusmods.com/mortalshell/mods/2",
-			"app_id": "1110910",
-			"category": "action"
-		},
-		{
-			"name": "Ancestors: The Humankind Odyssey",
-			"description": "Survive your evolution in Neogene Africa starting 10 million years ago.",
-			"price": 960,
-			"url": "https://www.nexusmods.com/ancestorsthehumankindodyssey/mods/1",
-			"app_id": "536270",
-			"category": "action"
-		},
-		{
-			"name": "Raji: An Ancient Epic",
-			"description": "A young girl named Raji has been chosen by the gods to stand against the demonic invasion of the human realm.",
-			"price": 399,
-			"url": "https://www.nexusmods.com/rajianancientepic/mods/1",
-			"app_id": "730390",
-			"category": "action"
-		},
-		{
-			"name": "MudRunner",
-			"description": "MudRunner is the ultimate off-road experience putting the players in the driver seat and dares them to take charge of incredible all-terrain vehicles.",
-			"price": 440,
-			"url": "https://www.nexusmods.com/spintires/mods/19",
-			"app_id": "675010",
-			"category": "simulation"
-		},
-		{
-			"name": "Call of the Sea",
-			"description": "Call of the Sea คือเรื่องเล่าเกี่ยวกับความลึกลับและความรักในโลกอื่นที่แปซิฟิกใต้ในช่วงปี 1930 สำรวจเกาะสวรรค์อันเขียวชอุ่ม ไขปริศนา และปลดล็อกความลับในการออกเดินทางค้นหาสามีของคุณที่หายตัวไป",
-			"price": 289,
-			"url": "https://www.nexusmods.com/callofthesea/mods/1",
-			"app_id": "1042490",
-			"category": "adventure"
-		},
-		{
-			"name": "Hellblade: Senua's Sacrifice",
-			"description": "จากผู้สร้าง Heavenly Sword, Enslaved: Odyssey to the West และ DmC: Devil May Cry เตรียมตัวพบกับการเดินทางของนักรบผู้ป่าเถื่อนสู่โลกแห่งเทพนิยายและความบ้าคลั่ง",
-			"price": 559,
-			"url": "https://www.nexusmods.com/hellbladesenuassacrifice/mods/1",
-			"app_id": "414340",
-			"category": "action"
-		},
-		{
-			"name": "The Medium",
-			"description": "Discover a dark mystery only a medium can solve. Travel to an abandoned communist resort and use your unique psychic abilities to uncover its deeply disturbing secrets.",
-			"price": 1190,
-			"url": "https://www.nexusmods.com/themedium/mods/4",
-			"app_id": "1293160",
-			"category": "adventure"
-		},
-		{
-			"name": "Valfaris",
-			"description": "Set in a far corner of space, Valfaris is a heavy metal infused 2D action-platformer and the next game from the team behind Unity Awards finalist.",
-			"price": 319,
-			"url": "https://www.nexusmods.com/valfaris/mods/4",
-			"app_id": "600130",
-			"category": "action"
-		},
-		{
-			"name": "Loop Hero",
-			"description": "The Lich has thrown the world into a timeless loop and plunged its inhabitants into never ending chaos.",
-			"price": 249,
-			"url": "https://www.nexusmods.com/loophero/mods/2",
-			"app_id": "1282730",
-			"category": "indie"
-		},
-		{
-			"name": "Daymare: 1998",
-			"description": "DAYMARE: 1998 is a third-person survival horror game that recreates the mood of iconic titles from the '90s, with a fresh storyline.",
-			"price": 379,
-			"url": "https://www.nexusmods.com/daymare1998/mods/2",
-			"app_id": "842100",
-			"category": "action"
-		},
-		{
-			"name": "Middle-earth™: Shadow of Mordor™",
-			"description": "Fight through Mordor and uncover the truth of the spirit that compels you.",
-			"price": 369,
-			"url": "https://www.nexusmods.com/middleearthshadowofmordor/mods/11",
-			"app_id": "241930",
-			"category": "action"
-		},
-		{
-			"name": "Super Magbot",
-			"description": "A precise 2D platformer with a twist. NO JUMPING. Master your magnetic powers to beat each level with speed and skill.",
-			"price": 390,
-			"url": "https://www.nexusmods.com/supermagbot/mods/1",
-			"app_id": "1205170",
-			"category": "indie"
-		},
-		{
-			"name": "The Pathless",
-			"description": "From the creators of ABZÛ, The Pathless is the mythic adventure of an archer and an eagle in a vast forest.",
-			"price": "???",
-			"url": "https://www.nexusmods.com/thepathless/mods/1",
-			"app_id": "1492680",
-			"category": "adventure"
-		},
-		{
-			"name": "Demon Skin",
-			"description": "Brutal Hack&Slash game with a challenging combat system plunges you into the harsh dark fantasy world to test your will and your skills.",
-			"price": 239,
-			"url": "https://www.nexusmods.com/demonskin/mods/1",
-			"app_id": "1522140",
-			"category": "action"
-		},
-		{
-			"name": "ENDER LILIES: Quietus of the Knights",
-			"description": "ENDER LILIES is a dark fantasy 2D action RPG about unraveling the mysteries of a destroyed kingdom.",
-			"price": 330,
-			"url": "https://www.nexusmods.com/enderliliesquietusoftheknights/mods/1",
-			"app_id": "1369630",
-			"category": "action"
-		},
-		{
-			"name": "LOST EMBER",
-			"description": "Explore the remains of a fallen world from fascinating perspectives! Slip into the role of different animals to uncover the fate of an ancient world.",
-			"price": 379,
-			"url": "https://www.nexusmods.com/lostember/mods/1",
-			"app_id": "563840",
-			"category": "adventure"
-		},
-		{
-			"name": "Omno",
-			"description": "A single-player journey of discovery through an ancient world of wonders, created by solo developer Jonas Manke.",
-			"price": 279,
-			"url": "https://www.nexusmods.com/omno/mods/1",
-			"app_id": "969760",
-			"category": "adventure"
-		},
-		{
-			"name": "Draugen",
-			"description": "Draugen is a single-player, first-person Fjord Noir mystery set in 1920s Norway. Explore a forgotten coastal village in your search for your missing sister.",
-			"price": 289,
-			"url": "https://www.nexusmods.com/draugen/mods/2",
-			"app_id": "770390",
-			"category": "adventure"
-		},
-		{
-			"name": "Kena: Bridge of Spirits",
-			"description": "A story-driven, action adventure combining exploration with fast-paced combat. As Kena, players find and grow a team of charming spirit companions called the Rot.",
-			"price": 552,
-			"url": "https://www.nexusmods.com/kenabridgeofspirits/mods/8",
-			"app_id": "1954200",
-			"category": "adventure"
-		},
-		{
-			"name": "Jurassic World Evolution",
-			"description": "Place yourself at the heart of the Jurassic franchise and build your own Jurassic World. Bioengineer dinosaurs that think.",
-			"price": 1359,
-			"url": "https://sites.google.com/view/layzitranslator/#h.wv317jwk98ze",
-			"app_id": "648350",
-			"category": "simulation"
-		},
-		{
-			"name": "Kitaria Fables",
-			"description": "Action Adventure fused with RPG and Farming elements.",
-			"price": 289,
-			"url": "https://sites.google.com/view/layzitranslator/#h.odcdtw21i846",
-			"app_id": "1356280",
-			"category": "rpg"
-		},
-		{
-			"name": "Frozenheim",
-			"description": "Frozenheim is a serene Norse city builder with elaborate management gameplay and RTS tactical combat.",
-			"price": 259,
-			"url": "https://sites.google.com/view/layzitranslator/#h.h10hiz8x0lf8",
-			"app_id": "1134100",
-			"category": "strategy"
-		},
-		{
-			"name": "Valheim",
-			"description": "A brutal exploration and survival game for 1-10 players, set in a procedurally-generated purgatory inspired by viking culture.",
-			"price": 289,
-			"url": "https://sites.google.com/view/valheimth/",
-			"app_id": "892970",
-			"category": "action"
-		},
-		{
-			"name": "Idol Manager",
-			"description": "A business sim about conquering the entertainment industry using any means you deem necessary.",
-			"price": 289,
-			"url": "https://www.facebook.com/Seasons-X-109735244645019",
-			"app_id": "821880",
-			"category": "simulation"
-		}
-	]
+    "items": [
+        {
+            "name": "Stardew Valley",
+            "created_by": "creator",
+            "status": "100%",
+            "url": "https://www.nexusmods.com/stardewvalley/mods/7052",
+            "app_id": "413150",
+            "style": "sponsored"
+        },
+        {
+            "name": "HSH : Survive",
+            "created_by": "creator",
+            "status": "100%",
+            "url": "https://store.steampowered.com/app/1056600/",
+            "app_id": "1056600"
+        },
+        {
+            "name": "Timelie",
+            "created_by": "creator",
+            "status": "100%",
+            "url": "https://store.steampowered.com/app/1150950/",
+            "app_id": "1150950"
+        },
+        {
+            "name": "M.A.S.S. Builder",
+            "created_by": "creator",
+            "status": "100%",
+            "url": "https://store.steampowered.com/app/956680/",
+            "app_id": "956680"
+        },
+        {
+            "name": "Resident Evil 2",
+            "created_by": "creator",
+            "status": "100%",
+            "url": "https://www.noob-translator.com/resident-evil-2-remake",
+            "app_id": "883710"
+        },
+        {
+            "name": "Resident Evil 3",
+            "created_by": "creator",
+            "status": "100%",
+            "url": "https://www.noob-translator.com/resident-evil-3-remake",
+            "app_id": "952060"
+        },
+        {
+            "name": "Resident Evil 7 Biohazard",
+            "created_by": "creator",
+            "status": "100%",
+            "url": "https://www.noob-translator.com/resident-evil-7",
+            "app_id": "418370"
+        },
+        {
+            "name": "Resident Evil Village",
+            "created_by": "creator",
+            "status": "100%",
+            "url": "https://www.facebook.com/permalink.php?story_fbid=118537293942557&id=104970521965901",
+            "app_id": "1196590"
+        },
+        {
+            "name": "Devil May Cry 5",
+            "created_by": "creator",
+            "status": "100%",
+            "url": "https://www.noob-translator.com/devil-may-cry-5",
+            "app_id": "601150"
+        },
+        {
+            "name": "STAR WARS Jedi: Fallen Order™",
+            "created_by": "creator",
+            "status": "100%",
+            "url": "https://www.facebook.com/noobTranslator/posts/1003981370412854",
+            "app_id": "1172380"
+        },
+        {
+            "name": "Assassin's Creed® Unity",
+            "created_by": "creator",
+            "status": "100%",
+            "url": "https://www.facebook.com/Othertranslator/",
+            "app_id": "289650"
+        },
+        {
+            "name": "Outlast",
+            "created_by": "creator",
+            "status": "100%",
+            "url": "https://www.facebook.com/noobTranslator/photos/a.455558828588447/1007362546741403",
+            "app_id": "238320"
+        },
+        {
+            "name": "Outlast 2",
+            "created_by": "creator",
+            "status": "100%",
+            "url": "https://www.facebook.com/noobTranslator/photos/a.455558828588447/1007362546741403",
+            "app_id": "414700"
+        },
+        {
+            "name": "State of Decay 2: Juggernaut Edition",
+            "created_by": "creator",
+            "status": "100%",
+            "url": "https://sites.google.com/view/paredaitranslate#h.hl3ckd8d8eay",
+            "app_id": "495420"
+        },
+        {
+            "name": "The Awesome Adventures of Captain Spirit",
+            "created_by": "creator",
+            "status": "100%",
+            "url": "https://sites.google.com/view/paredaitranslate#h.o3vvwc9d159n",
+            "app_id": "845070"
+        },
+        {
+            "name": "Little Nightmares",
+            "created_by": "creator",
+            "status": "100%",
+            "url": "https://sites.google.com/view/paredaitranslate#h.cgq9cowfd1k2",
+            "app_id": "424840"
+        },
+        {
+            "name": "Oxygen Not Included",
+            "created_by": "creator",
+            "status": "100%",
+            "url": "https://steamcommunity.com/sharedfiles/filedetails/?id=2769557641",
+            "app_id": "457140"
+        },
+        {
+            "name": "Don't Starve Together",
+            "created_by": "creator",
+            "status": "100%",
+            "url": "https://steamcommunity.com/sharedfiles/filedetails/?id=807516498",
+            "app_id": "322330"
+        },
+        {
+            "name": "Cities: Skylines",
+            "created_by": "creator",
+            "status": "100%",
+            "url": "https://steamcommunity.com/sharedfiles/filedetails/?id=417245527",
+            "app_id": "255710"
+        },
+        {
+            "name": "Stellaris",
+            "created_by": "creator",
+            "status": "100%",
+            "url": "https://steamcommunity.com/sharedfiles/filedetails/?id=2330892068",
+            "app_id": "281990"
+        },
+        {
+            "name": "Crusader Kings III",
+            "created_by": "creator",
+            "status": "100%",
+            "url": "https://steamcommunity.com/sharedfiles/filedetails/?id=2232031252",
+            "app_id": "1158310"
+        },
+        {
+            "name": "Dead Cells",
+            "created_by": "creator",
+            "status": "100%",
+            "url": "https://steamcommunity.com/sharedfiles/filedetails/?id=1135654798",
+            "app_id": "588650"
+        },
+        {
+            "name": "Planet Zoo",
+            "created_by": "creator",
+            "status": "100%",
+            "url": "https://www.facebook.com/Othertranslator/",
+            "app_id": "703080"
+        },
+        {
+            "name": "Mafia: Definitive Edition",
+            "created_by": "creator",
+            "status": "100%",
+            "url": "https://www.facebook.com/Othertranslator/",
+            "app_id": "1030840"
+        },
+        {
+            "name": "Car Mechanic Simulator 2018",
+            "created_by": "creator",
+            "status": "100%",
+            "url": "https://www.facebook.com/Othertranslator/",
+            "app_id": "645630"
+        },
+        {
+            "name": "The Walking Dead: The Final Season",
+            "created_by": "creator",
+            "status": "100%",
+            "url": "https://www.facebook.com/Othertranslator/",
+            "app_id": "866800"
+        },
+        {
+            "name": "The Park",
+            "created_by": "creator",
+            "status": "100%",
+            "url": "https://www.facebook.com/Othertranslator/",
+            "app_id": "402020"
+        },
+        {
+            "name": "Phasmophobia",
+            "created_by": "creator",
+            "status": "100%",
+            "url": "https://www.facebook.com/Othertranslator/",
+            "app_id": "739630"
+        },
+        {
+            "name": "Desperados III",
+            "created_by": "creator",
+            "status": "100%",
+            "url": "https://www.nexusmods.com/desperados3/mods/2",
+            "app_id": "610370"
+        },
+        {
+            "name": "Shadow Tactics: Blades of the Shogun",
+            "created_by": "creator",
+            "status": "100%",
+            "url": "https://www.nexusmods.com/shadowtacticsbladesoftheshogun/mods/1",
+            "app_id": "418240"
+        },
+        {
+            "name": "Hard West",
+            "created_by": "creator",
+            "status": "100%",
+            "url": "https://www.nexusmods.com/hardwest/mods/2",
+            "app_id": "307670"
+        },
+        {
+            "name": "Into the Breach",
+            "created_by": "creator",
+            "status": "100%",
+            "url": "https://www.nexusmods.com/intothebreach/mods/8",
+            "app_id": "590380"
+        },
+        {
+            "name": "Mortal Shell",
+            "created_by": "creator",
+            "status": "100%",
+            "url": "https://www.nexusmods.com/mortalshell/mods/2",
+            "app_id": "1110910"
+        },
+        {
+            "name": "Ancestors: The Humankind Odyssey",
+            "created_by": "creator",
+            "status": "100%",
+            "url": "https://www.nexusmods.com/ancestorsthehumankindodyssey/mods/1",
+            "app_id": "536270"
+        },
+        {
+            "name": "Raji: An Ancient Epic",
+            "created_by": "creator",
+            "status": "100%",
+            "url": "https://www.nexusmods.com/rajianancientepic/mods/1",
+            "app_id": "730390"
+        },
+        {
+            "name": "MudRunner",
+            "created_by": "creator",
+            "status": "100%",
+            "url": "https://www.nexusmods.com/spintires/mods/19",
+            "app_id": "675010"
+        },
+        {
+            "name": "Call of the Sea",
+            "created_by": "creator",
+            "status": "100%",
+            "url": "https://www.nexusmods.com/callofthesea/mods/1",
+            "app_id": "1042490"
+        },
+        {
+            "name": "Hellblade: Senua's Sacrifice",
+            "created_by": "creator",
+            "status": "100%",
+            "url": "https://www.nexusmods.com/hellbladesenuassacrifice/mods/1",
+            "app_id": "414340"
+        },
+        {
+            "name": "The Medium",
+            "created_by": "creator",
+            "status": "100%",
+            "url": "https://www.nexusmods.com/themedium/mods/4",
+            "app_id": "1293160"
+        },
+        {
+            "name": "Valfaris",
+            "created_by": "creator",
+            "status": "100%",
+            "url": "https://www.nexusmods.com/valfaris/mods/4",
+            "app_id": "600130"
+        },
+        {
+            "name": "Loop Hero",
+            "created_by": "creator",
+            "status": "100%",
+            "url": "https://www.nexusmods.com/loophero/mods/2",
+            "app_id": "1282730"
+        },
+        {
+            "name": "Daymare: 1998",
+            "created_by": "creator",
+            "status": "100%",
+            "url": "https://www.nexusmods.com/daymare1998/mods/2",
+            "app_id": "842100"
+        },
+        {
+            "name": "Middle-earth™: Shadow of Mordor™",
+            "created_by": "creator",
+            "status": "100%",
+            "url": "https://www.nexusmods.com/middleearthshadowofmordor/mods/11",
+            "app_id": "241930"
+        },
+        {
+            "name": "Super Magbot",
+            "created_by": "creator",
+            "status": "100%",
+            "url": "https://www.nexusmods.com/supermagbot/mods/1",
+            "app_id": "1205170"
+        },
+        {
+            "name": "The Pathless",
+            "created_by": "creator",
+            "status": "100%",
+            "url": "https://www.nexusmods.com/thepathless/mods/1",
+            "app_id": "1492680"
+        },
+        {
+            "name": "Demon Skin",
+            "created_by": "creator",
+            "status": "100%",
+            "url": "https://www.nexusmods.com/demonskin/mods/1",
+            "app_id": "1522140"
+        },
+        {
+            "name": "ENDER LILIES: Quietus of the Knights",
+            "created_by": "creator",
+            "status": "100%",
+            "url": "https://www.nexusmods.com/enderliliesquietusoftheknights/mods/1",
+            "app_id": "1369630"
+        },
+        {
+            "name": "LOST EMBER",
+            "created_by": "creator",
+            "status": "100%",
+            "url": "https://www.nexusmods.com/lostember/mods/1",
+            "app_id": "563840"
+        },
+        {
+            "name": "Omno",
+            "created_by": "creator",
+            "status": "100%",
+            "url": "https://www.nexusmods.com/omno/mods/1",
+            "app_id": "969760"
+        },
+        {
+            "name": "Draugen",
+            "created_by": "creator",
+            "status": "100%",
+            "url": "https://www.nexusmods.com/draugen/mods/2",
+            "app_id": "770390"
+        },
+        {
+            "name": "Kena: Bridge of Spirits",
+            "created_by": "creator",
+            "status": "100%",
+            "url": "https://www.nexusmods.com/kenabridgeofspirits/mods/8",
+            "app_id": "1954200"
+        },
+        {
+            "name": "Jurassic World Evolution",
+            "created_by": "creator",
+            "status": "100%",
+            "url": "https://sites.google.com/view/layzitranslator/#h.wv317jwk98ze",
+            "app_id": "648350"
+        },
+        {
+            "name": "Kitaria Fables",
+            "created_by": "creator",
+            "status": "100%",
+            "url": "https://sites.google.com/view/layzitranslator/#h.odcdtw21i846",
+            "app_id": "1356280"
+        },
+        {
+            "name": "Frozenheim",
+            "created_by": "creator",
+            "status": "100%",
+            "url": "https://sites.google.com/view/layzitranslator/#h.h10hiz8x0lf8",
+            "app_id": "1134100"
+        },
+        {
+            "name": "Valheim",
+            "created_by": "creator",
+            "status": "100%",
+            "url": "https://sites.google.com/view/valheimth/",
+            "app_id": "892970"
+        },
+        {
+            "name": "Idol Manager",
+            "created_by": "creator",
+            "status": "100%",
+            "url": "https://www.facebook.com/Seasons-X-109735244645019",
+            "app_id": "821880"
+        },
+        {
+            "name": "Game",
+            "created_by": "creator",
+            "status": "100%",
+            "url": "#",
+            "app_id": "730",
+            "style": "empty"
+        }
+    ]
 }
