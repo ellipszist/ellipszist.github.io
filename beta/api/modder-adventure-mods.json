@@ -2,7 +2,7 @@
 	"items": [
 		{
 			"name": "Outlast",
-			"description": "Hell is an experiment you can't survive in Outlast.",
+			"created_by": "creator",
 			"price": 289,
 			"url": "https://www.facebook.com/noobTranslator/photos/a.455558828588447/1007362546741403",
 			"app_id": "238320",
@@ -10,7 +10,7 @@
 		},
 		{
 			"name": "Outlast 2",
-			"description": "Outlast 2 introduces you to Sullivan Knoth and his followers.",
+			"created_by": "creator",
 			"price": 379,
 			"url": "https://www.facebook.com/noobTranslator/photos/a.455558828588447/1007362546741403",
 			"app_id": "414700",
@@ -18,7 +18,7 @@
 		},
 		{
 			"name": "The Awesome Adventures of Captain Spirit",
-			"description": "Have you ever dreamt of being a superhero? Meet Chris, a creative and imaginative 9 year old boy who escapes reality with fantastical adventures as his alter ego.",
+			"created_by": "creator",
 			"price": 0,
 			"url": "https://sites.google.com/view/paredaitranslate#h.o3vvwc9d159n",
 			"app_id": "845070",
@@ -26,7 +26,7 @@
 		},
 		{
 			"name": "Little Nightmares",
-			"description": "Immerse yourself in Little Nightmares, a dark whimsical tale that will confront you with your childhood fears!",
+			"created_by": "creator",
 			"price": 890,
 			"url": "https://sites.google.com/view/paredaitranslate#h.cgq9cowfd1k2",
 			"app_id": "424840",
@@ -34,7 +34,7 @@
 		},
 		{
 			"name": "The Walking Dead: The Final Season",
-			"description": "A secluded school might finally be Clementine’s chance for a home, but protecting it will mean sacrifice.",
+			"created_by": "creator",
 			"price": 289,
 			"url": "https://www.facebook.com/Othertranslator/",
 			"app_id": "866800",
@@ -42,7 +42,7 @@
 		},
 		{
 			"name": "The Park",
-			"description": "Set in a creepy amusement park hiding a dark and sinister secret.",
+			"created_by": "creator",
 			"price": 289,
 			"url": "https://www.facebook.com/Othertranslator/",
 			"app_id": "402020",
@@ -50,7 +50,7 @@
 		},
 		{
 			"name": "Call of the Sea",
-			"description": "Call of the Sea คือเรื่องเล่าเกี่ยวกับความลึกลับและความรักในโลกอื่นที่แปซิฟิกใต้ในช่วงปี 1930 สำรวจเกาะสวรรค์อันเขียวชอุ่ม ไขปริศนา และปลดล็อกความลับในการออกเดินทางค้นหาสามีของคุณที่หายตัวไป",
+			"created_by": "creator",
 			"price": 289,
 			"url": "https://www.nexusmods.com/callofthesea/mods/1",
 			"app_id": "1042490",
@@ -58,7 +58,7 @@
 		},
 		{
 			"name": "The Medium",
-			"description": "Discover a dark mystery only a medium can solve. Travel to an abandoned communist resort and use your unique psychic abilities to uncover its deeply disturbing secrets.",
+			"created_by": "creator",
 			"price": 1190,
 			"url": "https://www.nexusmods.com/themedium/mods/4",
 			"app_id": "1293160",
@@ -66,7 +66,7 @@
 		},
 		{
 			"name": "The Pathless",
-			"description": "From the creators of ABZÛ, The Pathless is the mythic adventure of an archer and an eagle in a vast forest.",
+			"created_by": "creator",
 			"price": "???",
 			"url": "https://www.nexusmods.com/thepathless/mods/1",
 			"app_id": "1492680",
@@ -74,7 +74,7 @@
 		},
 		{
 			"name": "LOST EMBER",
-			"description": "Explore the remains of a fallen world from fascinating perspectives! Slip into the role of different animals to uncover the fate of an ancient world.",
+			"created_by": "creator",
 			"price": 379,
 			"url": "https://www.nexusmods.com/lostember/mods/1",
 			"app_id": "563840",
@@ -82,7 +82,7 @@
 		},
 		{
 			"name": "Omno",
-			"description": "A single-player journey of discovery through an ancient world of wonders, created by solo developer Jonas Manke.",
+			"created_by": "creator",
 			"price": 279,
 			"url": "https://www.nexusmods.com/omno/mods/1",
 			"app_id": "969760",
@@ -90,7 +90,7 @@
 		},
 		{
 			"name": "Draugen",
-			"description": "Draugen is a single-player, first-person Fjord Noir mystery set in 1920s Norway. Explore a forgotten coastal village in your search for your missing sister.",
+			"created_by": "creator",
 			"price": 289,
 			"url": "https://www.nexusmods.com/draugen/mods/2",
 			"app_id": "770390",
@@ -98,7 +98,7 @@
 		},
 		{
 			"name": "Kena: Bridge of Spirits",
-			"description": "A story-driven, action adventure combining exploration with fast-paced combat. As Kena, players find and grow a team of charming spirit companions called the Rot.",
+			"created_by": "creator",
 			"price": 552,
 			"url": "https://www.nexusmods.com/kenabridgeofspirits/mods/8",
 			"app_id": "1954200",

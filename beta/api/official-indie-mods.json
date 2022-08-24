@@ -2,7 +2,7 @@
 	"items": [
 		{
 			"name": "Stardew Valley",
-			"description": "You've inherited your grandfather's old farm plot in Stardew Valley.",
+			"created_by": "creator",
 			"price": 315,
 			"url": "https://store.steampowered.com/app/413150/",
 			"app_id": "413150",
@@ -11,7 +11,7 @@
 		},
 		{
 			"name": "HSH : Survive",
-			"description": "ร่วมกันเอาชีวิตรอดและต่อสู้กับผีร้ายเพื่อกลับไปยังโลกแห่งความจริงอีกครั้ง",
+			"created_by": "creator",
 			"price": 139,
 			"url": "https://store.steampowered.com/app/1056600/",
 			"app_id": "1056600",
@@ -19,7 +19,7 @@
 		},
 		{
 			"name": "Timelie",
-			"description": "เกมแนวพัซเซิลผจญภัย ที่ให้คุณพาสาวน้อยและเจ้าเหมียวตะลุยในห้วงแห่งเวลา",
+			"created_by": "creator",
 			"price": 329,
 			"url": "https://store.steampowered.com/app/1150950/",
 			"app_id": "1150950",
@@ -27,7 +27,7 @@
 		},
 		{
 			"name": "M.A.S.S. Builder",
-			"description": "Customize and build your Mechanical Assault Skeleton Suit (M.A.S.S.).",
+			"created_by": "creator",
 			"price": 468.77,
 			"url": "https://store.steampowered.com/app/956680/",
 			"app_id": "956680",

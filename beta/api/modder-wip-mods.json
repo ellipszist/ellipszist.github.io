@@ -2,7 +2,7 @@
 	"items": [
 		{
 			"name": "Far Cry® 3",
-			"description": "Discover the dark secrets of a lawless island ruled by violence and take the fight to the enemy as you try to escape.",
+			"created_by": "creator",
 			"price": 540,
 			"url": "https://www.facebook.com/noobTranslator/",
 			"app_id": "220240",
@@ -10,7 +10,7 @@
 		},
 		{
 			"name": "Far Cry® 4",
-			"description": "Hidden in the towering Himalayas lies Kyrat, a country steeped in tradition and violence. You are Ajay Ghale.",
+			"created_by": "creator",
 			"price": 800,
 			"url": "https://www.facebook.com/layzitranslator/",
 			"app_id": "298110",
@@ -18,7 +18,7 @@
 		},
 		{
 			"name": "Far Cry® Primal",
-			"description": "A coming of age story that sets the protagonist and his friends on a journey kickstarted by a chain of serial murders.",
+			"created_by": "creator",
 			"price": 1340,
 			"url": "https://www.facebook.com/notreadynotgive/",
 			"app_id": "371660",
@@ -26,7 +26,7 @@
 		},
 		{
 			"name": "Far Cry® New Dawn",
-			"description": "ดำดิ่งสู่เมือง Hope County ในรัฐมอนทานาอันมีชีวิตชีวาที่เปลี่ยนแปลงไปหลังหายนะ 17 ปีหลังเกิดภัยพิบัตินิวเคลียร์ไปทั่วโลก",
+			"created_by": "creator",
 			"price": 1200,
 			"url": "https://www.facebook.com/Othertranslator/",
 			"app_id": "939960",
@@ -34,7 +34,7 @@
 		},
 		{
 			"name": "Bounty Brawl",
-			"description": "Hunt your most wanted targets through the eye-catching nostalgic worlds.",
+			"created_by": "creator",
 			"price": "???",
 			"url": "https://store.steampowered.com/app/815200/",
 			"app_id": "815200",
@@ -42,7 +42,7 @@
 		},
 		{
 			"name": "Persona 4 Golden",
-			"description": "A coming of age story that sets the protagonist and his friends on a journey kickstarted by a chain of serial murders.",
+			"created_by": "creator",
 			"price": 559,
 			"url": "https://www.facebook.com/Seasons-X-109735244645019/",
 			"app_id": "1113000",
@@ -50,7 +50,7 @@
 		},
 		{
 			"name": "CODE VEIN",
-			"description": "In the face of certain death, we rise. Team up and embark on a journey to the ends of hell to unlock your past and escape your living nightmare in CODE VEIN.",
+			"created_by": "creator",
 			"price": 1390,
 			"url": "https://www.facebook.com/Othertranslator/",
 			"app_id": "678960",
@@ -58,7 +58,7 @@
 		},
 		{
 			"name": "Red Dead Redemption 2",
-			"description": "RDR2 is the epic tale of outlaw Arthur Morgan and the infamous Van der Linde gang.",
+			"created_by": "creator",
 			"price": 1599,
 			"url": "https://www.facebook.com/Othertranslator/",
 			"app_id": "1174180",
@@ -66,7 +66,7 @@
 		},
 		{
 			"name": "Assassin's Creed® IV Black Flag™",
-			"description": "The year is 1715. Pirates rule the Caribbean and have established their own lawless Republic where corruption, greediness and cruelty are commonplace.",
+			"created_by": "creator",
 			"price": 1070,
 			"url": "https://www.facebook.com/notreadynotgive/",
 			"app_id": "242050",
@@ -74,7 +74,7 @@
 		},
 		{
 			"name": "Samurai Vandalism",
-			"description": "Mukuro is a member of the shogunate's personal enforcer group Hozuki.",
+			"created_by": "creator",
 			"price": "???",
 			"url": "https://www.facebook.com/Seasons-X-109735244645019/",
 			"app_id": "1551670",
@@ -82,7 +82,7 @@
 		},
 		{
 			"name": "Surviving Mars",
-			"description": "There will be challenges to overcome. Execute your strategy and improve your colony’s chances of survival.",
+			"created_by": "creator",
 			"price": 379,
 			"url": "https://sites.google.com/view/layzitranslator/",
 			"app_id": "464920",
@@ -90,7 +90,7 @@
 		},
 		{
 			"name": "Subnautica: Below Zero",
-			"description": "Dive into a freezing underwater adventure on an alien planet. Below Zero is set two years after the original Subnautica.",
+			"created_by": "creator",
 			"price": 379,
 			"url": "https://sites.google.com/view/layzitranslator/",
 			"app_id": "848450",
@@ -98,7 +98,7 @@
 		},
 		{
 			"name": "Steins;Gate",
-			"description": "It is a gripping and moving Visual Novel, which has already spawned manga.",
+			"created_by": "creator",
 			"price": 379,
 			"url": "https://www.facebook.com/learningtranslator/",
 			"app_id": "412830",
@@ -106,7 +106,7 @@
 		},
 		{
 			"name": "Hatred",
-			"description": "Hatred is a violent twin-stick shooter, in which you take the role of The Antagonist fighting against all of humanity.",
+			"created_by": "creator",
 			"price": 119,
 			"url": "https://sites.google.com/view/paredaitranslate#h.h87ce695i1yz",
 			"app_id": "341940",
@@ -114,7 +114,7 @@
 		},
 		{
 			"name": "Ancestors Legacy",
-			"description": "Ancestors Legacy is a squad-based real time strategy with a strong focus on tactics.",
+			"created_by": "creator",
 			"price": 419,
 			"url": "https://sites.google.com/view/paredaitranslate#h.nb9t03pehvyg",
 			"app_id": "620590",
@@ -122,7 +122,7 @@
 		},
 		{
 			"name": "Remnant: From the Ashes",
-			"description": "The world has been thrown into chaos by an ancient evil from another dimension.",
+			"created_by": "creator",
 			"price": 699,
 			"url": "https://sites.google.com/view/paredaitranslate#h.84kqj0b2afj1",
 			"app_id": "617290",
