@@ -3261,9 +3261,9 @@
         position: relative;
       }
       .target-anchor {
-        /* position: absolute; */
-        /* top: -72px; */
-        /* left: 0; */
+        position: absolute;
+        top: -72px;
+        left: 0;
       }
 	  .empty amp-img {
         background-color: #c9c9c954;
@@ -3452,6 +3452,51 @@
         noloading=""
         ><div placeholder="" class="archive-loader"></div
       ></amp-img>
+      <h3 class="target">
+        <a class="target-anchor" id="top"></a>
+        <amp-position-observer on="enter:hideAnim.start; exit:showAnim.start" layout="nodisplay">
+        </amp-position-observer>
+      </h3>
+
+          <amp-animation id="showAnim" layout="nodisplay">
+            <script type="application/json">
+              {
+                "duration": "200ms",
+                 "fill": "both",
+                 "iterations": "1",
+                 "direction": "alternate",
+                 "animations": [
+                   {
+                     "selector": "#scrollToTopButton",
+                     "keyframes": [
+                       { "opacity": "1", "visibility": "visible" }
+                     ]
+                   }
+                 ]
+              }
+            </script>
+          </amp-animation>
+          <amp-animation id="hideAnim" layout="nodisplay">
+            <script type="application/json">
+              {
+               "duration": "200ms",
+                 "fill": "both",
+                 "iterations": "1",
+                 "direction": "alternate",
+                 "animations": [
+                   {
+                     "selector": "#scrollToTopButton",
+                     "keyframes": [
+                       { "opacity": "0", "visibility": "hidden" }
+                     ]
+                   }
+                 ]
+              }
+            </script>
+          </amp-animation>
+
+          <button id="scrollToTopButton" on="tap:top.scrollTo(duration=200)" class="scrollToTop">↑</button>
+
       <section class="archive-listing-content mx-auto flex flex-wrap pb4">
         <div class="col-3 xs-hide sm-hide flex flex-column">
           <div class="archive-side-panel pt4 pr4 self-center">
@@ -3539,9 +3584,9 @@
 
         <div class="col-12 md-col-7 pt2 pb3 md-px4 md-pt1 md-pb7">
           <div
-            class="md-archive-header relative md-flex flex-wrap items-center md-mx0 md-mb2 target"
+            class="md-archive-header relative md-flex flex-wrap items-center md-mx0 md-mb2"
           >
-            <h1 class="h3 mb2 md-mt2 md-mb2 md-ml0 flex-auto px2 target-anchor" id="top">เกมแปลไทย</h1>
+            <h1 class="h3 mb2 md-mt2 md-mb2 md-ml0 flex-auto px2">เกมแปลไทย</h1>
             <amp-position-observer on="enter:hideAnim.start; exit:showAnim.start" layout="nodisplay">
             </amp-position-observer>
             <div class="archive-listing-filters pt2 pb2 mb3 md-mb0">
@@ -3576,45 +3621,6 @@
               </div>
             </div>
           </div>
-
-          <amp-animation id="showAnim" layout="nodisplay">
-            <script type="application/json">
-              {
-                "duration": "200ms",
-                 "fill": "both",
-                 "iterations": "1",
-                 "direction": "alternate",
-                 "animations": [
-                   {
-                     "selector": "#scrollToTopButton",
-                     "keyframes": [
-                       { "opacity": "1", "visibility": "visible" }
-                     ]
-                   }
-                 ]
-              }
-            </script>
-          </amp-animation>
-          <amp-animation id="hideAnim" layout="nodisplay">
-            <script type="application/json">
-              {
-               "duration": "200ms",
-                 "fill": "both",
-                 "iterations": "1",
-                 "direction": "alternate",
-                 "animations": [
-                   {
-                     "selector": "#scrollToTopButton",
-                     "keyframes": [
-                       { "opacity": "0", "visibility": "hidden" }
-                     ]
-                   }
-                 ]
-              }
-            </script>
-          </amp-animation>
-
-          <button id="scrollToTopButton" on="tap:top.scrollTo(duration=200)" class="scrollToTop">↑</button>
 
           <amp-list
             class="mx1 md-mxn1"
