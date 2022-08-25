@@ -3565,6 +3565,22 @@
 
             <div
               class="ampstart-input ampstart-input-radio inline-block relative m0 p0 mb3"
+              on="change: AMP.setState({mods: {category: &#39;thaidub&#39;}})"
+            >
+              <input
+                type="radio"
+                value=""
+                name="category"
+                id="thaidub"
+                class="relative"
+              />
+              <label for="thaidub" class="" aria-hidden="true"
+                >พากย์ไทย</label
+              >
+            </div>
+
+            <div
+              class="ampstart-input ampstart-input-radio inline-block relative m0 p0 mb3"
               on="change: AMP.setState({mods: {category: &#39;wip&#39;}})"
             >
               <input
@@ -3604,6 +3620,7 @@
                   <option value="indie">อินดี้</option>
                   <option value="action">แอ็คชัน</option>
                   <option value="adventure">ผจญภัย</option>
+                  <option value="thaidub">พากย์ไทย</option>
                   <option value="wip">กำลังแปล</option>
                 </select>
               </div>
