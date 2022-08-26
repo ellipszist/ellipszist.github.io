@@ -1,14 +1,6 @@
 {
     "items": [
         {
-            "name": "Stardew Valley",
-            "created_by": "Translator Army",
-            "status": "100%",
-            "url": "https://www.nexusmods.com/stardewvalley/mods/7052",
-            "app_id": "413150",
-            "style": "sponsored"
-        },
-        {
             "name": "HSH : Survive",
             "created_by": "creator",
             "status": "100%",
@@ -28,6 +20,14 @@
             "status": "100%",
             "url": "https://store.steampowered.com/app/956680/",
             "app_id": "956680"
+        },
+        {
+            "name": "App Name",
+            "created_by": "creator",
+            "status": "100%",
+            "url": "#",
+            "app_id": "730",
+            "style": "empty"
         }
     ]
 }
