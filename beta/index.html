@@ -3613,6 +3613,22 @@
 
             <div
               class="ampstart-input ampstart-input-radio inline-block relative m0 p0 mb3"
+              on="change: AMP.setState({mods: {genre: &#39;simulation&#39;}})"
+            >
+              <input
+                type="radio"
+                value=""
+                name="genre"
+                id="simulation"
+                class="relative"
+              />
+              <label for="simulation" class="" aria-hidden="true"
+                >จำลองสถานการณ์</label
+              >
+            </div>
+
+            <div
+              class="ampstart-input ampstart-input-radio inline-block relative m0 p0 mb3"
               on="change: AMP.setState({mods: {genre: &#39;strategy&#39;}})"
             >
               <input
@@ -3687,6 +3703,7 @@
                   <option value="casual">แคชชวล</option>
                   <option value="horror">สยองขวัญ</option>
                   <option value="rpg">สวมบทบาท</option>
+                  <option value="simulation">จำลองสถานการณ์</option>
                   <option value="strategy">กลยุทธ์</option>
                   <option value="thaidub">พากย์ไทย</option>
                   <option value="wip">กำลังแปล</option>
