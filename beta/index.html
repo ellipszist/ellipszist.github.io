@@ -3437,7 +3437,7 @@
       <amp-state id="mods">
         <script type="application/json">
           {
-            "genre": "all",
+            "genre": "latest",
             "filter": "modder"
           }
         </script>
@@ -3504,17 +3504,17 @@
 
             <div
               class="ampstart-input ampstart-input-radio inline-block relative m0 p0 mb3"
-              on="change: AMP.setState({mods: {genre: &#39;all&#39;}})"
+              on="change: AMP.setState({mods: {genre: &#39;latest&#39;}})"
             >
               <input
                 type="radio"
                 value=""
                 name="genre"
-                id="all"
+                id="latest"
                 class="relative"
                 checked=""
               />
-              <label for="all" class="" aria-hidden="true">ทั้งหมด</label>
+              <label for="latest" class="" aria-hidden="true">ล่าสุด</label>
             </div>
 
             <div
@@ -3616,7 +3616,7 @@
                   class="archive-select h6 md-h7"
                   on="change: AMP.setState({mods: {genre: event.value}})"
                 >
-                  <option value="all">ทั้งหมด</option>
+                  <option value="latest">ล่าสุด</option>
                   <option value="indie">อินดี้</option>
                   <option value="action">แอ็คชัน</option>
                   <option value="adventure">ผจญภัย</option>
@@ -3642,7 +3642,7 @@
           <amp-list
             class="mx1 md-mxn1"
             [src]="'api/' + mods.filter + '/' + mods.genre + '-mods.json'"
-            src="api/modder/all-mods.json"
+            src="api/modder/latest-mods.json"
             [height]="items.length * 34"
             height="1000"
             width="300"
