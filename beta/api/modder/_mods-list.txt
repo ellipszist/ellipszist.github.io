@@ -30,6 +30,7 @@ https://store.steampowered.com/curator/38366376-ModSubThai
 
 
 // wip
+20220827, Assassin's Creed® Odyssey
 20220817, Cult of the Lamb
 20220520, College Kings - Act I - III 
 
@@ -72,4 +73,9 @@ check: 20220826 (☆☆)
 DARQ
 Luna's Fishing Garden
 Octopath traveler
+
+
+// ไม่มีใครแปลเราแปลเอง
+check: 20220826 (☆☆)
+Assassin's Creed® Odyssey
 
