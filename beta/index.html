@@ -3437,7 +3437,7 @@
       <amp-state id="mods">
         <script type="application/json">
           {
-            "category": "all",
+            "genre": "all",
             "filter": "modder"
           }
         </script>
@@ -3504,12 +3504,12 @@
 
             <div
               class="ampstart-input ampstart-input-radio inline-block relative m0 p0 mb3"
-              on="change: AMP.setState({mods: {category: &#39;all&#39;}})"
+              on="change: AMP.setState({mods: {genre: &#39;all&#39;}})"
             >
               <input
                 type="radio"
                 value=""
-                name="category"
+                name="genre"
                 id="all"
                 class="relative"
                 checked=""
@@ -3519,12 +3519,12 @@
 
             <div
               class="ampstart-input ampstart-input-radio inline-block relative m0 p0 mb3"
-              on="change: AMP.setState({mods: {category: &#39;indie&#39;}})"
+              on="change: AMP.setState({mods: {genre: &#39;indie&#39;}})"
             >
               <input
                 type="radio"
                 value=""
-                name="category"
+                name="genre"
                 id="indie"
                 class="relative"
               />
@@ -3533,12 +3533,12 @@
 
             <div
               class="ampstart-input ampstart-input-radio inline-block relative m0 p0 mb3"
-              on="change: AMP.setState({mods: {category: &#39;action&#39;}})"
+              on="change: AMP.setState({mods: {genre: &#39;action&#39;}})"
             >
               <input
                 type="radio"
                 value=""
-                name="category"
+                name="genre"
                 id="action"
                 class="relative"
               />
@@ -3549,12 +3549,12 @@
 
             <div
               class="ampstart-input ampstart-input-radio inline-block relative m0 p0 mb3"
-              on="change: AMP.setState({mods: {category: &#39;adventure&#39;}})"
+              on="change: AMP.setState({mods: {genre: &#39;adventure&#39;}})"
             >
               <input
                 type="radio"
                 value=""
-                name="category"
+                name="genre"
                 id="adventure"
                 class="relative"
               />
@@ -3565,12 +3565,12 @@
 
             <div
               class="ampstart-input ampstart-input-radio inline-block relative m0 p0 mb3"
-              on="change: AMP.setState({mods: {category: &#39;thaidub&#39;}})"
+              on="change: AMP.setState({mods: {genre: &#39;thaidub&#39;}})"
             >
               <input
                 type="radio"
                 value=""
-                name="category"
+                name="genre"
                 id="thaidub"
                 class="relative"
               />
@@ -3581,12 +3581,12 @@
 
             <div
               class="ampstart-input ampstart-input-radio inline-block relative m0 p0 mb3"
-              on="change: AMP.setState({mods: {category: &#39;wip&#39;}})"
+              on="change: AMP.setState({mods: {genre: &#39;wip&#39;}})"
             >
               <input
                 type="radio"
                 value=""
-                name="category"
+                name="genre"
                 id="wip"
                 class="relative"
               />
@@ -3614,7 +3614,7 @@
                   name="categories"
                   id="categories"
                   class="archive-select h6 md-h7"
-                  on="change: AMP.setState({mods: {category: event.value}})"
+                  on="change: AMP.setState({mods: {genre: event.value}})"
                 >
                   <option value="all">ทั้งหมด</option>
                   <option value="indie">อินดี้</option>
@@ -3641,7 +3641,7 @@
 
           <amp-list
             class="mx1 md-mxn1"
-            [src]="'api/' + mods.filter + '/' + mods.category + '-mods.json'"
+            [src]="'api/' + mods.filter + '/' + mods.genre + '-mods.json'"
             src="api/modder/all-mods.json"
             [height]="items.length * 34"
             height="1000"
