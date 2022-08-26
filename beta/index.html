@@ -3565,6 +3565,22 @@
 
             <div
               class="ampstart-input ampstart-input-radio inline-block relative m0 p0 mb3"
+              on="change: AMP.setState({mods: {genre: &#39;casual&#39;}})"
+            >
+              <input
+                type="radio"
+                value=""
+                name="genre"
+                id="casual"
+                class="relative"
+              />
+              <label for="casual" class="" aria-hidden="true"
+                >แคชชวล</label
+              >
+            </div>
+
+            <div
+              class="ampstart-input ampstart-input-radio inline-block relative m0 p0 mb3"
               on="change: AMP.setState({mods: {genre: &#39;horror&#39;}})"
             >
               <input
@@ -3636,6 +3652,7 @@
                   <option value="indie">อินดี้</option>
                   <option value="action">แอ็คชัน</option>
                   <option value="adventure">ผจญภัย</option>
+                  <option value="casual">แคชชวล</option>
                   <option value="horror">สยองขวัญ</option>
                   <option value="thaidub">พากย์ไทย</option>
                   <option value="wip">กำลังแปล</option>
