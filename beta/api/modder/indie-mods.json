@@ -9,25 +9,27 @@
             "style": "sponsored"
         },
         {
-            "name": "HSH : Survive",
-            "created_by": "creator",
+            "name": "Mirror 2: Project X",
+            "created_by": "Seasons X",
             "status": "100%",
-            "url": "https://store.steampowered.com/app/1056600/",
-            "app_id": "1056600"
+            "url": "https://sites.google.com/view/seasonsx#h.cm6w5snpr27o",
+            "app_id": "1832640"
         },
         {
-            "name": "Timelie",
+            "name": "App Name",
             "created_by": "creator",
             "status": "100%",
-            "url": "https://store.steampowered.com/app/1150950/",
-            "app_id": "1150950"
+            "url": "#",
+            "app_id": "730",
+            "style": "empty"
         },
         {
-            "name": "M.A.S.S. Builder",
+            "name": "App Name",
             "created_by": "creator",
             "status": "100%",
-            "url": "https://store.steampowered.com/app/956680/",
-            "app_id": "956680"
+            "url": "#",
+            "app_id": "730",
+            "style": "empty"
         }
     ]
 }
