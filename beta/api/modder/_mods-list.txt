@@ -1,11 +1,75 @@
-Assassin's Creed® Unity
-Devil May Cry 5
-Outlast
-Outlast 2
-Resident Evil 2
-Resident Evil 3
-Resident Evil 7 Biohazard
-Resident Evil Village
-STAR WARS Jedi: Fallen Order™
-Stardew Valley
-State of Decay 2: Juggernaut Edition
+// source
+https://sites.google.com/view/artdekdok/เกมแปลไทย
+https://store.steampowered.com/curator/38366376-ModSubThai
+
+
+// latest
+20220821, Farthest Frontier
+20220818, Thief Simulator
+20220817, BIOMUTANT
+20220815, DARQ
+20220709, Octopath traveler
+20220525, Project Kat - Paper Lily Prologue
+20220520, Mutant Year Zero: Road to Eden
+20220507, Luna's Fishing Garden
+20220315, GTA San Andreas Definitive Edition
+20220213, GTA Vice City Definitive Edition
+20220204, GTA III Definitive Edition
+
+20210112, Call of the Sea
+20201227, MudRunner
+20201222, Raji: An Ancient Epic
+20201013, Ancestors: The Humankind Odyssey
+20200901, Mortal Shell
+20200710, Desperados III
+20200629, Hard West
+20200302, Shadow Tactics: Blades of the Shogun
+
+
+// alphabetize
+
+
+// wip
+20220817, Cult of the Lamb
+20220520, College Kings - Act I - III 
+
+
+// ไม่พร้อมไม่แจก
+check: 20220826
+Ancestors: The Humankind Odyssey
+Call of the Sea
+Desperados III
+Hard West
+Mortal Shell
+MudRunner
+Raji: An Ancient Epic
+Shadow Tactics: Blades of the Shogun
+
+
+// Seasons X
+check: 20220826
+Idol Manager
+Fatal Frame: Maiden of Black Water
+She Will Punish Them
+Mirror 2: Project
+Summer Memories
+Persona 4 Golden
+Samurai Vandalism
+
+
+// แปลเกม Mods ภาษาไทย
+check: 20220826 (☆☆)
+BIOMUTANT
+Project Kat - Paper Lily Prologue
+Mutant Year Zero: Road to Eden
+GTA San Andreas Definitive Edition
+GTA Vice City Definitive Edition
+GTA III Definitive Edition
+
+
+// อาสาแปล
+check: 20220826 (☆☆)
+DARQ
+Luna's Fishing Garden
+Octopath traveler
+
