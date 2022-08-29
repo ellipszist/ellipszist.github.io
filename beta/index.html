@@ -155,44 +155,44 @@
         </amp-position-observer>
       </h3>
 
-          <amp-animation id="showAnim" layout="nodisplay">
-            <script type="application/json">
-              {
-                "duration": "200ms",
-                 "fill": "both",
-                 "iterations": "1",
-                 "direction": "alternate",
-                 "animations": [
-                   {
-                     "selector": "#scrollToTopButton",
-                     "keyframes": [
-                       { "opacity": "1", "visibility": "visible" }
-                     ]
-                   }
+      <amp-animation id="showAnim" layout="nodisplay">
+        <script type="application/json">
+          {
+            "duration": "200ms",
+             "fill": "both",
+             "iterations": "1",
+             "direction": "alternate",
+             "animations": [
+               {
+                 "selector": "#scrollToTopButton",
+                 "keyframes": [
+                   { "opacity": "1", "visibility": "visible" }
                  ]
-              }
-            </script>
-          </amp-animation>
-          <amp-animation id="hideAnim" layout="nodisplay">
-            <script type="application/json">
-              {
-               "duration": "200ms",
-                 "fill": "both",
-                 "iterations": "1",
-                 "direction": "alternate",
-                 "animations": [
-                   {
-                     "selector": "#scrollToTopButton",
-                     "keyframes": [
-                       { "opacity": "0", "visibility": "hidden" }
-                     ]
-                   }
+               }
+             ]
+          }
+        </script>
+      </amp-animation>
+      <amp-animation id="hideAnim" layout="nodisplay">
+        <script type="application/json">
+          {
+           "duration": "200ms",
+             "fill": "both",
+             "iterations": "1",
+             "direction": "alternate",
+             "animations": [
+               {
+                 "selector": "#scrollToTopButton",
+                 "keyframes": [
+                   { "opacity": "0", "visibility": "hidden" }
                  ]
-              }
-            </script>
-          </amp-animation>
+               }
+             ]
+         }
+        </script>
+      </amp-animation>
 
-          <button id="scrollToTopButton" on="tap:top.scrollTo(duration=200)" class="scrollToTop">↑</button>
+      <button id="scrollToTopButton" on="tap:top.scrollTo(duration=200)" class="scrollToTop">↑</button>
 
       <section class="archive-listing-content mx-auto flex flex-wrap pb4">
         <div class="col-3 xs-hide sm-hide flex flex-column">
