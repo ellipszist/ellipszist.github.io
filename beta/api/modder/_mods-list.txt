@@ -30,7 +30,10 @@ https://store.steampowered.com/curator/38366376-ModSubThai
 
 
 // wip
-20220827, Assassin's Creed® Odyssey
+20220826, STORY OF SEASONS: Pioneers of Olive Town
+20220825, Assassin's Creed® Odyssey
+20220824, BioShock Infinite
+20220820, Marvel’s Spider-Man Remastered
 20220817, Cult of the Lamb
 20220520, College Kings - Act I - III 
 
