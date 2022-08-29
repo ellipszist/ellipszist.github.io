@@ -60,8 +60,8 @@
       }
 	  .pfp {
         position: absolute;
-        bottom: 1px;
-        right: 4px;
+        bottom: 11px;
+        right: 14px;
 		}
 		.pfp img {
         border-radius: 15px;
@@ -316,6 +316,9 @@
                     <amp-img class="archive-listing-mod-image mb2" src="https://cdn.cloudflare.steamstatic.com/steam/apps/{{app_id}}/library_600x900.jpg" width="300" height="450" layout="responsive" alt="{{ name }}" noloading="">
                       <div placeholder="" class="archive-loader"></div>
                     </amp-img>
+                    <div class="pfp">
+                      <amp-img src="img/pfp/{{created_by}}.png" width="20" height="20"></amp-img>
+                    </div>
                   </div>
                 </div>
               </a>
