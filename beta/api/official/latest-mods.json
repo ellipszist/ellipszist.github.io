@@ -3,28 +3,24 @@
         {
             "name": "HSH : Survive",
             "created_by": "YGGDRAZIL GROUP",
-            "status": "100%",
             "url": "https://store.steampowered.com/app/1056600/",
             "app_id": "1056600"
         },
         {
             "name": "M.A.S.S. Builder",
             "created_by": "Sekai Project",
-            "status": "100%",
             "url": "https://store.steampowered.com/app/956680/",
             "app_id": "956680"
         },
         {
             "name": "Timelie",
             "created_by": "Urnique Studio",
-            "status": "100%",
             "url": "https://store.steampowered.com/app/1150950/",
             "app_id": "1150950"
         },
         {
             "name": "App Name",
             "created_by": "creator",
-            "status": "100%",
             "url": "#",
             "app_id": "730",
             "style": "empty"
