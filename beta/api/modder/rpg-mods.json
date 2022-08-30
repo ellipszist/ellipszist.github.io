@@ -19,10 +19,11 @@
             "app_id": "1698960"
         },
         {
-            "name": "Mutant Year Zero: Road to Eden",
-            "created_by": "แปลเกม Mods ภาษาไทย",
-            "url": "https://www.nexusmods.com/mutantyearzeroroadtoeden/mods/2/",
-            "app_id": "760060"
+            "name": "App Name",
+            "created_by": "creator",
+            "url": "#",
+            "app_id": "730",
+            "style": "empty"
         }
     ]
 }
