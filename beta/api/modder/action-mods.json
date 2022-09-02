@@ -115,12 +115,6 @@
             "app_id": "414340"
         },
         {
-            "name": "Valfaris",
-            "created_by": "ไม่พร้อมไม่แจก",
-            "url": "https://www.nexusmods.com/valfaris/mods/4",
-            "app_id": "600130"
-        },
-        {
             "name": "Trek to Yomi",
             "created_by": "ไม่พร้อมไม่แจก",
             "url": "https://www.nexusmods.com/trektoyomi/mods/1",
@@ -167,6 +161,12 @@
             "created_by": "ไม่พร้อมไม่แจก",
             "url": "https://www.nexusmods.com/daymare1998/mods/2",
             "app_id": "842100"
+        },
+        {
+            "name": "Valfaris",
+            "created_by": "ไม่พร้อมไม่แจก",
+            "url": "https://www.nexusmods.com/valfaris/mods/4",
+            "app_id": "600130"
         },
         {
             "name": "Valheim",
