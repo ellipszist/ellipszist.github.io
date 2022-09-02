@@ -81,7 +81,7 @@ Shadow Tactics: Blades of the Shogun
 
 
 // Seasons X
-check: 20220826
+check: 20220902 (☆☆)
 Idol Manager
 FATAL FRAME / PROJECT ZERO: Maiden of Black Water
 She Will Punish Them
