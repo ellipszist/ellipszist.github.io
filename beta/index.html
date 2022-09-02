@@ -150,7 +150,7 @@
       <amp-state id="mods">
         <script type="application/json">
           {
-            "genre": "latest",
+            "genre": "action",
             "filter": "modder"
           }
         </script>
@@ -207,12 +207,6 @@
         <div class="col-3 xs-hide sm-hide flex flex-column">
           <div class="archive-side-panel pt4 pr4 self-center">
             <h2 class="h5 mb2">ประเภท</h2>
-
-            <div class="ampstart-input ampstart-input-radio inline-block relative m0 p0 mb3"
-              on="change: AMP.setState({mods: {genre: &#39;latest&#39;}})">
-              <input type="radio" value="" name="genre" id="latest" class="relative" />
-              <label for="latest" class="" on="tap:top.scrollTo(duration=200)" aria-hidden="true">ล่าสุด</label>
-            </div>
 
             <div class="ampstart-input ampstart-input-radio inline-block relative m0 p0 mb3"
               on="change: AMP.setState({mods: {genre: &#39;indie&#39;}})">
@@ -286,7 +280,6 @@
               <div class="archive-select-wrapper inline-block md-mr1 pl2 md-hide lg-hide">
                 <label for="categories" class="bold caps h6 md-h7">แสดง:</label>
                 <select name="categories" id="categories" class="archive-select h6 md-h7" on="change: AMP.setState({mods: {genre: event.value}})">
-                  <option value="latest">ล่าสุด</option>
                   <option value="indie">อินดี้</option>
                   <option value="action">แอ็คชัน</option>
                   <option value="adventure">ผจญภัย</option>
@@ -309,7 +302,7 @@
             </div>
           </div>
 
-          <amp-list class="mx1 md-mxn1" [src]="'api/' + mods.filter + '/' + mods.genre + '-mods.json'" src="api/modder/latest-mods.json" [height]="items.length * 34" height="1000" width="300" layout="responsive">
+          <amp-list class="mx1 md-mxn1" [src]="'api/' + mods.filter + '/' + mods.genre + '-mods.json'" src="api/modder/action-mods.json" [height]="items.length * 34" height="1000" width="300" layout="responsive">
             <template type="amp-mustache">
               <a href="{{url}}" target="_blank" class="archive-listing-mod text-decoration-none inline-block col-6 md-col-4 lg-col-3 px1 mb2 md-mb4 relative {{style}}">
                 <div class="flex flex-column justify-between">
