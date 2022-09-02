@@ -91,12 +91,6 @@
             "app_id": "1030840"
         },
         {
-            "name": "Mortal Shell",
-            "created_by": "ไม่พร้อมไม่แจก",
-            "url": "https://www.nexusmods.com/mortalshell/mods/2",
-            "app_id": "1110910"
-        },
-        {
             "name": "Trek to Yomi",
             "created_by": "ไม่พร้อมไม่แจก",
             "url": "https://www.nexusmods.com/trektoyomi/mods/1",
@@ -167,6 +161,12 @@
             "created_by": "ไม่พร้อมไม่แจก",
             "url": "https://www.nexusmods.com/ancestorsthehumankindodyssey/mods/1",
             "app_id": "536270"
+        },
+        {
+            "name": "Mortal Shell",
+            "created_by": "ไม่พร้อมไม่แจก",
+            "url": "https://www.nexusmods.com/mortalshell/mods/2",
+            "app_id": "1110910"
         },
         {
             "name": "Valheim",
