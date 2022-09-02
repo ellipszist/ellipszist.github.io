@@ -67,12 +67,6 @@
             "app_id": "1042490"
         },
         {
-            "name": "The Medium",
-            "created_by": "ไม่พร้อมไม่แจก",
-            "url": "https://www.nexusmods.com/themedium/mods/4",
-            "app_id": "1293160"
-        },
-        {
             "name": "Kena: Bridge of Spirits",
             "created_by": "ไม่พร้อมไม่แจก",
             "url": "https://www.nexusmods.com/kenabridgeofspirits/mods/8",
@@ -101,6 +95,12 @@
             "created_by": "ไม่พร้อมไม่แจก",
             "url": "https://www.nexusmods.com/thepathless/mods/1",
             "app_id": "1492680"
+        },
+        {
+            "name": "The Medium",
+            "created_by": "ไม่พร้อมไม่แจก",
+            "url": "https://www.nexusmods.com/themedium/mods/4",
+            "app_id": "1293160"
         }
     ]
 }
