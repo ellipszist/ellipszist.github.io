@@ -214,6 +214,13 @@
               <label for="indie" class="" on="tap:top.scrollTo(duration=200)" aria-hidden="true">อินดี้</label>
             </div>
 
+
+            <div class="ampstart-input ampstart-input-radio inline-block relative m0 p0 mb3"
+              on="change: AMP.setState({mods: {genre: &#39;strategy&#39;}})">
+              <input type="radio" value="" name="genre" id="strategy" class="relative" />
+              <label for="strategy" class="" on="tap:top.scrollTo(duration=200)" aria-hidden="true">กลยุทธ์</label>
+            </div>
+
             <div class="ampstart-input ampstart-input-radio inline-block relative m0 p0 mb3"
               on="change: AMP.setState({mods: {genre: &#39;action&#39;}})">
               <input type="radio" value="" name="genre" id="action" class="relative" />
@@ -230,6 +237,12 @@
               on="change: AMP.setState({mods: {genre: &#39;casual&#39;}})">
               <input type="radio" value="" name="genre" id="casual" class="relative" />
               <label for="casual" class="" on="tap:top.scrollTo(duration=200)" aria-hidden="true">แคชชวล</label>
+            </div>
+
+            <div class="ampstart-input ampstart-input-radio inline-block relative m0 p0 mb3"
+              on="change: AMP.setState({mods: {genre: &#39;thaidub&#39;}})">
+              <input type="radio" value="" name="genre" id="thaidub" class="relative" />
+              <label for="thaidub" class="" on="tap:top.scrollTo(duration=200)" aria-hidden="true">พากย์ไทย</label>
             </div>
 
             <div class="ampstart-input ampstart-input-radio inline-block relative m0 p0 mb3"
@@ -251,18 +264,6 @@
             </div>
 
             <div class="ampstart-input ampstart-input-radio inline-block relative m0 p0 mb3"
-              on="change: AMP.setState({mods: {genre: &#39;strategy&#39;}})">
-              <input type="radio" value="" name="genre" id="strategy" class="relative" />
-              <label for="strategy" class="" on="tap:top.scrollTo(duration=200)" aria-hidden="true">กลยุทธ์</label>
-            </div>
-
-            <div class="ampstart-input ampstart-input-radio inline-block relative m0 p0 mb3"
-              on="change: AMP.setState({mods: {genre: &#39;thaidub&#39;}})">
-              <input type="radio" value="" name="genre" id="thaidub" class="relative" />
-              <label for="thaidub" class="" on="tap:top.scrollTo(duration=200)" aria-hidden="true">พากย์ไทย</label>
-            </div>
-
-            <div class="ampstart-input ampstart-input-radio inline-block relative m0 p0 mb3"
               on="change: AMP.setState({mods: {genre: &#39;wip&#39;}})">
               <input type="radio" value="" name="genre" id="wip" class="relative" />
               <label for="wip" class="" on="tap:top.scrollTo(duration=200)" aria-hidden="true">กำลังแปล ʕ•́ᴥ•̀ʔっ♡</label>
@@ -281,14 +282,14 @@
                 <label for="categories" class="bold caps h6 md-h7">แสดง:</label>
                 <select name="categories" id="categories" class="archive-select h6 md-h7" on="change: AMP.setState({mods: {genre: event.value}})">
                   <option value="indie">อินดี้</option>
+                  <option value="strategy">กลยุทธ์</option>
                   <option value="action">แอ็คชัน</option>
                   <option value="adventure">ผจญภัย</option>
                   <option value="casual">แคชชวล</option>
+                  <option value="thaidub">พากย์ไทย</option>
                   <option value="horror">สยองขวัญ</option>
                   <option value="rpg">สวมบทบาท</option>
                   <option value="simulation">จำลองสถานการณ์</option>
-                  <option value="strategy">กลยุทธ์</option>
-                  <option value="thaidub">พากย์ไทย</option>
                   <option value="wip">กำลังแปล ʕ•́ᴥ•̀ʔっ♡</option>
                 </select>
               </div>
