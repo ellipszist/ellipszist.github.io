@@ -109,12 +109,6 @@
             "app_id": "730390"
         },
         {
-            "name": "Hellblade: Senua's Sacrifice",
-            "created_by": "ไม่พร้อมไม่แจก",
-            "url": "https://www.nexusmods.com/hellbladesenuassacrifice/mods/1",
-            "app_id": "414340"
-        },
-        {
             "name": "Trek to Yomi",
             "created_by": "ไม่พร้อมไม่แจก",
             "url": "https://www.nexusmods.com/trektoyomi/mods/1",
@@ -167,6 +161,12 @@
             "created_by": "ไม่พร้อมไม่แจก",
             "url": "https://www.nexusmods.com/valfaris/mods/4",
             "app_id": "600130"
+        },
+        {
+            "name": "Hellblade: Senua's Sacrifice",
+            "created_by": "ไม่พร้อมไม่แจก",
+            "url": "https://www.nexusmods.com/hellbladesenuassacrifice/mods/1",
+            "app_id": "414340"
         },
         {
             "name": "Valheim",
