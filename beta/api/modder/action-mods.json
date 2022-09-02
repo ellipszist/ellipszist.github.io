@@ -103,12 +103,6 @@
             "app_id": "536270"
         },
         {
-            "name": "Raji: An Ancient Epic",
-            "created_by": "ไม่พร้อมไม่แจก",
-            "url": "https://www.nexusmods.com/rajianancientepic/mods/1",
-            "app_id": "730390"
-        },
-        {
             "name": "Trek to Yomi",
             "created_by": "ไม่พร้อมไม่แจก",
             "url": "https://www.nexusmods.com/trektoyomi/mods/1",
@@ -167,6 +161,12 @@
             "created_by": "ไม่พร้อมไม่แจก",
             "url": "https://www.nexusmods.com/hellbladesenuassacrifice/mods/1",
             "app_id": "414340"
+        },
+        {
+            "name": "Raji: An Ancient Epic",
+            "created_by": "ไม่พร้อมไม่แจก",
+            "url": "https://www.nexusmods.com/rajianancientepic/mods/1",
+            "app_id": "730390"
         },
         {
             "name": "Valheim",
