@@ -151,12 +151,6 @@
             "app_id": "842100"
         },
         {
-            "name": "Middle-earth™: Shadow of Mordor™",
-            "created_by": "ไม่พร้อมไม่แจก",
-            "url": "https://www.nexusmods.com/middleearthshadowofmordor/mods/11",
-            "app_id": "241930"
-        },
-        {
             "name": "ENDER LILIES: Quietus of the Knights",
             "created_by": "ไม่พร้อมไม่แจก",
             "url": "https://www.nexusmods.com/enderliliesquietusoftheknights/mods/1",
@@ -167,6 +161,12 @@
             "created_by": "ไม่พร้อมไม่แจก",
             "url": "https://www.nexusmods.com/demonskin/mods/1",
             "app_id": "1522140"
+        },
+        {
+            "name": "Middle-earth™: Shadow of Mordor™",
+            "created_by": "ไม่พร้อมไม่แจก",
+            "url": "https://www.nexusmods.com/middleearthshadowofmordor/mods/11",
+            "app_id": "241930"
         },
         {
             "name": "Valheim",
