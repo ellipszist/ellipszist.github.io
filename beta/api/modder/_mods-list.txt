@@ -39,14 +39,44 @@ https://store.steampowered.com/curator/38366376-ModSubThai
 
 
 // ไม่พร้อมไม่แจก
-check: 20220826
-Ancestors: The Humankind Odyssey
+check: 20220902 (☆☆)
+Thymesia
+Thief Simulator
+The Dark Pictures Anthology: House of Ashes
+Stray
+The Quarry
+Sherlock Holmes: The Devil's Daughter
+Remothered: Tormented Fathers
+Trek to Yomi
+The Gunk
+Murdered: Soul Suspect
+Alan Wake
+Sifu (EPIC)
+Xuan-Yuan Sword VII 
+Praey for the Gods
+Shadow Tactics: Aiko's Choice
+Far Cry® Primal
+Kena: Bridge of Spirits
+Draugen
+Omno
+LOST EMBER
+ENDER LILIES: Quietus of the Knights
+Demon Skin
+The Pathless
+Super Magbot
+Middle-earth™: Shadow of Mordor™
+Daymare: 1998
+Loop Hero
+Valfaris
+The Medium
+Hellblade: Senua's Sacrifice
 Call of the Sea
-Desperados III
-Hard West
-Mortal Shell
 MudRunner
 Raji: An Ancient Epic
+Ancestors: The Humankind Odyssey
+Mortal Shell
+Desperados III
+Hard West
 Shadow Tactics: Blades of the Shogun
 
 
