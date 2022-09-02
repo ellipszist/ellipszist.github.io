@@ -73,12 +73,6 @@
             "app_id": "1293160"
         },
         {
-            "name": "The Pathless",
-            "created_by": "ไม่พร้อมไม่แจก",
-            "url": "https://www.nexusmods.com/thepathless/mods/1",
-            "app_id": "1492680"
-        },
-        {
             "name": "Kena: Bridge of Spirits",
             "created_by": "ไม่พร้อมไม่แจก",
             "url": "https://www.nexusmods.com/kenabridgeofspirits/mods/8",
@@ -101,6 +95,12 @@
             "created_by": "ไม่พร้อมไม่แจก",
             "url": "https://www.nexusmods.com/lostember/mods/1",
             "app_id": "563840"
+        },
+        {
+            "name": "The Pathless",
+            "created_by": "ไม่พร้อมไม่แจก",
+            "url": "https://www.nexusmods.com/thepathless/mods/1",
+            "app_id": "1492680"
         }
     ]
 }
