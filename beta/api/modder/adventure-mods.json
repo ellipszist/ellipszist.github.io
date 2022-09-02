@@ -79,12 +79,6 @@
             "app_id": "1492680"
         },
         {
-            "name": "LOST EMBER",
-            "created_by": "ไม่พร้อมไม่แจก",
-            "url": "https://www.nexusmods.com/lostember/mods/1",
-            "app_id": "563840"
-        },
-        {
             "name": "Kena: Bridge of Spirits",
             "created_by": "ไม่พร้อมไม่แจก",
             "url": "https://www.nexusmods.com/kenabridgeofspirits/mods/8",
@@ -101,6 +95,12 @@
             "created_by": "ไม่พร้อมไม่แจก",
             "url": "https://www.nexusmods.com/omno/mods/1",
             "app_id": "969760"
+        },
+        {
+            "name": "LOST EMBER",
+            "created_by": "ไม่พร้อมไม่แจก",
+            "url": "https://www.nexusmods.com/lostember/mods/1",
+            "app_id": "563840"
         }
     ]
 }
