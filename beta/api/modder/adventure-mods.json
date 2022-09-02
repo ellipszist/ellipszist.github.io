@@ -85,12 +85,6 @@
             "app_id": "563840"
         },
         {
-            "name": "Omno",
-            "created_by": "ไม่พร้อมไม่แจก",
-            "url": "https://www.nexusmods.com/omno/mods/1",
-            "app_id": "969760"
-        },
-        {
             "name": "Kena: Bridge of Spirits",
             "created_by": "ไม่พร้อมไม่แจก",
             "url": "https://www.nexusmods.com/kenabridgeofspirits/mods/8",
@@ -101,6 +95,12 @@
             "created_by": "ไม่พร้อมไม่แจก",
             "url": "https://www.nexusmods.com/draugen/mods/2",
             "app_id": "770390"
+        },
+        {
+            "name": "Omno",
+            "created_by": "ไม่พร้อมไม่แจก",
+            "url": "https://www.nexusmods.com/omno/mods/1",
+            "app_id": "969760"
         }
     ]
 }
