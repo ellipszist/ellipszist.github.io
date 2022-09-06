@@ -1,6 +1,12 @@
 {
     "items": [
         {
+            "name": "Beholder",
+            "created_by": "SimsColony",
+            "url": "https://simscolony.github.io/Beholder_TH/",
+            "app_id": "475550"
+        },
+        {
             "name": "Stardew Valley",
             "created_by": "Translator Army",
             "url": "https://ellipszist.github.io/",
