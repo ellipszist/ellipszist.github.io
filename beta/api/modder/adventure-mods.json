@@ -104,6 +104,12 @@
             "app_id": "1492680"
         },
         {
+            "name": "Subnautica: Below Zero",
+            "created_by": "SimsColony",
+            "url": "https://simscolony.github.io/Subnautica-Thailand-Community/",
+            "app_id": "848450"
+        },
+        {
             "name": "The Medium",
             "created_by": "ไม่พร้อมไม่แจก",
             "url": "https://www.nexusmods.com/themedium/mods/4",
@@ -114,6 +120,12 @@
             "created_by": "ไม่พร้อมไม่แจก",
             "url": "https://www.nexusmods.com/callofthesea/mods/1",
             "app_id": "1042490"
+        },
+        {
+            "name": "Subnautica",
+            "created_by": "SimsColony",
+            "url": "https://simscolony.github.io/Subnautica-Thailand-Community/",
+            "app_id": "264710"
         }
     ]
 }
