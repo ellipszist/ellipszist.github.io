@@ -19,9 +19,21 @@
             "app_id": "821880"
         },
         {
-            "name": "App Name",
-            "created_by": "creator",
-            "url": "#",
+            "name": "The Sims™ 4",
+            "created_by": "SimsColony",
+            "url": "https://simscolony.github.io/TS4THDEMO/",
+            "app_id": "1222670"
+        },
+        {
+            "name": "The Sims™ 3",
+            "created_by": "SimsColony",
+            "url": "https://simscolony.github.io/TS3TH/",
+            "app_id": "47890"
+        },
+        {
+            "name": "The Sims Medieval™",
+            "created_by": "SimsColony",
+            "url": "https://simscolony.github.io/SimsMedieval-TH/",
             "app_id": "413150",
             "style": "empty"
         }
