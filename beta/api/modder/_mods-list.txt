@@ -126,3 +126,9 @@ Subnautica
 check: 20220906 (☆☆)
 Fallout 4
 
+
+// The Witcher 3 Thailand
+check: 20220906 (☆☆)
+The Witcher® 3: Wild Hunt
+The Witcher 2: Assassins of Kings
+
