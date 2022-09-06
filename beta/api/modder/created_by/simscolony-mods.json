@@ -1,6 +1,12 @@
 {
     "items": [
         {
+            "name": "Beholder",
+            "created_by": "SimsColony",
+            "url": "https://simscolony.github.io/Beholder_TH/",
+            "app_id": "475550"
+        },
+        {
             "name": "Subnautica: Below Zero",
             "created_by": "SimsColony",
             "url": "https://simscolony.github.io/Subnautica-Thailand-Community/",
