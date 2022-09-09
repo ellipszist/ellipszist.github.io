@@ -2717,7 +2717,7 @@
       .ampstart-headerbar {
         color: #f88;
         padding-right: 1rem;
-        background-color: #fff;
+        background-color: rgba(255, 255, 255, 0.9);
         height: 50px;
         box-shadow: none;
         border-bottom: 1px solid #f3f3f3;
