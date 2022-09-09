@@ -2718,9 +2718,11 @@
         color: #f88;
         padding-right: 1rem;
         background-color: #fff;
-        height: 3.5rem;
+        height: 50px;
         box-shadow: none;
         border-bottom: 1px solid #f3f3f3;
+        -webkit-backdrop-filter: blur(8px);
+        backdrop-filter: blur(8px);
       }
       .ampstart-headerbar .ampstart-navbar-trigger {
         color: #222;
@@ -2732,7 +2734,7 @@
       }
       @media (min-width: 52.06rem) {
         .ampstart-headerbar {
-          height: 5rem;
+          height: 70px;
           border-bottom-color: #f3f3f3;
         }
         .ampstart-headerbar .ampstart-navbar-trigger {
@@ -3211,8 +3213,8 @@
         text-overflow: ellipsis;
       }
       .amp-mode-mouse
-        .archive-related-mod:hover
-        .archive-related-mod-name {
+      .archive-related-mod:hover
+      .archive-related-mod-name {
         text-decoration: underline;
       }
       :root {
@@ -3247,12 +3249,21 @@
         top: -72px;
         left: 0;
       }
-	  .empty amp-img {
+      .empty amp-img {
         background-color: #c9c9c954;
       }
-	  .empty .archive-listing-mod-image {
+      .empty .archive-listing-mod-image {
         border: 1px dashed #dadada;
       }
-	  .empty .archive-listing-mod-image img {
+      .empty .archive-listing-mod-image img {
         display: none;
+      }
+      .pfp {
+        position: absolute;
+        bottom: 11px;
+        right: 14px;
+      }
+      .pfp img {
+        border-radius: 15px;
+        opacity: 85%;
       }
