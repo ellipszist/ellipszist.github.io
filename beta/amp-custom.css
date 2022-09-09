@@ -2109,7 +2109,7 @@
       }
       .ampstart-headerbar + :not(amp-sidebar),
       .ampstart-headerbar + amp-sidebar + * {
-        margin-top: 3.5rem;
+        margin-top: 50px;
       }
       .ampstart-headerbar-nav .ampstart-nav-item {
         padding: 0 1rem;
@@ -2702,16 +2702,16 @@
         width: 50%;
       }
       .main {
-        margin-top: 3.5rem;
+        margin-top: 50px;
       }
       @media (min-width: 52.06rem) {
         .main {
-          min-height: calc(100vh - 181px - 5rem);
+          min-height: calc(100vh - 181px - 70px);
         }
         .ampstart-headerbar + :not(amp-sidebar),
         .ampstart-headerbar + amp-sidebar + *,
         .main {
-          margin-top: 5rem;
+          margin-top: 70px;
         }
       }
       .ampstart-headerbar {
