@@ -257,6 +257,12 @@
             </div>
 
             <div class="ampstart-input ampstart-input-radio inline-block relative m0 p0 mb3"
+              on="change: AMP.setState({mods: {genre: &#39;racing&#39;}})">
+              <input type="radio" value="" name="genre" id="racing" class="relative" />
+              <label for="racing" class="" on="tap:top.scrollTo(duration=200)" aria-hidden="true">แข่งความเร็ว</label>
+            </div>
+
+            <div class="ampstart-input ampstart-input-radio inline-block relative m0 p0 mb3"
               on="change: AMP.setState({mods: {genre: &#39;simulation&#39;}})">
               <input type="radio" value="" name="genre" id="simulation" class="relative" />
               <label for="simulation" class="" on="tap:top.scrollTo(duration=200)" aria-hidden="true">จำลองสถานการณ์</label>
@@ -303,6 +309,7 @@
                   <option value="thaidub">พากย์ไทย</option>
                   <option value="horror">สยองขวัญ</option>
                   <option value="rpg">สวมบทบาท</option>
+                  <option value="racing">แข่งความเร็ว</option>
                   <option value="simulation">จำลองสถานการณ์</option>
                   <option value="wip">กำลังแปล ʕ•́ᴥ•̀ʔっ♡</option>
                 </select>
