@@ -1,5 +1,5 @@
 {
-    "mapping": {
+    "juicy": {
         "village.exe": "https://github.com/Pathoschild/SMAPI/releases/download/3.18.0/SMAPI-3.18.0-installer.zip",
         "village_v2.exe": "https://github.com/Pathoschild/SMAPI/releases/download/3.18.1/SMAPI-3.18.1-installer.zip"
     }
