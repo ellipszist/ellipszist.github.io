@@ -1,7 +1,7 @@
 {
      "internal_playtest": {
          "Stardew Valley.exe": {
-             "app_name": "Stardew Valley",
+             "app_name": "Stardew Modding API",
              "url": "https://github.com/Pathoschild/SMAPI/releases/download/3.18.1/SMAPI-3.18.1-installer.zip"
          },
          "village.exe": {
