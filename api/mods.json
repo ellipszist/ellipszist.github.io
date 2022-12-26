@@ -1,16 +1,12 @@
 {
      "internal_playtest": {
-         "Stardew Valley.exe": {
-             "app_name": "Stardew Modding API",
-             "url": "https://github.com/Pathoschild/SMAPI/releases/download/3.18.1/SMAPI-3.18.1-installer.zip"
-         },
          "village.exe": {
              "app_name": "VillageRhapsody",
              "url": "https://ellipszist.github.io/releases/internal_playtest/VillageRhapsody-1.4.401-EA.20221226.zip"
          },
          "x64/Hades.exe": {
              "app_name": "Hades",
-             "url": "https://ellipszist.github.io/releases/internal_playtest/Hades-1.04.38290.20221225.zip"
+             "url": "https://ellipszist.github.io/releases/internal_playtest/Hades-1.04.38290.20221226.zip"
          }
      }
 }
