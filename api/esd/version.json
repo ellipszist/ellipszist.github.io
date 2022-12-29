@@ -3,18 +3,18 @@
     "latest_version": "0.0.2",
     "version_name": "Big Update",
     "release_notes": "This is a major update that includes many new features and bug fixes.",
-    "download_url": "https://ellipszist.github.io/releases/esd-0.0.2.zip"
+    "download_url": "https://ellipszist.github.io/releases/esd/esd-0.0.2.zip"
   },
   "beta": {
     "latest_version": "0.0.3",
     "version_name": "Big Update",
     "release_notes": "This is a major update that includes many new features and bug fixes.",
-    "download_url": "https://ellipszist.github.io/releases/esd-0.0.3.zip"
+    "download_url": "https://ellipszist.github.io/releases/esd/esd-0.0.3.zip"
   },
   "stable": {
     "latest_version": "0.0.4",
     "version_name": "Big Update",
     "release_notes": "This is a major update that includes many new features and bug fixes.",
-    "download_url": "https://ellipszist.github.io/releases/esd-0.0.4.zip"
+    "download_url": "https://ellipszist.github.io/releases/esd/esd-0.0.4.zip"
   }
 }
