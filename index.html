@@ -16,7 +16,7 @@
     setTimeout(function() {
       var path = window.location.pathname;
       var query = window.location.search;
-      var newUrl = path + query.replace("?s=", "/");
+      var newUrl = path + "/" + query.substring(query.indexOf("s=") + 2);
       if (path === "/mods" && query.startsWith("?s=")) {
         window.location.replace(newUrl);
       }
