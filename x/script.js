@@ -16,7 +16,7 @@ document.getElementById("query").addEventListener("input", function() {
         return;
       }
 
-      //noResults.style.display = "none";
+      noResults.style.display = "block";
 
       filteredData.forEach(game => {
         const gameContainer = document.createElement("div");
