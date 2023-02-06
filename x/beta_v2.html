@@ -1,0 +1,85 @@
+<html>
+  <head>
+    <style>
+      body {
+        background-color: #EBEBEB;
+      }
+
+      #games {
+        display: flex;
+        justify-content: center;
+        flex-wrap: wrap;
+      }
+
+      .game-container {
+        width: 255px;
+        height: 255px;
+        display: inline-block;
+        margin: 0 7px;
+        border: 3px solid #fff;
+        text-align: center;
+      }
+
+      .game-container img {
+        width: 100%;
+        height: 255px;
+      }
+
+      .search-container {
+        text-align: center;
+        margin-bottom: 20px;
+      }
+    </style>
+  </head>
+  <body>
+    <div class="search-container">
+      <input type="text" id="query" placeholder="Search...">
+      <div id="no-results" style="display: none">No results</div>
+    </div>
+
+    <div id="games">
+    </div>
+
+    <script>
+      const gameContainers = document.querySelector("#games");
+      const noResults = document.querySelector("#no-results");
+
+      function displayGames(games) {
+        let html = "";
+
+        games.forEach(game => {
+          html += `
+            <div class="game-container">
+              <a href="#">
+                <img src="${game.img}" alt="${game.title}">
+              </a>
+            </div>
+          `;
+        });
+
+        gameContainers.innerHTML = html;
+      }
+
+      fetch("gameData.json")
+        .then(response => response.json())
+        .then(data => {
+          let games = data;
+
+          document.getElementById("query").addEventListener("input", function() {
+            const query = this.value;
+            games = data.filter(game => game.title.toLowerCase().includes(query.toLowerCase()));
+
+            if (games.length) {
+              noResults.style.display = "none";
+              displayGames(games);
+            } else {
+              noResults.style.display = "block";
+              gameContainers.innerHTML = "";
+            }
+          });
+
+          displayGames(games);
+        });
+    </script>
+  </body>
+</html>

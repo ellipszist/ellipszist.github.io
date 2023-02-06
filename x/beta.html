@@ -1,0 +1,208 @@
+<html>
+  <head>
+    <style>
+      body {
+        background-color: #EBEBEB;
+        padding: 20px;
+      }
+
+      #mods {
+        display: flex;
+        justify-content: center;
+        flex-wrap: wrap;
+      }
+
+      .mod-container {
+        width: 200px;
+        height: 200px;
+        display: inline-block;
+        margin: 7px;
+        border: 3px solid #fff;
+      }
+
+      .mod-container img {
+        width: 100%;
+        height: 200px;
+      }
+
+      <!--
+      .search-container {
+        text-align: center;
+        margin-bottom: 20px;
+      }
+
+      #query {
+        width: 50%;
+        padding: 12px 20px;
+        margin: 8px 0;
+        box-sizing: border-box;
+        border: 2px solid #ccc;
+        border-radius: 4px;
+      }
+
+      #query:focus {
+        border: 2px solid #555;
+      }
+      -->
+
+      .search-container {
+        text-align: center;
+        margin-bottom: 20px;
+      }
+
+      .search-container input[type="text"] {
+        padding: 8px 10px;
+        border-radius: 5px;
+        border: 1px solid #ccc;
+        font-size: 16px;
+      }
+
+      .no-results {
+        text-align: center;
+        margin-top: 20px;
+        font-size: 18px;
+        color: #aaa;
+        display: none;
+      }
+    </style>
+  </head>
+  <body>
+    <div class="search-container">
+      <input type="text" id="query" placeholder="ค้นหา...">
+    </div>
+
+    <div id="mods">
+      <div class="mod-container">
+        <a href="#">
+          <img src="https://cdn03.nintendo-europe.com/media/images/11_square_images/games_18/nintendo_switch_5/1x1_NSwitch_TheLegendOfZeldaTearsOfTheKingdom_EU_image500w.jpg" alt="The Legend of Zelda: Tears of the Kingdom">
+        </a>
+      </div>
+
+      <div class="mod-container">
+        <a href="#">
+          <img src="https://cdn03.nintendo-europe.com/media/images/11_square_images/games_18/nintendo_switch_5/1x1_NSwitch_BayonettaOriginsCerezaAndTheLostDemon_image500w.jpg" alt="Bayonetta Origins: Cereza and the Lost Demon">
+        </a>
+      </div>
+
+      <div class="mod-container">
+        <a href="#">
+          <img src="https://cdn03.nintendo-europe.com/media/images/11_square_images/games_18/nintendo_switch_5/1x1_NSwitch_FireEmblemEngage_EU_image500w.jpg" alt="Fire Emblem Engage">
+        </a>
+      </div>
+
+      <div class="mod-container">
+        <a href="#">
+          <img src="https://cdn03.nintendo-europe.com/media/images/11_square_images/games_18/nintendo_switch_5/1x1_NSwitch_FaeFarm_image500w.jpg" alt="Fae Farm">
+        </a>
+      </div>
+
+      <div class="mod-container">
+        <a href="#">
+          <img src="https://cdn03.nintendo-europe.com/media/images/11_square_images/games_18/nintendo_switch_5/1x1_NSwitch_PokemonScarletViolet_Scarlet_enGB_image500w.jpg" alt="Pokémon Scarlet">
+        </a>
+      </div>
+
+      <div class="mod-container">
+        <a href="#">
+          <img src="https://cdn03.nintendo-europe.com/media/images/11_square_images/games_18/nintendo_switch_5/1x1_NSwitch_PokemonScarletViolet_Violet_enGB_image500w.jpg" alt="Pokémon Violet">
+        </a>
+      </div>
+
+      <div class="mod-container">
+        <a href="#">
+          <img src="https://cdn03.nintendo-europe.com/media/images/11_square_images/games_18/nintendo_switch_5/SQ_NSwitch_AnimalCrossingNewHorizons_image500w.jpg" alt="Animal Crossing: New Horizons">
+        </a>
+      </div>
+
+      <div class="mod-container">
+        <a href="#">
+          <img src="https://cdn03.nintendo-europe.com/media/images/11_square_images/games_18/nintendo_switch_5/1x1_NSwitch_FireEmblemWarriorsThreeHopes_image500w.jpg" alt="Fire Emblem Warriors: Three Hopes">
+        </a>
+      </div>
+
+      <div class="mod-container">
+        <a href="#">
+          <img src="https://cdn03.nintendo-europe.com/media/images/11_square_images/games_18/nintendo_switch_download_software/SQ_NSwitchDS_StardewValley_image500w.jpg" alt="Stardew Valley">
+        </a>
+      </div>
+
+      <div class="mod-container">
+        <a href="#">
+          <img src="https://cdn03.nintendo-europe.com/media/images/11_square_images/games_18/nintendo_switch_download_software/1x1_NSwitchDS_HaveANiceDeath_image500w.jpg" alt="Have A Nice Death">
+        </a>
+      </div>
+
+      <div class="mod-container">
+        <a href="#">
+          <img src="https://via.placeholder.com/255x255.png?text=WIP 11" alt="WIP 11">
+        </a>
+      </div>
+
+      <div class="mod-container">
+        <a href="#">
+          <img src="https://via.placeholder.com/255x255.png?text=WIP 12" alt="WIP 12">
+        </a>
+      </div>
+
+      <div class="mod-container">
+        <a href="#">
+          <img src="https://via.placeholder.com/255x255.png?text=WIP 13" alt="WIP 13">
+        </a>
+      </div>
+
+      <div class="mod-container">
+        <a href="#">
+          <img src="https://via.placeholder.com/255x255.png?text=WIP 14" alt="WIP 14">
+        </a>
+      </div>
+
+      <div class="mod-container">
+        <a href="#">
+          <img src="https://via.placeholder.com/255x255.png?text=WIP 15" alt="WIP 15">
+        </a>
+      </div>
+    </div>
+
+    <div class="no-results">ไม่พบผลลัพธ์</div>
+
+    <script>
+      document.getElementById("query").addEventListener("input", function() {
+        const query = this.value;
+        const modContainers = document.querySelectorAll("#mods .mod-container");
+        const noResults = document.querySelector(".no-results");
+
+        let results = false;
+
+        for (let i = 0; i < modContainers.length; i++) {
+          if (modContainers[i].querySelector("img").alt.toLowerCase().includes(query.toLowerCase())) {
+            modContainers[i].style.display = "inline-block";
+            results = true;
+          } else {
+            modContainers[i].style.display = "none";
+          }
+        }
+
+        if (results) {
+          noResults.style.display = "none";
+        } else {
+          noResults.style.display = "block";
+        }
+      });
+    </script>
+    <!--
+    <script>
+      document.getElementById("query").addEventListener("input", function() {
+        const query = this.value;
+        const modContainers = document.querySelectorAll("#mods .mod-container");
+
+        for (let i = 0; i < modContainers.length; i++) {
+          if (modContainers[i].querySelector("img").alt.toLowerCase().includes(query.toLowerCase())) {
+            modContainers[i].style.display = "inline-block";
+          } else {
+            modContainers[i].style.display = "none";
+          }
+        }
+      });
+	  -->
+  </body>
+</html>
