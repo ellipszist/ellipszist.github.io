@@ -1,0 +1,34 @@
+body {
+  background-color: #EBEBEB;
+}
+
+#games {
+  display: flex;
+  justify-content: center;
+  flex-wrap: wrap;
+}
+
+.game-container {
+  width: 255px;
+  height: 255px;
+  display: inline-block;
+  margin: 0 7px;
+  border: 3px solid #fff;
+  text-align: center;
+}
+
+.game-container img {
+  width: 100%;
+  height: 255px;
+}
+
+.search-container {
+  text-align: center;
+  margin-bottom: 20px;
+}
+
+#no-results {
+  text-align: center;
+  margin-top: 20px;
+  font-size: 20px;
+}
