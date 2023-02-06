@@ -8,7 +8,7 @@ document.getElementById("query").addEventListener("input", function() {
   fetch('gameData.json')
     .then(response => response.json())
     .then(data => {
-      const filteredData = data.filter(game => game.name.toLowerCase().includes(query.toLowerCase()));
+      const filteredData = data.games.filter(game => game.title.toLowerCase().includes(query.toLowerCase()));
       gamesContainer.innerHTML = "";
 
       if (filteredData.length === 0) {
@@ -23,11 +23,11 @@ document.getElementById("query").addEventListener("input", function() {
         gameContainer.classList.add("game-container");
 
         const gameLink = document.createElement("a");
-        gameLink.href = "#";
+        gameLink.href = game.url;
 
         const gameImage = document.createElement("img");
         gameImage.src = game.image;
-        gameImage.alt = game.name;
+        gameImage.alt = game.title;
 
         gameLink.appendChild(gameImage);
         gameContainer.appendChild(gameLink);
