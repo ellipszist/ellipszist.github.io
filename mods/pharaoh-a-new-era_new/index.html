@@ -1,0 +1,80 @@
+<!DOCTYPE html>
+<html>
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>ดาวน์โหลดม็อดภาษาไทยสำหรับเกม Pharaoh: A New Era</title>
+  <link href="https://fonts.googleapis.com/css?family=Sriracha:400" rel="stylesheet">
+  <script src="https://ajax.googleapis.com/ajax/libs/jquery/3.6.0/jquery.min.js"></script>
+  <script src="s/script.js"></script>
+  <style>
+    body {
+      background: #ffecd9;
+      display: grid;
+      height: 100vh;
+      margin: 0;
+      place-items: center;
+      background-image: url("i/pharaohBG1-scaled.jpg");
+      background-position: top center;
+      background-size: cover;
+      background-repeat: no-repeat;
+      background-attachment: fixed;
+    }
+
+    button {
+      -webkit-appearance: none;
+      background: -webkit-gradient(to right, #a2ccb6 0%, #fceeb5 50%, #ee786e 100%);
+      background: linear-gradient(to right, #a2ccb6 0%, #fceeb5 50%, #ee786e 100%);
+      background-size: 500%;
+      border: none;
+      border-radius: 3px;
+      box-shadow: 0.5rem 0.5rem 1rem rgb(0 0 0 / 15%);
+      color: #fff;
+      cursor: pointer;
+      font: 1.5em Sriracha, sans-serif;
+      -webkit-font-smoothing: antialiased;
+      -moz-osx-font-smoothing: grayscale;
+      /* height: 4rem; */
+      letter-spacing: 0.05em;
+      outline: none;
+      -webkit-tap-highlight-color: transparent;
+      -webkit-user-select: none;
+      -moz-user-select: none;
+      -ms-user-select: none;
+      user-select: none;
+      /* width: 15rem; */
+      padding: 1.5rem 2rem;
+    }
+
+    button:hover {
+      animation-name: gradient;
+      -webkit-animation-name: gradient;
+      animation-duration: 2s;
+      -webkit-animation-duration: 2s;
+      animation-iteration-count: 1;
+      -webkit-animation-iteration-count: 1;
+      animation-fill-mode: forwards;
+      -webkit-animation-fill-mode: forwards;
+    }
+
+    @keyframes gradient {
+      0% {
+        background-position: 0% 50%;
+      }
+      100% {
+        background-position: 100%;
+      }
+    }
+  </style>
+</head>
+<body>
+  <a href="https://ellipszist.github.io/releases/mods/Pharaoh_A_New_Era-1.1.0.20230224.zip">
+    <button id="download-btn">
+      ดาวน์โหลดม็อดภาษาไทย<br>
+      Pharaoh: A New Era<br>
+      (24/02/2023)<br>
+      <b id="download-count">ดาวน์โหลด: ??? ครั้ง</b>
+    </button>
+  </a>
+</body>
+</html>
