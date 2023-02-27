@@ -1,0 +1,155 @@
+@import url('https://fonts.googleapis.com/css2?family=PT+Sans&display=swap');
+
+*,
+*::before,
+*::after {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+}
+
+html,
+body {
+  background-color: #1a1a1a;
+  font-family: 'PT Sans', sans-serif;
+  height: 100%;
+}
+
+.skills-bar-container {
+  position: absolute;
+  top: 50%;
+  left: 50%;
+  transform: translate(-50%, -50%);
+  width: 40%;
+  min-width: 300px;
+  list-style: none;
+}
+
+.skills-bar-container li {
+  margin-bottom: 10px;
+  padding: 5px;
+  position: relative;
+  width: 100%;
+}
+
+.skills-bar-container li .progressbar-title {
+  color: #fff;
+}
+
+.skills-bar-container li .progressbar-title h3 {
+  display: inline-block;
+}
+
+.skills-bar-container li .progressbar-title .percent {
+  position: absolute;
+  right: 5px;
+}
+
+.skills-bar-container li .bar-container {
+  background-color: #555;
+  border-radius: 5px;
+  display: block;
+  height: 5px;
+  margin-top: 5px;
+  position: relative;
+  width: 100%;
+}
+
+.skills-bar-container li .bar-container .progressbar {
+  animation-duration: 2s;
+  animation-fill-mode: both;
+  animation-timing-function: ease-out;
+  border-radius: 5px;
+  height: 100%;
+  position: absolute;
+}
+
+.skills-bar-container li .bar-container #progress-sdv {
+  animation-delay: 0.7s;
+  animation-name: progress-sdv;
+}
+
+.skills-bar-container li .bar-container #progress-sve {
+  animation-delay: 1.4s;
+  animation-name: progress-sve;
+}
+
+.skills-bar-container li .bar-container #progress-pane {
+  animation-delay: 2.1s;
+  animation-name: progress-pane;
+}
+
+.skills-bar-container li .bar-container #progress-hand {
+  animation-delay: 2.8s;
+  animation-name: progress-hand;
+}
+
+.skills-bar-container li .bar-container #progress-hades {
+  animation-delay: 3.5s;
+  animation-name: progress-hades;
+}
+
+.progressred {
+  background-color: #c0392b;
+}
+
+.progressblue {
+  background-color: #1199ff;
+}
+
+.progresspurple {
+  background-color: #9b59b6;
+}
+
+.progressorange {
+  background-color: #ffa500;
+}
+
+.progressgreen {
+  background-color: #27ae60;
+}
+
+@keyframes progress-sdv {
+  0% {
+    width: 0%;
+  }
+  100% {
+    width: 100%;
+  }
+}
+
+@keyframes progress-sve {
+  0% {
+    width: 0%;
+  }
+  100% {
+    width: 100%;
+  }
+}
+
+@keyframes progress-pane {
+  0% {
+    width: 0%;
+  }
+  100% {
+    width: 100%;
+  }
+}
+
+@keyframes progress-hand {
+  0% {
+    width: 0%;
+  }
+  100% {
+    width: 35%;
+  }
+}
+
+@keyframes progress-hades {
+  0% {
+    width: 0%;
+  }
+  100% {
+    width: 17%;
+  }
+}
