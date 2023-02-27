@@ -89,12 +89,33 @@ body {
   animation-name: progress-hades;
 }
 
-.progressred {
-  background-color: #c0392b;
+.skills-bar-container li .bar-container #progress-eastward {
+  animation-delay: 4.2s;
+  animation-name: progress-eastward;
+}
+
+.progressyellow {
+  background-color: #e0a100;
 }
 
 .progressblue {
   background-color: #1199ff;
+}
+
+.progressbrown {
+  background-color: #ad4600;
+}
+
+.progresswhite {
+  background-color: #ffffff;
+}
+
+.progressred {
+  background-color: #c10b0b;
+}
+
+.progressblack {
+  background-color: #000000;
 }
 
 .progresspurple {
@@ -151,5 +172,14 @@ body {
   }
   100% {
     width: 17%;
+  }
+}
+
+@keyframes progress-eastward {
+  0% {
+    width: 0%;
+  }
+  100% {
+    width: 5%;
   }
 }
