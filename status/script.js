@@ -10,10 +10,10 @@ let multiply = 4;
 
 Object.entries(games).forEach(([game, pourcent]) => {
   const delay = 700;
-  
+
   setTimeout(() => {
     document.getElementById(`${game}-pourcent`).textContent = pourcent;
   }, delay * multiply);
-  
+
   multiply++;
 });
