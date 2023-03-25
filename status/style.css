@@ -156,11 +156,11 @@ body {
 
 /* SECRET */
 .progresssecret1 {
-  background-color: #fbdbc5;
+  background-color: #fbdbc500;
 }
 
 .progresssecret2 {
-  background-color: #fdc05b;
+  background-color: #fdc05b00;
 }
 
 @keyframes progress-sdv {
@@ -240,7 +240,7 @@ body {
     width: 0%;
   }
   100% {
-    width: 0%;
+    width: 5%;
   }
 }
 
@@ -249,6 +249,6 @@ body {
     width: 0%;
   }
   100% {
-    width: 0%;
+    width: 5%;
   }
 }

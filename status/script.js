@@ -7,8 +7,8 @@ const games = {
   "deathsdoor": "28%",
   "hades": "17%",
   "eastward": "5%",
-  "secret1": "",
-  "secret2": ""
+  "secret1": "??%",
+  "secret2": "??%"
 };
 
 let multiply = 4;
