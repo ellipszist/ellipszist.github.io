@@ -2,7 +2,8 @@ const games = {
   "sdv": "100%",
   "sve": "100%",
   "pane": "100%",
-  "hand": "35%",
+  "overcooked2": "100%",
+  "hand": "30%",
   "deathsdoor": "28%",
   "hades": "17%",
   "eastward": "5%"
