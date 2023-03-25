@@ -6,7 +6,9 @@ const games = {
   "hand": "30%",
   "deathsdoor": "28%",
   "hades": "17%",
-  "eastward": "5%"
+  "eastward": "5%",
+  "secret1": "",
+  "secret2": ""
 };
 
 let multiply = 4;

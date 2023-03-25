@@ -104,6 +104,16 @@ body {
   animation-name: progress-eastward;
 }
 
+.skills-bar-container li .bar-container #progress-secret1 {
+  animation-delay: 6.3s;
+  animation-name: progress-secret1;
+}
+
+.skills-bar-container li .bar-container #progress-secret2 {
+  animation-delay: 7.0s;
+  animation-name: progress-secret2;
+}
+
 .progressblack {
   background-color: #000000;
 }
@@ -142,6 +152,15 @@ body {
 
 .progressyellow {
   background-color: #e0a100;
+}
+
+/* SECRET */
+.progresssecret1 {
+  background-color: #fbdbc5;
+}
+
+.progresssecret2 {
+  background-color: #fdc05b;
 }
 
 @keyframes progress-sdv {
@@ -213,5 +232,23 @@ body {
   }
   100% {
     width: 5%;
+  }
+}
+
+@keyframes progress-secret1 {
+  0% {
+    width: 0%;
+  }
+  100% {
+    width: 0%;
+  }
+}
+
+@keyframes progress-secret2 {
+  0% {
+    width: 0%;
+  }
+  100% {
+    width: 0%;
   }
 }
