@@ -84,14 +84,14 @@ body {
   animation-name: progress-overcooked2;
 }
 
-.skills-bar-container li .bar-container #progress-hand {
+.skills-bar-container li .bar-container #progress-deathsdoor {
   animation-delay: 3.5s;
-  animation-name: progress-hand;
+  animation-name: progress-deathsdoor;
 }
 
-.skills-bar-container li .bar-container #progress-deathsdoor {
+.skills-bar-container li .bar-container #progress-hand {
   animation-delay: 4.2s;
-  animation-name: progress-deathsdoor;
+  animation-name: progress-hand;
 }
 
 .skills-bar-container li .bar-container #progress-hades {
@@ -199,21 +199,21 @@ body {
   }
 }
 
+@keyframes progress-deathsdoor {
+  0% {
+    width: 0%;
+  }
+  100% {
+    width: 42%;
+  }
+}
+
 @keyframes progress-hand {
   0% {
     width: 0%;
   }
   100% {
     width: 30%;
-  }
-}
-
-@keyframes progress-deathsdoor {
-  0% {
-    width: 0%;
-  }
-  100% {
-    width: 28%;
   }
 }
 
