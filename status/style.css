@@ -84,18 +84,23 @@ body {
   animation-name: progress-hand;
 }
 
-.skills-bar-container li .bar-container #progress-hades {
+.skills-bar-container li .bar-container #progress-deathsdoor {
   animation-delay: 3.5s;
+  animation-name: progress-deathsdoor;
+}
+
+.skills-bar-container li .bar-container #progress-hades {
+  animation-delay: 4.2s;
   animation-name: progress-hades;
 }
 
 .skills-bar-container li .bar-container #progress-eastward {
-  animation-delay: 4.2s;
+  animation-delay: 4.9s;
   animation-name: progress-eastward;
 }
 
-.progressyellow {
-  background-color: #e0a100;
+.progressblack {
+  background-color: #000000;
 }
 
 .progressblue {
@@ -106,28 +111,32 @@ body {
   background-color: #ad4600;
 }
 
-.progresswhite {
-  background-color: #ffffff;
+.progressgray {
+  background-color: #7f7f7f;
 }
 
-.progressred {
-  background-color: #c10b0b;
-}
-
-.progressblack {
-  background-color: #000000;
-}
-
-.progresspurple {
-  background-color: #9b59b6;
+.progressgreen {
+  background-color: #27ae60;
 }
 
 .progressorange {
   background-color: #ffa500;
 }
 
-.progressgreen {
-  background-color: #27ae60;
+.progresspurple {
+  background-color: #9b59b6;
+}
+
+.progressred {
+  background-color: #c10b0b;
+}
+
+.progresswhite {
+  background-color: #ffffff;
+}
+
+.progressyellow {
+  background-color: #e0a100;
 }
 
 @keyframes progress-sdv {
@@ -163,6 +172,15 @@ body {
   }
   100% {
     width: 35%;
+  }
+}
+
+@keyframes progress-deathsdoor {
+  0% {
+    width: 0%;
+  }
+  100% {
+    width: 28%;
   }
 }
 

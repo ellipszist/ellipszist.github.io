@@ -3,6 +3,7 @@ const games = {
   "sve": "100%",
   "pane": "100%",
   "hand": "35%",
+  "deathsdoor": "28%",
   "hades": "17%",
   "eastward": "5%"
 };
