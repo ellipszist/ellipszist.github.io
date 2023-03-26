@@ -3,7 +3,7 @@ const games = {
   "sve": "100%",
   "pane": "100%",
   "overcooked2": "100%",
-  "deathsdoor": "50%",
+  "deathsdoor": "55%",
   "hand": "30%",
   "hades": "17%",
   "eastward": "5%",
