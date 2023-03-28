@@ -4,7 +4,7 @@ const games = {
   "pane": "100%",
   "overcooked2": "100%",
   "bcapp": "3/5",
-  "deathsdoor": "55%",
+  "deathsdoor": "59%",
   "hand": "30%",
   "hades": "17%",
   "eastward": "5%",
