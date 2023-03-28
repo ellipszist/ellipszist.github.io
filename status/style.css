@@ -15,14 +15,17 @@ body {
   height: 100%;
 }
 
-.skills-bar-container {
+#content {
   position: absolute;
-  top: 50%;
-  left: 50%;
-  transform: translate(-50%, -50%);
+  top: 30px;
+  width: 100%
+}
+
+.skills-bar-container {
   width: 40%;
   min-width: 300px;
   list-style: none;
+  margin: auto;
 }
 
 .skills-bar-container li {
@@ -285,7 +288,7 @@ body {
   border-radius: 3px;
 }
 
-.content {
+.detail {
   padding: 0 18px;
   max-height: 0;
   overflow: hidden;
@@ -294,6 +297,6 @@ body {
   border-radius: 3px;
 }
 
-.content p {
+.detail p {
   margin: 1em 0;
 }
