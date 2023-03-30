@@ -137,12 +137,38 @@ body {
   animation-name: progress-secret2;
 }
 
+/* LEGACY */
+.progressred {
+  background-color: #c0392b;
+}
+
+.progressblue {
+  background-color: #1199ff;
+}
+
+.progresspurple {
+  background-color: #9b59b6;
+}
+
+.progressorange {
+  background-color: #ffa500;
+}
+
+.progressgreen {
+  background-color: #27ae60;
+}
+
+/* NEW COLOR */
 .progressblack {
   background-color: #000000;
 }
 
 .progressblue {
   background-color: #1199ff;
+}
+
+.progressbluea {
+  background-color: #0062ad;
 }
 
 .progressbrown {
@@ -175,6 +201,10 @@ body {
 
 .progressyellow {
   background-color: #e0a100;
+}
+
+.progressyellowa {
+  background-color: #ad7c00;
 }
 
 /* SECRET */
@@ -245,7 +275,7 @@ body {
     width: 0%;
   }
   100% {
-    width: 66%;
+    width: 73%;
   }
 }
 
