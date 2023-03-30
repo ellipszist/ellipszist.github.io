@@ -1,10 +1,10 @@
 const games = {
   "sdv": "100%",
+  "sdvalpha": "95%",
   "sve": "100%",
+  "svebeta": "96%",
   "pane": "100%",
   "overcooked2": "100%",
-  "svebeta": "96%",
-  "sdvalpha": "95%",
   "deathsdoor": "73%",
   "bcapp": "3/5",
   "hand": "30%",

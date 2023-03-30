@@ -77,29 +77,29 @@ body {
   animation-name: progress-sdv;
 }
 
-.skills-bar-container li .bar-container #progress-sve {
+.skills-bar-container li .bar-container #progress-sdvalpha {
   animation-delay: 1.4s;
+  animation-name: progress-sdvalpha;
+}
+
+.skills-bar-container li .bar-container #progress-sve {
+  animation-delay: 2.1s;
   animation-name: progress-sve;
 }
 
+.skills-bar-container li .bar-container #progress-svebeta {
+  animation-delay: 2.8s;
+  animation-name: progress-svebeta;
+}
+
 .skills-bar-container li .bar-container #progress-pane {
-  animation-delay: 2.1s;
+  animation-delay: 3.5s;
   animation-name: progress-pane;
 }
 
 .skills-bar-container li .bar-container #progress-overcooked2 {
-  animation-delay: 2.8s;
-  animation-name: progress-overcooked2;
-}
-
-.skills-bar-container li .bar-container #progress-svebeta {
-  animation-delay: 3.5s;
-  animation-name: progress-svebeta;
-}
-
-.skills-bar-container li .bar-container #progress-sdvalpha {
   animation-delay: 4.2s;
-  animation-name: progress-sdvalpha;
+  animation-name: progress-overcooked2;
 }
 
 .skills-bar-container li .bar-container #progress-deathsdoor {
@@ -168,7 +168,7 @@ body {
 }
 
 .progressbluea {
-  background-color: #0062ad;
+  background-color: #2f5da9;
 }
 
 .progressbrown {
@@ -204,7 +204,7 @@ body {
 }
 
 .progressyellowa {
-  background-color: #ad7c00;
+  background-color: #c29700;
 }
 
 /* SECRET */
@@ -225,12 +225,30 @@ body {
   }
 }
 
+@keyframes progress-sdvalpha {
+  0% {
+    width: 0%;
+  }
+  100% {
+    width: 95%;
+  }
+}
+
 @keyframes progress-sve {
   0% {
     width: 0%;
   }
   100% {
     width: 100%;
+  }
+}
+
+@keyframes progress-svebeta {
+  0% {
+    width: 0%;
+  }
+  100% {
+    width: 96%;
   }
 }
 
@@ -249,24 +267,6 @@ body {
   }
   100% {
     width: 100%;
-  }
-}
-
-@keyframes progress-svebeta {
-  0% {
-    width: 0%;
-  }
-  100% {
-    width: 96%;
-  }
-}
-
-@keyframes progress-sdvalpha {
-  0% {
-    width: 0%;
-  }
-  100% {
-    width: 95%;
   }
 }
 
