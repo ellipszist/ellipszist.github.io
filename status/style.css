@@ -13,12 +13,16 @@ body {
   background-color: #1a1a1a;
   font-family: 'PT Sans', sans-serif;
   height: 100%;
+  background-image: url('../images/junispring.png');
+  background-repeat: no-repeat;
+  background-attachment: fixed;
+  background-position: left bottom;
 }
 
 #content {
   position: absolute;
   top: 30px;
-  width: 100%
+  width: 100%;
 }
 
 .skills-bar-container {
