@@ -6,12 +6,12 @@ const games = {
   "pane": "100%",
   "overcooked2": "100%",
   "deathsdoor": "90%",
+  "secret2": "65%",
   "bcapp": "3/5",
   "hand": "30%",
   "hades": "17%",
   "eastward": "5%",
-  "secret1": "??%",
-  "secret2": "??%"
+  "secret1": "??%"
 };
 
 let multiply = 4;
