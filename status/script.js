@@ -7,7 +7,7 @@ const games = {
   "svebeta": "98%",
   "pane": "100%",
   "overcooked2": "100%",
-  "deathsdoor": "98%",
+  "deathsdoor": "100%",
   "secret2": "65%",
   "hand": "30%",
   "hades": "17%",
