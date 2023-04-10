@@ -3,6 +3,7 @@ importScripts('https://www.gstatic.com/firebasejs/8.6.1/firebase-app.js');
 importScripts('https://www.gstatic.com/firebasejs/8.6.1/firebase-messaging.js');
 
 firebase.initializeApp({
+  // Firebase project configuration
   apiKey: "AIzaSyB0mys5Hj0qt7lUgKFiDRYkDfbgOS7nAp8",
   authDomain: "ell-store-630f8.firebaseapp.com",
   projectId: "ell-store-630f8",
@@ -47,6 +48,9 @@ self.addEventListener('install', function(event) {
         console.log('[Service Worker] Caching app shell...');
         return cache.addAll(urlsToCache);
       })
+      .catch(function(error) {
+        console.error('[Service Worker] Failed to cache app shell:', error);
+      })
   );
 });
 
@@ -64,23 +68,29 @@ self.addEventListener('activate', function(event) {
           }
         }));
       })
+      .catch(function(error) {
+        console.error('[Service Worker] Failed to remove old caches:', error);
+      })
   );
 });
 
 // Serve cached app shell or fetch from network
 self.addEventListener('fetch', function(event) {
-  console.log('[Service Worker] Fetching:', event.request.url);
+  console.log('[Service Worker] Fetch event:', event.request.url);
 
   event.respondWith(
     caches.match(event.request)
       .then(function(response) {
         if (response) {
-          console.log('[Service Worker] Serving from cache:', event.request.url);
+          console.log('[Service Worker] Serving cached response:', event.request.url);
           return response;
         }
 
-        console.log('[Service Worker] Fetching from network:', event.request.url);
+        console.log('[Service Worker] Fetching new response:', event.request.url);
         return fetch(event.request);
+      })
+      .catch(function(error) {
+        console.error('[Service Worker] Failed to fetch response:', error);
       })
   );
 });
