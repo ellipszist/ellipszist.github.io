@@ -1,6 +1,6 @@
 // Firebase Cloud Messaging configuration
-importScripts('https://www.gstatic.com/firebasejs/8.6.1/firebase-app.js');
-importScripts('https://www.gstatic.com/firebasejs/8.6.1/firebase-messaging.js');
+importScripts('https://www.gstatic.com/firebasejs/9.19.1/firebase-app.js');
+importScripts('https://www.gstatic.com/firebasejs/9.19.1/firebase-messaging.js');
 
 firebase.initializeApp({
   // Firebase project configuration
