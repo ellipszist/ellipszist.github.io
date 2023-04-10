@@ -487,5 +487,28 @@
     on-load-remove-class="maledpan-font-loading"
     on-load-add-class="maledpan-font-loaded">
   </amp-font>
+<script type="module">
+  // Import the functions you need from the SDKs you need
+  import { initializeApp } from "https://www.gstatic.com/firebasejs/9.19.1/firebase-app.js";
+  import { getAnalytics } from "https://www.gstatic.com/firebasejs/9.19.1/firebase-analytics.js";
+  // TODO: Add SDKs for Firebase products that you want to use
+  // https://firebase.google.com/docs/web/setup#available-libraries
+
+  // Your web app's Firebase configuration
+  // For Firebase JS SDK v7.20.0 and later, measurementId is optional
+  const firebaseConfig = {
+    apiKey: "AIzaSyB0mys5Hj0qt7lUgKFiDRYkDfbgOS7nAp8",
+    authDomain: "ell-store-630f8.firebaseapp.com",
+    projectId: "ell-store-630f8",
+    storageBucket: "ell-store-630f8.appspot.com",
+    messagingSenderId: "705373234131",
+    appId: "1:705373234131:web:2c5a52b052292452278526",
+    measurementId: "G-R629QDWGBQ"
+  };
+
+  // Initialize Firebase
+  const app = initializeApp(firebaseConfig);
+  const analytics = getAnalytics(app);
+</script>
 </body>
 </html>
