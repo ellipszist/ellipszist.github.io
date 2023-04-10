@@ -36,7 +36,7 @@ const urlsToCache = [
   '/index.html',
   '/styles.css',
   '/app.js',
-  '/images/logo.png',
+  '/images/junispring.png',
 ];
 
 self.addEventListener('install', function(event) {
