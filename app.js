@@ -1,5 +1,5 @@
-import { initializeApp } from 'firebase/app';
-import { getMessaging, onBackgroundMessage } from 'firebase/messaging';
+import { initializeApp } from 'https://www.gstatic.com/firebasejs/9.19.1/firebase-app.js';
+import { getMessaging, onBackgroundMessage } from 'https://www.gstatic.com/firebasejs/9.19.1/firebase-messaging.js';
 
 if ('serviceWorker' in navigator && 'PushManager' in window) {
   console.log('[App] Initializing Service Worker...');
