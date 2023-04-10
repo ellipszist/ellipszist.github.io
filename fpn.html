@@ -1,64 +1,15 @@
 <!DOCTYPE html>
 <html>
-  <head>
-    <title>Firebase Push Notifications</title>
-  </head>
-  <body>
-    <h1>Firebase Push Notifications</h1>
-    <button id="subscribeButton">Subscribe to Push Notifications</button>
-
-    <!-- Firebase SDK -->
-    <script src="https://www.gstatic.com/firebasejs/8.6.1/firebase-app.js"></script>
-    <script src="https://www.gstatic.com/firebasejs/8.6.1/firebase-messaging.js"></script>
-
-    <script>
-      // Initialize Firebase
-      var firebaseConfig = {
-        apiKey: "AIzaSyB0mys5Hj0qt7lUgKFiDRYkDfbgOS7nAp8",
-        authDomain: "ell-store-630f8.firebaseapp.com",
-        projectId: "ell-store-630f8",
-        storageBucket: "ell-store-630f8.appspot.com",
-        messagingSenderId: "705373234131",
-        appId: "1:705373234131:web:2c5a52b052292452278526",
-        measurementId: "G-R629QDWGBQ"
-      };
-      firebase.initializeApp(firebaseConfig);
-
-      // Retrieve Firebase Messaging object
-      const messaging = firebase.messaging();
-
-      // Add the service worker for handling push notifications
-      navigator.serviceWorker.register('service-worker.js')
-        .then(function(registration) {
-          messaging.useServiceWorker(registration);
-
-          // Enable the button to subscribe to push notifications
-          const subscribeButton = document.getElementById('subscribeButton');
-          subscribeButton.removeAttribute('disabled');
-          subscribeButton.addEventListener('click', function() {
-            // Request permission to receive notifications
-            messaging.requestPermission()
-              .then(function() {
-                console.log('Notification permission granted.');
-
-                // Get the registration token for the current user
-                messaging.getToken()
-                  .then(function(token) {
-                    console.log('Registration token:', token);
-                    alert('Successfully subscribed to push notifications.');
-                  })
-                  .catch(function(error) {
-                    console.log('Error getting registration token:', error);
-                  });
-              })
-              .catch(function(error) {
-                console.log('Unable to get permission to notify:', error);
-              });
-          });
-        })
-        .catch(function(error) {
-          console.log('Service worker registration failed:', error);
-        });
-    </script>
-  </body>
+<head>
+  <title>Firebase Push Notifications</title>
+  <link rel="stylesheet" href="styles.css">
+</head>
+<body>
+  <h1>Firebase Push Notifications</h1>
+  <script src="app.js"></script>
+  <!-- Firebase SDK -->
+  <script src="https://www.gstatic.com/firebasejs/8.6.1/firebase-app.js"></script>
+  <!-- Firebase messaging -->
+  <script src="https://www.gstatic.com/firebasejs/8.6.1/firebase-messaging.js"></script>
+</body>
 </html>
