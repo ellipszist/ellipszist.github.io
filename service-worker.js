@@ -1,8 +1,8 @@
-// Firebase Cloud Messaging configuration
-importScripts('https://www.gstatic.com/firebasejs/9.19.1/firebase-app.js');
-importScripts('https://www.gstatic.com/firebasejs/9.19.1/firebase-messaging.js');
+import { initializeApp } from "firebase/app";
+import { getMessaging, onBackgroundMessage } from "firebase/messaging";
 
-firebase.initializeApp({
+// Initialize Firebase app
+const firebaseConfig = {
   // Firebase project configuration
   apiKey: "AIzaSyB0mys5Hj0qt7lUgKFiDRYkDfbgOS7nAp8",
   authDomain: "ell-store-630f8.firebaseapp.com",
@@ -11,11 +11,15 @@ firebase.initializeApp({
   messagingSenderId: "705373234131",
   appId: "1:705373234131:web:2c5a52b052292452278526",
   measurementId: "G-R629QDWGBQ"
-});
+};
 
-const messaging = firebase.messaging();
+const app = initializeApp(firebaseConfig);
 
-messaging.onBackgroundMessage(function(payload) {
+// Get Firebase Cloud Messaging instance
+const messaging = getMessaging(app);
+
+// Handle incoming messages when app is in background
+onBackgroundMessage((payload) => {
   console.log('[Service Worker] Received background message:', payload);
 
   // Customize notification title and body
@@ -39,48 +43,48 @@ const urlsToCache = [
   '/images/junispring.png',
 ];
 
-self.addEventListener('install', function(event) {
+self.addEventListener('install', (event) => {
   console.log('[Service Worker] Installing service worker...');
 
   event.waitUntil(
     caches.open(CACHE_NAME)
-      .then(function(cache) {
+      .then((cache) => {
         console.log('[Service Worker] Caching app shell...');
         return cache.addAll(urlsToCache);
       })
-      .catch(function(error) {
+      .catch((error) => {
         console.error('[Service Worker] Failed to cache app shell:', error);
       })
   );
 });
 
 // Clean up old caches
-self.addEventListener('activate', function(event) {
+self.addEventListener('activate', (event) => {
   console.log('[Service Worker] Activating service worker...');
 
   event.waitUntil(
     caches.keys()
-      .then(function(keyList) {
-        return Promise.all(keyList.map(function(key) {
+      .then((keyList) => {
+        return Promise.all(keyList.map((key) => {
           if (key !== CACHE_NAME) {
             console.log('[Service Worker] Removing old cache:', key);
             return caches.delete(key);
           }
         }));
       })
-      .catch(function(error) {
+      .catch((error) => {
         console.error('[Service Worker] Failed to remove old caches:', error);
       })
   );
 });
 
 // Serve cached app shell or fetch from network
-self.addEventListener('fetch', function(event) {
+self.addEventListener('fetch', (event) => {
   console.log('[Service Worker] Fetch event:', event.request.url);
 
   event.respondWith(
     caches.match(event.request)
-      .then(function(response) {
+      .then((response) => {
         if (response) {
           console.log('[Service Worker] Serving cached response:', event.request.url);
           return response;
@@ -89,7 +93,7 @@ self.addEventListener('fetch', function(event) {
         console.log('[Service Worker] Fetching new response:', event.request.url);
         return fetch(event.request);
       })
-      .catch(function(error) {
+      .catch((error) => {
         console.error('[Service Worker] Failed to fetch response:', error);
       })
   );
