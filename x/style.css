@@ -18,7 +18,7 @@ body {
   display: flex;
   justify-content: center;
   flex-wrap: wrap;
-  padding-top: 56px;
+  margin-top: 56px;
 }
 
 .mod-container {
@@ -87,7 +87,7 @@ body {
 
 .no-results {
   text-align: center;
-  margin-top: 20px;
+  margin-top: 56px;
   font-size: 18px;
   color: #aaa;
   display: none;
