@@ -31,3 +31,20 @@ document.getElementById("query").addEventListener("input", function() {
 
   noResults.style.display = results ? "none" : "block";
 });
+
+
+let lastScrollTop = 0;
+
+window.addEventListener("scroll", function() {
+  const currentScrollTop = window.pageYOffset || document.documentElement.scrollTop;
+  
+  if (currentScrollTop > lastScrollTop) {
+    // Scrolling down
+    document.querySelector(".search-container").classList.add("hidden");
+  } else {
+    // Scrolling up
+    document.querySelector(".search-container").classList.remove("hidden");
+  }
+
+  lastScrollTop = currentScrollTop;
+});
