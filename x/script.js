@@ -24,7 +24,7 @@ document.getElementById("query").addEventListener("input", function() {
         setTimeout(() => {
           modContainer.style.display = "none";
           modContainer.style.opacity = 1;
-        }, 500);
+        }, 100);
       }
     }
   });
