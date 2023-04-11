@@ -8,14 +8,24 @@ document.getElementById("query").addEventListener("input", function() {
     const imgAlt = modContainer.querySelector("img").alt.toLowerCase();
 
     if (imgAlt.includes(query)) {
-      modContainer.style.display = "inline-block";
-      modContainer.classList.remove("hide"); // remove the "hide" class if it was added before
+      modContainer.classList.remove("hide");
+      if (modContainer.style.display === "none") {
+        modContainer.style.display = "inline-block";
+        modContainer.style.opacity = 0;
+        setTimeout(() => {
+          modContainer.style.opacity = 1;
+        }, 10);
+      }
       results = true;
     } else {
-      modContainer.classList.add("hide"); // add the "hide" class to trigger the fade-out animation
-      setTimeout(() => {
-        modContainer.style.display = "none"; // hide the element after the animation is complete
-      }, 500); // replace 500 with the duration of the transition in milliseconds
+      modContainer.classList.add("hide");
+      if (modContainer.style.display !== "none") {
+        modContainer.style.opacity = 0;
+        setTimeout(() => {
+          modContainer.style.display = "none";
+          modContainer.style.opacity = 1;
+        }, 500);
+      }
     }
   });
 
