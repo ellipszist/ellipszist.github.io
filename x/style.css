@@ -18,6 +18,7 @@ body {
   display: flex;
   justify-content: center;
   flex-wrap: wrap;
+  padding-top: 56px;
 }
 
 .mod-container {
@@ -58,7 +59,22 @@ body {
 .search-container {
   text-align: center;
   margin-bottom: 20px;
-  width: 100%;
+  width: calc(100% - 19px);
+  position: fixed;
+  top: 0;
+  left: 0;
+  right: 0;
+  z-index: 9999;
+  background-color: #ffffffe6;
+  text-align: center;
+  padding: 10px;
+  -webkit-backdrop-filter: blur(8px);
+  backdrop-filter: blur(8px);
+  transition: transform 0.3s ease-in-out;
+}
+
+.search-container.hidden {
+  transform: translateY(-100%);
 }
 
 .search-container input[type="text"] {
@@ -66,6 +82,7 @@ body {
   border-radius: 5px;
   border: 1px solid #ccc;
   font-size: 16px;
+  text-align: center;
 }
 
 .no-results {
