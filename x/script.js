@@ -38,11 +38,11 @@ let lastScrollTop = 0;
 window.addEventListener("scroll", function() {
   const currentScrollTop = window.pageYOffset || document.documentElement.scrollTop;
   
-  if (currentScrollTop > lastScrollTop) {
-    // Scrolling down
+  if (currentScrollTop > lastScrollTop && currentScrollTop > 56) {
+    // Scrolling down and past 56px from top
     document.querySelector(".search-container").classList.add("hidden");
   } else {
-    // Scrolling up
+    // Scrolling up or not past 56px from top
     document.querySelector(".search-container").classList.remove("hidden");
   }
 
