@@ -27,15 +27,16 @@ body {
   display: inline-block;
   margin: 7px;
   border: 3px solid #fff;
-  transition: transform .2s;
+  transition: transform .2s, border .2s;
 }
 
 .mod-container:hover,
 .mod-container:focus {
   border: 3px solid #3fe9d3; /* 04b9c3 */
-  transform: scale(1.1); 
+  transform: scale(1.05); 
 }
 
+/*
 .mod-container {
   transition: opacity 0.5s ease;
   opacity: 1;
@@ -47,7 +48,7 @@ body {
 
 .mod-container[style*="display: none"] {
   opacity: 0;
-}
+} */
 
 .mod-container img {
   width: 100%;
