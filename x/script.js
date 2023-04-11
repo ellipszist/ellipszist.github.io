@@ -32,7 +32,7 @@ document.getElementById("query").addEventListener("input", function() {
   noResults.style.display = results ? "none" : "block";
 });
 
-
+// hide the .search-container when scrolling down and show it again when scrolling up
 let lastScrollTop = 0;
 
 window.addEventListener("scroll", function() {
@@ -47,4 +47,15 @@ window.addEventListener("scroll", function() {
   }
 
   lastScrollTop = currentScrollTop;
+});
+
+// hide the placeholder text when the user clicks on the search box
+const searchBox = document.getElementById("query");
+
+searchBox.addEventListener("click", function() {
+  searchBox.placeholder = "";
+});
+
+searchBox.addEventListener("blur", function() {
+  searchBox.placeholder = "ค้นหา";
 });
