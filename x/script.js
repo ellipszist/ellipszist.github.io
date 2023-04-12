@@ -59,3 +59,11 @@ searchBox.addEventListener("click", function() {
 searchBox.addEventListener("blur", function() {
   searchBox.placeholder = "พิมพ์ชื่อเกม หรือ ชื่อเพจ";
 });
+
+// JavaScript code to populate the input field
+const urlParams = new URLSearchParams(window.location.search);
+const query = urlParams.get('query');
+document.getElementById('query').value = query;
+
+// Trigger the search function
+searchBox.dispatchEvent(new Event('input'));
