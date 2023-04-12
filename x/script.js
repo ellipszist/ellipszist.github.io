@@ -57,5 +57,5 @@ searchBox.addEventListener("click", function() {
 });
 
 searchBox.addEventListener("blur", function() {
-  searchBox.placeholder = "ค้นหา";
+  searchBox.placeholder = "พิมพ์ชื่อเกม หรือ ชื่อเพจ";
 });
