@@ -63,16 +63,7 @@ searchBox.addEventListener("blur", function() {
 // JavaScript code to populate the input field
 const urlParams = new URLSearchParams(window.location.search);
 const query = urlParams.get('query');
-const searchBox = document.getElementById('query');
-searchBox.value = query;
+document.getElementById('query').value = query;
 
 // Trigger the search function
 searchBox.dispatchEvent(new Event('input'));
-
-// Check if the URL contains the query parameter
-if (window.location.href.includes('?query=')) {
-  // Redirect the user to the root directory URL with the query parameter
-  window.location.href = `https://ellipszist.github.io/x/beta.html?query=${query}`;
-}
-
-  
