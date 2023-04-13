@@ -14,11 +14,15 @@ body {
   justify-content: center;
 }
 
+#mod-count {
+  margin-top: 56px;
+}
+
 #mods {
   display: flex;
   justify-content: center;
   flex-wrap: wrap;
-  margin-top: 56px;
+  margin-top: 20px;
 }
 
 .mod-container {
