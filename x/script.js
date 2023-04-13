@@ -73,58 +73,35 @@ document.addEventListener('contextmenu', event => event.preventDefault());
 
 // Add context menu to all images with the "shareable" class
 const shareableImages = document.querySelectorAll('.shareable');
-let previousMenu = null; // Reference to previous menu element
-let longPressTimer = null; // Timer for long press
+let previousMenu = null;
 shareableImages.forEach(image => {
-  image.addEventListener('mousedown', event => {
-    if (event.button === 2) {
-      showContextMenu(event, image);
-    } else {
-      longPressTimer = setTimeout(() => {
-        showContextMenu(event, image);
-      }, 1000); // Long press duration is 1 second
-    }
-  });
-  image.addEventListener('mouseup', event => {
-    clearTimeout(longPressTimer);
-  });
-  image.addEventListener('touchstart', event => {
-    longPressTimer = setTimeout(() => {
-      showContextMenu(event, image);
-    }, 1000); // Long press duration is 1 second
-  });
-  image.addEventListener('touchend', event => {
-    clearTimeout(longPressTimer);
+  image.addEventListener('contextmenu', event => {
+    event.preventDefault();
+    if (previousMenu) previousMenu.remove();
+    const menu = document.createElement('div');
+    menu.classList.add('menu');
+    menu.innerHTML = `
+      <a href="#" onclick="copyUrl(event, 'https://ellipszist.github.io/x/beta.html?query=${encodeURIComponent(image.alt)}');">คัดลอกลิงก์ม็อด</a>
+      <a href="#" onclick="shareByEmail(event, 'https://ellipszist.github.io/x/beta.html?query=${encodeURIComponent(image.alt)}', '${encodeURIComponent(image.alt)}');">แบ่งปันทางอีเมล</a>
+      <a href="#" onclick="shareOnFacebook(event, 'https://ellipszist.github.io/x/beta.html?query=${encodeURIComponent(image.alt)}', '${encodeURIComponent(image.alt)}');">แชร์บน Facebook</a>
+      <a href="#" onclick="shareOnTwitter(event, 'https://ellipszist.github.io/x/beta.html?query=${encodeURIComponent(image.alt)}', '${encodeURIComponent(image.alt)}');">แชร์บนทวิตเตอร์</a>
+    `;
+    menu.style.top = `${event.pageY}px`;
+    menu.style.left = `${event.pageX}px`;
+    document.body.appendChild(menu);
+    document.addEventListener('click', () => {
+      menu.remove();
+      previousMenu = null;
+    }, { once: true });
+    previousMenu = menu;
   });
 });
 
-// Show context menu at the position of the mouse click or touch event
-function showContextMenu(event, image) {
-  event.preventDefault(); // Prevent default context menu
-  if (previousMenu) previousMenu.remove(); // Remove previous menu
-  const menu = document.createElement('div'); // Create a new menu
-  menu.classList.add('menu'); // Add CSS class to menu
-  menu.innerHTML = `
-    <a href="#" onclick="copyUrl(event, 'https://ellipszist.github.io/x/beta.html?query=${encodeURIComponent(image.alt)}');">คัดลอกลิงก์ม็อด</a>
-    <a href="#" onclick="shareByEmail(event, 'https://ellipszist.github.io/x/beta.html?query=${encodeURIComponent(image.alt)}', '${encodeURIComponent(image.alt)}');">แบ่งปันทางอีเมล</a>
-    <a href="#" onclick="shareOnFacebook(event, 'https://ellipszist.github.io/x/beta.html?query=${encodeURIComponent(image.alt)}', '${encodeURIComponent(image.alt)}');">แชร์บน Facebook</a>
-    <a href="#" onclick="shareOnTwitter(event, 'https://ellipszist.github.io/x/beta.html?query=${encodeURIComponent(image.alt)}', '${encodeURIComponent(image.alt)}');">แชร์บนทวิตเตอร์</a>
-  `; // Add share options to menu
-  menu.style.top = `${event.pageY}px`; // Position menu at cursor
-  menu.style.left = `${event.pageX}px`;
-  document.body.appendChild(menu); // Add menu to the DOM
-  document.addEventListener('click', () => {
-    menu.remove(); // Remove menu on click outside
-    previousMenu = null; // Clear previous menu reference
-  }, { once: true });
-  previousMenu = menu; // Set current menu as previous menu
-}
-
 // Copy URL to clipboard and display message
 function copyUrl(event, url) {
-  event.preventDefault(); // Prevent link click
-  navigator.clipboard.writeText(url); // Copy URL to clipboard
-  //alert('คัดลอก URL ไปยังคลิปบอร์ดแล้ว'); // Display message
+  event.preventDefault();
+  navigator.clipboard.writeText(url);
+  //alert('คัดลอก URL ไปยังคลิปบอร์ดแล้ว');
 }
 
 function shareByEmail(event, url, alt) {
