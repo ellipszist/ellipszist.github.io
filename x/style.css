@@ -1,5 +1,8 @@
 body {
-  background-color: #EBEBEB;
+  /* background-color: #EBEBEB; */
+  /* background: linear-gradient(132deg,#09d3c7 15%,#00b9ae 48%,#00a1b7 79%); */
+  /* background: linear-gradient(120deg,#00b9ae 36%,#00aab5 64%); */
+  background: linear-gradient(132deg, #e0e0e0 15%, #f5f5f5 48%, #e0e0e0 79%);
   padding: 20px;
 }
 
@@ -9,13 +12,14 @@ body {
 }
 
 #contain {
-  display: flex;
+  /* display: flex; */
   flex-wrap: wrap;
   justify-content: center;
 }
 
 #mod-count {
   margin-top: 56px;
+  text-align: center;
 }
 
 #mods {
