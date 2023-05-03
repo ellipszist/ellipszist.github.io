@@ -1,0 +1,107 @@
+<!DOCTYPE html>
+<html lang="th" >
+<head>
+  <meta charset="UTF-8">
+  <meta property="og:image" content="https://ellipszist.github.io/images/junispring_cover.png" />
+  <meta name="description" content="ELL STORE - แอปน้องแงว" />
+  <title>แอปน้องแงว | ELL STORE</title>
+  <link rel="canonical" href="https://ellipszist.github.io/mods/svd-app/" />
+  <meta name="viewport" content="width=device-width" />
+  <meta name="theme-color" media="(prefers-color-scheme: light)" content="#0F2027">
+  <meta name="theme-color" media="(prefers-color-scheme: dark)" content="#0F2027">
+  <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/meyer-reset/2.0/reset.min.css">
+<link rel="stylesheet" href="./style.css">
+  <script>
+    // Disable right-click on the page
+    document.addEventListener('contextmenu', event => event.preventDefault());
+
+    function validate() {
+      var radioButtonSets = document.querySelectorAll('input[type="radio"]');
+      var allAccepted = true;
+      for (var i = 0; i < radioButtonSets.length; i += 2) {
+        if (!radioButtonSets[i].checked) {
+          allAccepted = false;
+          break;
+        }
+      }
+      if (!allAccepted) {
+        alert("โปรดอ่านข้อกำหนดและเงื่อนไขทั้งหมด และกด \"ยอมรับ\" เพื่อดาวน์โหลดแอป");
+        return false;
+      } else {
+        location.href = 'https://ellipszist.github.io/releases/SMAPI.Installer_v3.18.2.2-alpha.3_by_ELL.apk';
+        return false; // prevent the form from submitting
+      }
+    }
+  </script>
+</head>
+<body>
+<article>
+  <header>
+    <h1>แอปน้องแงว</h1>
+    <h2>by ELL</h2>
+    <h3>เงื่อนไขและข้อกำหนด</h3>
+  </header>
+
+  <section>
+    <p>โปรดอ่านก่อนใช้งาน</p>
+
+    <form onsubmit="return validate()">
+      <label>1. แอปน้องแงว เป็น SMAPI ภาษาไทยเวอร์ชั่น alpha ซึ่งอยู่ในระหว่างพัฒนา ไม่รองรับการทำงานของม็อดทั้งหมด</label><br>
+      <input type="radio" id="1" name="1" value="accept">
+      <label for="1">ยอมรับ</label>
+      <input type="radio" id="2" name="1" value="decline">
+      <label for="2">ไม่ยอมรับ</label>
+      <br><br>
+
+      <label>2. แอปน้องแงว ใช้กับเกม Stardew Valley ที่ซื้อมาถูกลิขสิทธิ์เท่านั้น</label><br>
+      <input type="radio" id="3" name="2" value="accept">
+      <label for="3">ยอมรับ</label>
+      <input type="radio" id="4" name="2" value="decline">
+      <label for="4">ไม่ยอมรับ</label>
+      <br><br>
+
+      <label>3. เกม Stardew Valley บนระบบ iOS ไม่มีสามารถลงม็อดได้</label><br>
+      <input type="radio" id="5" name="3" value="accept">
+      <label for="5">ยอมรับ</label>
+      <input type="radio" id="6" name="3" value="decline">
+      <label for="6">ไม่ยอมรับ</label>
+      <br><br>
+
+      <label>4. เกม Stardew Valley ไม่มีโหมดเล่นกับเพื่อนบนโทรศัพท์มือถือ ทุกชนิด</label><br>
+      <input type="radio" id="7" name="4" value="accept">
+      <label for="7">ยอมรับ</label>
+      <input type="radio" id="8" name="4" value="decline">
+      <label for="8">ไม่ยอมรับ</label>
+      <br><br>
+
+      <label>5. เกม Stardew Valley ที่ซื้อบน Google Play Store ไม่สามารถลง SMAPI และ ม็อดใดๆ ได้</label><br>
+      <input type="radio" id="9" name="5" value="accept">
+      <label for="9">ยอมรับ</label>
+      <input type="radio" id="10" name="5" value="decline">
+      <label for="10">ไม่ยอมรับ</label>
+      <br><br>
+
+      <label>6. กรณีพบ error ใดๆ ระหว่างการติดตั้ง กรุณาตรวจสอบว่า คุณเคยลง Stardew Valley เถื่อนมาก่อน, มีเกมเวอร์ชั่นเก่าที่ไม่อัพเดท, มี SMAPI เก่าเช่น แอปไก่ดำ แอปช้าง แอปโซเฟีย ให้สำรองเซฟของคุณและลบทุกอย่างตามที่ระบุข้างบนออกก่อน อัพเดทเกม และติดตั้งแอปน้องแงวใหม่</label><br>
+      <input type="radio" id="11" name="6" value="accept">
+      <label for="11">ยอมรับ</label>
+      <input type="radio" id="12" name="6" value="decline">
+      <label for="12">ไม่ยอมรับ</label>
+      <br><br>
+
+      <label>7. หากคุณยังถามคำถามด้านบนในกลุ่ม <a href="https://www.facebook.com/groups/112249016352769">Stardew Mobile</a> แสดงว่าคุณไม่ได้อ่านหรือไม่ได้ทำความเข้าใจอะไรเลย คุณไม่เหมาะที่จะอยู่ในกลุ่ม และแอดมินจะแบนคุณ</label><br>
+      <input type="radio" id="13" name="7" value="accept">
+      <label for="13">ยอมรับ</label>
+      <input type="radio" id="14" name="7" value="decline">
+      <label for="14">ไม่ยอมรับ</label>
+      <br><br>
+
+      <p>กลุ่ม Stardew สำหรับผู้เล่นบนมือถือสามารถเข้าร่วมได้ที่ <a href="https://www.facebook.com/groups/112249016352769">Stardew Mobile</a></p>
+      <br>
+
+      <button type="submit">ดาวน์โหลดแอปน้องแงว 🐈</button>
+    </form>
+
+  </section>
+</article>
+</body>
+</html>
