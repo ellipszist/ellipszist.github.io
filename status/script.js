@@ -10,7 +10,7 @@ const games = {
   "deathsdoor": "100%",
   "secret2": "65%",
   "hand": "35%",
-  "hades": "17%",
+  "hades": "29%",
   "eastward": "5%",
   "secret1": "??%"
 };
