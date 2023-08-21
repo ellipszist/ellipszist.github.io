@@ -9,7 +9,7 @@ const games = {
   "overcooked2": "100%",
   "deathsdoor": "100%",
   "secret2": "65%",
-  "dtd": "48%",
+  "dtd": "49%",
   "hand": "35%",
   "hades": "29%",
   "eastward": "5%",
