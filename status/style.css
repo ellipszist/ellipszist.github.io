@@ -117,14 +117,14 @@ body {
   animation-name: progress-deathsdoor;
 }
 
-.skills-bar-container li .bar-container #progress-secret2 {
+.skills-bar-container li .bar-container #progress-dtd {
   animation-delay: 7.0s;
-  animation-name: progress-secret2;
+  animation-name: progress-dtd;
 }
 
-.skills-bar-container li .bar-container #progress-dtd {
+.skills-bar-container li .bar-container #progress-secret2 {
   animation-delay: 7.7s;
-  animation-name: progress-dtd;
+  animation-name: progress-secret2;
 }
 
 .skills-bar-container li .bar-container #progress-hand {
@@ -329,7 +329,7 @@ body {
     width: 0%;
   }
   100% {
-    width: 65%;
+    width: 85%;
   }
 }
 
