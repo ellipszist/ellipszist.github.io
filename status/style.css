@@ -315,21 +315,21 @@ body {
   }
 }
 
+@keyframes progress-dtd {
+  0% {
+    width: 0%;
+  }
+  100% {
+    width: 100%;
+  }
+}
+
 @keyframes progress-secret2 {
   0% {
     width: 0%;
   }
   100% {
     width: 65%;
-  }
-}
-
-@keyframes progress-dtd {
-  0% {
-    width: 0%;
-  }
-  100% {
-    width: 87%;
   }
 }
 
