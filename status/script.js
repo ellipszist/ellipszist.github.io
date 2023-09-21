@@ -8,7 +8,7 @@ const games = {
   "pane": "100%",
   "overcooked2": "100%",
   "deathsdoor": "100%",
-  "dtd": "87%",
+  "dtd": "100%",
   "secret2": "65%",
   "hand": "35%",
   "hades": "29%",
