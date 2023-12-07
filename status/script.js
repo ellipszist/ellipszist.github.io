@@ -10,7 +10,7 @@ const games = {
   "deathsdoor": "100%",
   "dtd": "100%",
   "secret2": "65%",
-  "SOSFoMT": "44%",
+  "SOSFoMT": "50%",
   "hand": "35%",
   "hades": "29%",
   "eastward": "5%",
