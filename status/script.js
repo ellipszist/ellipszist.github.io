@@ -4,7 +4,6 @@ const games = {
   "smapiapp": "3/5",
   "sdvandroid": "2/5",
   "sve": "100%",
-  "svebeta": "100%",
   "pane": "100%",
   "overcooked2": "100%",
   "deathsdoor": "100%",

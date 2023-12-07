@@ -97,58 +97,53 @@ body {
   animation-name: progress-sve;
 }
 
-.skills-bar-container li .bar-container #progress-svebeta {
-  animation-delay: 4.2s;
-  animation-name: progress-svebeta;
-}
-
 .skills-bar-container li .bar-container #progress-pane {
-  animation-delay: 4.9s;
+  animation-delay: 4.2s;
   animation-name: progress-pane;
 }
 
 .skills-bar-container li .bar-container #progress-overcooked2 {
-  animation-delay: 5.6s;
+  animation-delay: 4.9s;
   animation-name: progress-overcooked2;
 }
 
 .skills-bar-container li .bar-container #progress-deathsdoor {
-  animation-delay: 6.3s;
+  animation-delay: 5.6s;
   animation-name: progress-deathsdoor;
 }
 
 .skills-bar-container li .bar-container #progress-dtd {
-  animation-delay: 7.0s;
+  animation-delay: 6.3s;
   animation-name: progress-dtd;
 }
 
 .skills-bar-container li .bar-container #progress-secret2 {
-  animation-delay: 7.7s;
+  animation-delay: 7.0s;
   animation-name: progress-secret2;
 }
 
 .skills-bar-container li .bar-container #progress-SOSFoMT {
-  animation-delay: 8.4s;
+  animation-delay: 7.7s;
   animation-name: progress-SOSFoMT;
 }
 
 .skills-bar-container li .bar-container #progress-hand {
-  animation-delay: 9.1s;
+  animation-delay: 8.4s;
   animation-name: progress-hand;
 }
 
 .skills-bar-container li .bar-container #progress-hades {
-  animation-delay: 9.8s;
+  animation-delay: 9.1s;
   animation-name: progress-hades;
 }
 
 .skills-bar-container li .bar-container #progress-eastward {
-  animation-delay: 10.5s;
+  animation-delay: 9.8s;
   animation-name: progress-eastward;
 }
 
 .skills-bar-container li .bar-container #progress-secret1 {
-  animation-delay: 11.2s;
+  animation-delay: 10.5s;
   animation-name: progress-secret1;
 }
 
@@ -280,15 +275,6 @@ body {
 }
 
 @keyframes progress-sve {
-  0% {
-    width: 0%;
-  }
-  100% {
-    width: 100%;
-  }
-}
-
-@keyframes progress-svebeta {
   0% {
     width: 0%;
   }
