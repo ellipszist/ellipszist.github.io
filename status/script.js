@@ -11,8 +11,8 @@ const games = {
   "secret2": "65%",
   "SOSFoMT": "20%",
   "hand": "35%",
-  "hades": "29%",
-  "eastward": "5%",
+  "hades": "59%",
+  "eastward": "31%",
   "secret1": "??%"
 };
 
