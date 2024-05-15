@@ -117,24 +117,24 @@ body {
   animation-name: progress-dtd;
 }
 
-.skills-bar-container li .bar-container #progress-secret2 {
-  animation-delay: 7.0s;
-  animation-name: progress-secret2;
-}
-
 .skills-bar-container li .bar-container #progress-SOSFoMT {
-  animation-delay: 7.7s;
+  animation-delay: 7.0s;
   animation-name: progress-SOSFoMT;
 }
 
-.skills-bar-container li .bar-container #progress-hand {
-  animation-delay: 8.4s;
-  animation-name: progress-hand;
+.skills-bar-container li .bar-container #progress-secret2 {
+  animation-delay: 7.7s;
+  animation-name: progress-secret2;
 }
 
 .skills-bar-container li .bar-container #progress-hades {
-  animation-delay: 9.1s;
+  animation-delay: 8.4s;
   animation-name: progress-hades;
+}
+
+.skills-bar-container li .bar-container #progress-hand {
+  animation-delay: 9.1s;
+  animation-name: progress-hand;
 }
 
 .skills-bar-container li .bar-container #progress-eastward {
@@ -333,7 +333,7 @@ body {
     width: 0%;
   }
   100% {
-    width: 20%;
+    width: 77%;
   }
 }
 
@@ -342,7 +342,7 @@ body {
     width: 0%;
   }
   100% {
-    width: 35%;
+    width: 40%;
   }
 }
 
