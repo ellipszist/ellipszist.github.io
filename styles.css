@@ -1,0 +1,208 @@
+body {
+    font-family: "Noto Serif Thai", Arial, sans-serif;
+    text-align: center;
+    background-color: #f5f5f5;
+    max-width: 1140px;
+    margin: 0 auto;
+    padding: 0 20px 20px 20px;
+}
+
+a {
+    text-decoration: none;
+    color: black;
+}
+
+button {
+    font-family: "Noto Serif Thai", Arial, sans-serif;
+}
+
+h2 {
+    font-size: 1.8em;
+    font-weight: 600;
+    margin: 20px 0;
+}
+
+.translator-mods {
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: center;
+    gap: 15px;
+}
+
+.game-card {
+    /* position: relative; */
+    width: 180px;
+    height: 270px;
+    padding: 10px;
+    border: 2px solid #ccc;
+    border-radius: 8px;
+    background-color: #fff;
+    text-align: center;
+    cursor: pointer;
+    transition: transform 0.2s;
+}
+
+.game-card {
+    position: relative;
+    overflow: hidden;
+}
+
+.status-message {
+    position: absolute;
+    top: 10px;
+    left: 10px;
+    background-color: rgba(0, 0, 0, 0.7);
+    color: white;
+    padding: 5px 10px;
+    font-size: 0.9em;
+    border-radius: 4px;
+    z-index: 2;
+}
+
+#install-mod-btn:disabled,
+#install-mod-btn:disabled:hover {
+    cursor: not-allowed;
+    background: linear-gradient(
+      100deg,
+      #bfbfbf00 1%,
+      #bfbfbf 2.5%,
+      #bfbfbf80 5.7%,
+      #bfbfbf1a 93%,
+      #bfbfbfb4 95%,
+      #bfbfbf00 98%
+    ),
+    linear-gradient(182deg, #bfbfbf00, #bfbfbf4d 8%, #bfbfbf00 15%);
+}
+
+.game-card.selected {
+    border-color: #0078d4;
+    transform: scale(1.05);
+}
+
+.game-card img {
+    width: 100%;
+    border-radius: 4px;
+}
+
+.game-name {
+    font-weight: bold;
+    margin: 10px 0;
+}
+
+.translator-name {
+    font-size: 0.9em;
+    color: #666;
+}
+
+#sticky-container {
+    display: inline-flex;
+    justify-content: space-between;
+    position: sticky;
+    top: 0;
+    left: 0;
+    width: 98%;
+    padding: 10px;
+    border-radius: 10px;
+    background-color: #fff;
+    z-index: 1000;
+    box-shadow: 0 2px 5px rgba(0, 0, 0, 0.1);
+}
+
+#progress-message {
+    padding: 10px 20px;
+    border-radius: 5px;
+    font-weight: 600;
+    background: linear-gradient(
+      100deg,
+      #ffafd400 1%,
+      #ffafd4 2.5%,
+      #ffafd480 5.7%,
+      #ffafd41a 93%,
+      #ffafd4b4 95%,
+      #ffafd400 98%
+    ),
+    linear-gradient(182deg, #ffafd400, #ffafd44d 8%, #ffafd400 15%);
+}
+
+#install-mod-btn {
+    padding: 10px 20px;
+    border: none;
+    border-radius: 5px;
+    cursor: pointer;
+    font-weight: 600;
+    background: linear-gradient(
+      100deg,
+      #85b9ff00 1%,
+      #85b9ff 2.5%,
+      #85b9ff80 5.7%,
+      #85b9ff1a 93%,
+      #85b9ffb4 95%,
+      #85b9ff00 98%
+    ),
+    linear-gradient(182deg, #85b9ff00, #85b9ff4d 8%, #85b9ff00 15%);
+}
+
+#install-mod-btn:hover {
+    background: linear-gradient(
+      100deg,
+      #afd7ff00 1%,
+      #afd7ff 2.5%,
+      #afd7ff80 5.7%,
+      #afd7ff1a 93%,
+      #afd7ffb4 95%,
+      #afd7ff00 98%
+    ),
+    linear-gradient(182deg, #afd7ff00, #afd7ff4d 8%, #afd7ff00 15%);
+}
+
+.platform-label {
+    position: absolute;
+    bottom: 10px;
+    left: 10px;
+    background-color: rgba(0, 0, 0, 0.7);
+    color: white;
+    font-size: 12px;
+    padding: 2px 5px;
+    border-radius: 4px;
+    display: none;
+    z-index: 10;
+    margin-right: 10px;
+}
+
+.game-card.selected .platform-label {
+    display: block;
+}
+
+/* Responsive Styling */
+
+/* Medium Screens */
+@media (max-width: 1024px) {
+    .game-card {
+        width: 150px;
+        height: 225px;
+    }
+}
+
+/* Small Screens */
+@media (max-width: 768px) {
+    .game-card {
+        width: 120px;
+        height: 180px;
+    }
+
+    #install-mod-btn {
+        padding: 8px 15px;
+    }
+}
+
+/* Extra Small Screens */
+@media (max-width: 480px) {
+    .game-card {
+        width: 100px;
+        height: 150px;
+    }
+
+    #install-mod-btn {
+        padding: 6px 10px;
+    }
+}
