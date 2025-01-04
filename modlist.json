@@ -18,6 +18,14 @@
                     "platform": ["Windows", "Steam"]
                 },
                 {
+                    "id": "minimotorways",
+                    "name": "Mini Motorways",
+                    "image": "https://shared.cloudflare.steamstatic.com/store_item_assets/steam/apps/1127500/library_600x900_2x.jpg?t=1667780939",
+                    "url": "https://ellipszist.github.io/releases/Mini_Motorways.zip",
+                    "platform": ["Windows", "Steam"],
+                    "status": "inTranslation"
+                },
+                {
                     "id": "littlekittybigcity",
                     "name": "Little Kitty, Big City",
                     "image": "https://shared.cloudflare.steamstatic.com/store_item_assets/steam/apps/1177980/library_600x900_2x.jpg?t=1734569573",
@@ -51,6 +59,14 @@
                     "image": "https://shared.cloudflare.steamstatic.com/store_item_assets/steam/apps/728880/library_600x900_2x.jpg?t=1718290420",
                     "url": "https://ellipszist.github.io/releases/Overcooked_2.zip",
                     "platform": ["Windows", "Steam"]
+                },
+                {
+                    "id": "eastward",
+                    "name": "Eastward",
+                    "image": "https://shared.cloudflare.steamstatic.com/store_item_assets/steam/apps/977880/library_600x900_2x.jpg?t=1730827084",
+                    "url": "https://ellipszist.github.io/releases/Eastward.zip",
+                    "platform": ["Windows", "Steam"],
+                    "status": "inTranslation"
                 },
                 {
                     "id": "lumaisland",
