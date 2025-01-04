@@ -11,11 +11,7 @@ const MESSAGES = {
     STATUS: {
         DOWNLOADING_INSTALLING: 'กำลังดาวน์โหลดและติดตั้งม็อด...',
         INSTALL_SUCCESS: 'ติดตั้งม็อดสำเร็จ',
-    },
-    PROMPT: {
-        MANUAL_INSTALL: (modName) =>
-            `ม็อดสำหรับ ${modName} ต้องติดตั้งด้วยตนเอง\n\nคุณต้องการเปิดลิงก์สำหรับรายละเอียดหรือไม่?`,
-    },
+    }
 };
 
 const statusMessages = new Map([
