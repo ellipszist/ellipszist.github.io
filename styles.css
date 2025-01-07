@@ -22,6 +22,9 @@ h2 {
     margin: 20px 0;
 }
 
+#translator-select-container {
+    margin: 20px auto;
+}
 .translator-mods {
     display: flex;
     flex-wrap: wrap;
@@ -54,6 +57,7 @@ h2 {
     background-color: rgba(0, 0, 0, 0.7);
     color: white;
     padding: 5px 10px;
+    margin-left: 10px;
     font-size: 0.9em;
     border-radius: 4px;
     z-index: 2;
@@ -163,10 +167,10 @@ h2 {
     color: white;
     font-size: 12px;
     padding: 2px 5px;
+    margin-right: 10px;
     border-radius: 4px;
     display: none;
     z-index: 10;
-    margin-right: 10px;
 }
 
 .game-card.selected .platform-label {

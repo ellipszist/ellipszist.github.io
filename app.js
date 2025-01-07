@@ -25,6 +25,19 @@ let isInstalling = false;
 let modList = {};
 let selectedGameId = null;
 
+// Browser support messages
+document.addEventListener('DOMContentLoaded', () => {
+    const supportMessage = document.getElementById('browser-support-message');
+
+    if ('showDirectoryPicker' in window) {
+        supportMessage.textContent = 'เบราว์เซอร์นี้รองรับการติดตั้งม็อด 🎉';
+        supportMessage.style.color = 'green';
+    } else {
+        supportMessage.innerHTML = 'เบราว์เซอร์นี้ไม่รองรับการติดตั้งม็อด โปรดใช้ <strong>Chrome, Edge</strong> หรือ <strong>Opera</strong>';
+        supportMessage.style.color = 'red';
+    }
+});
+
 // Show status messages
 function renderProgressMessage(message) {
     const progressMessage = document.getElementById('progress-message');
