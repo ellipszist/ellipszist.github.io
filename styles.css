@@ -177,6 +177,29 @@ h2 {
     display: block;
 }
 
+[popover]::backdrop {
+    background: rgb(0 0 0 / 60%);
+}
+
+:popover-open {
+    border-radius: 5px;
+    border: none;
+    padding: 20px;
+    max-width: 680px;
+}
+
+[popover] > button {
+    float: right;
+}
+
+#donate img {
+    margin: 10px;
+}
+
+footer {
+    margin-top: 20px;
+}
+
 /* Responsive Styling */
 
 /* Medium Screens */
