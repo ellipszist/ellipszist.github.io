@@ -62,7 +62,7 @@ async function loadModList() {
         renderTranslators(modList.translators);
     } catch (error) {
         renderProgressMessage(MESSAGES.ERROR.LOAD_FAILED);
-        console.error(error);
+        console.error('Error loading mod list:', error);
     }
 }
 
@@ -73,7 +73,7 @@ function renderTranslators(translators) {
     Object.keys(translators).forEach(translator => {
         const translatorData = translators[translator];
         renderMods(container, translatorData.mods);
-        container.appendChild(document.createElement('br'));
+        //container.appendChild(document.createElement('br'));
     });
 }
 
@@ -180,8 +180,12 @@ async function installMod() {
 
         renderProgressMessage(MESSAGES.STATUS.INSTALL_SUCCESS);
     } catch (error) {
-        renderProgressMessage(MESSAGES.ERROR.INSTALL_FAILED);
-        console.error(error);
+        if (error.name === 'AbortError') {
+            renderProgressMessage('กรุณาเลือกโฟลเดอร์สำหรับติดตั้งม็อด');
+        } else {
+            renderProgressMessage(MESSAGES.ERROR.INSTALL_FAILED);
+            console.error('Error during installation:', error);
+        }
     } finally {
         isInstalling = false;
     }
