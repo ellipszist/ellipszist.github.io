@@ -11,6 +11,14 @@
                     "platform": ["Windows", "Linux", "macOS"]
                 },
                 {
+                    "id": "hades",
+                    "name": "Hades",
+                    "image": "https://shared.cloudflare.steamstatic.com/store_item_assets/steam/apps/1145360/library_600x900_2x.jpg?t=1679345331",
+                    "url": "https://ellipszist.github.io/releases/Hades.zip",
+                    "platform": ["Windows", "macOS"],
+                    "status": "translationPaused"
+                },
+                {
                     "id": "davethediver",
                     "name": "DAVE THE DIVER",
                     "image": "https://shared.cloudflare.steamstatic.com/store_item_assets/steam/apps/1868140/library_600x900_2x.jpg?t=1734352298",
