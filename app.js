@@ -156,6 +156,15 @@ function resetSelection() {
     });
 }
 
+// Add event listener for the install button
+document.getElementById('install-mod-btn').addEventListener('click', async () => {
+    try {
+        await installMod();
+    } catch (error) {
+        console.error('Error during mod installation:', error);
+    }
+});
+
 // Install mod
 async function installMod() {
     if (isInstalling || !isGameSelected()) return;
@@ -182,6 +191,8 @@ async function installMod() {
     } catch (error) {
         if (error.name === 'AbortError') {
             renderProgressMessage('กรุณาเลือกโฟลเดอร์สำหรับติดตั้งม็อด');
+        } else if (error.name === 'SecurityError') {
+            renderProgressMessage('กรุณาคลิกปุ่มติดตั้งอีกครั้ง');
         } else {
             renderProgressMessage(MESSAGES.ERROR.INSTALL_FAILED);
             console.error('Error during installation:', error);
@@ -297,6 +308,3 @@ function getSelectedMod() {
 
 // Load mod list on startup
 loadModList();
-
-// Add event listener for the install button
-document.getElementById('install-mod-btn').addEventListener('click', installMod);
