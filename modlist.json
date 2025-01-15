@@ -6,95 +6,95 @@
                 {
                     "id": "stardewvalley",
                     "name": "Stardew Valley",
-                    "image": "https://shared.cloudflare.steamstatic.com/store_item_assets/steam/apps/413150/library_600x900_2x.jpg?t=1710874357",
+                    "cover": "https://shared.cloudflare.steamstatic.com/store_item_assets/steam/apps/413150/library_600x900_2x.jpg?t=1710874357",
                     "manual_url": "https://www.nexusmods.com/stardewvalley/mods/7052",
                     "platform": ["Windows", "Linux", "macOS"]
                 },
                 {
                     "id": "hades",
                     "name": "Hades",
-                    "image": "https://shared.cloudflare.steamstatic.com/store_item_assets/steam/apps/1145360/library_600x900_2x.jpg?t=1679345331",
-                    "url": "https://ellipszist.github.io/releases/Hades.zip",
+                    "cover": "https://shared.cloudflare.steamstatic.com/store_item_assets/steam/apps/1145360/library_600x900_2x.jpg?t=1679345331",
+                    "mod": "https://ellipszist.github.io/releases/Hades.zip",
                     "platform": ["Windows", "macOS"],
                     "status": "translationPaused"
                 },
                 {
                     "id": "davethediver",
                     "name": "DAVE THE DIVER",
-                    "image": "https://shared.cloudflare.steamstatic.com/store_item_assets/steam/apps/1868140/library_600x900_2x.jpg?t=1734352298",
-                    "url": "https://ellipszist.github.io/releases/DAVE_THE_DIVER.zip",
+                    "cover": "https://shared.cloudflare.steamstatic.com/store_item_assets/steam/apps/1868140/library_600x900_2x.jpg?t=1734352298",
+                    "mod": "https://ellipszist.github.io/releases/DAVE_THE_DIVER.zip",
                     "platform": ["Windows", "Steam"]
                 },
                 {
                     "id": "minimotorways",
                     "name": "Mini Motorways",
-                    "image": "https://shared.cloudflare.steamstatic.com/store_item_assets/steam/apps/1127500/library_600x900_2x.jpg?t=1667780939",
-                    "url": "https://ellipszist.github.io/releases/Mini_Motorways.zip",
+                    "cover": "https://shared.cloudflare.steamstatic.com/store_item_assets/steam/apps/1127500/library_600x900_2x.jpg?t=1667780939",
+                    "mod": "https://ellipszist.github.io/releases/Mini_Motorways.zip",
                     "platform": ["Windows", "Steam"],
                     "status": "inTranslation"
                 },
                 {
                     "id": "littlekittybigcity",
                     "name": "Little Kitty, Big City",
-                    "image": "https://shared.cloudflare.steamstatic.com/store_item_assets/steam/apps/1177980/library_600x900_2x.jpg?t=1734569573",
-                    "url": "https://ellipszist.github.io/releases/Little_Kitty_Big_City.zip",
+                    "cover": "https://shared.cloudflare.steamstatic.com/store_item_assets/steam/apps/1177980/library_600x900_2x.jpg?t=1734569573",
+                    "mod": "https://ellipszist.github.io/releases/Little_Kitty_Big_City.zip",
                     "platform": ["Windows", "Steam"]
                 },
                 {
                     "id": "snufkinmelodyofmoominvalley",
                     "name": "Snufkin: Melody of Moominvalley",
-                    "image": "https://shared.cloudflare.steamstatic.com/store_item_assets/steam/apps/1808680/library_600x900_2x.jpg?t=1732721335",
-                    "url": "https://ellipszist.github.io/releases/Snufkin_Melody_of_Moominvalley.zip",
+                    "cover": "https://shared.cloudflare.steamstatic.com/store_item_assets/steam/apps/1808680/library_600x900_2x.jpg?t=1732721335",
+                    "mod": "https://ellipszist.github.io/releases/Snufkin_Melody_of_Moominvalley.zip",
                     "platform": ["Windows", "Steam"]
                 },
                 {
                     "id": "storyofseasonsfriendsofmineraltown",
                     "name": "STORY OF SEASONS: Friends of Mineral Town",
-                    "image": "https://shared.cloudflare.steamstatic.com/store_item_assets/steam/apps/978780/library_600x900_2x.jpg?t=1622850402",
+                    "cover": "https://shared.cloudflare.steamstatic.com/store_item_assets/steam/apps/978780/library_600x900_2x.jpg?t=1622850402",
                     "manual_url": "https://www.nexusmods.com/storyofseasonsfriendsofmineraltown/mods/3",
                     "platform": ["Windows", "Linux"]
                 },
                 {
                     "id": "deathsdoor",
                     "name": "Death's Door",
-                    "image": "https://shared.cloudflare.steamstatic.com/store_item_assets/steam/apps/894020/library_600x900_2x.jpg?t=1704910472",
-                    "url": "https://ellipszist.github.io/releases/Deaths_Door.zip",
+                    "cover": "https://shared.cloudflare.steamstatic.com/store_item_assets/steam/apps/894020/library_600x900_2x.jpg?t=1704910472",
+                    "mod": "https://ellipszist.github.io/releases/Deaths_Door.zip",
                     "platform": ["Windows", "Steam"]
                 },
                 {
                     "id": "overcooked2",
                     "name": "Overcooked! 2",
-                    "image": "https://shared.cloudflare.steamstatic.com/store_item_assets/steam/apps/728880/library_600x900_2x.jpg?t=1718290420",
-                    "url": "https://ellipszist.github.io/releases/Overcooked_2.zip",
+                    "cover": "https://shared.cloudflare.steamstatic.com/store_item_assets/steam/apps/728880/library_600x900_2x.jpg?t=1718290420",
+                    "mod": "https://ellipszist.github.io/releases/Overcooked_2.zip",
                     "platform": ["Windows", "Steam"]
                 },
                 {
                     "id": "eastward",
                     "name": "Eastward",
-                    "image": "https://shared.cloudflare.steamstatic.com/store_item_assets/steam/apps/977880/library_600x900_2x.jpg?t=1730827084",
-                    "url": "https://ellipszist.github.io/releases/Eastward.zip",
+                    "cover": "https://shared.cloudflare.steamstatic.com/store_item_assets/steam/apps/977880/library_600x900_2x.jpg?t=1730827084",
+                    "mod": "https://ellipszist.github.io/releases/Eastward.zip",
                     "platform": ["Windows", "Steam"],
                     "status": "inTranslation"
                 },
                 {
                     "id": "lumaisland",
                     "name": "Luma Island",
-                    "image": "https://shared.cloudflare.steamstatic.com/store_item_assets/steam/apps/2408820/library_600x900_2x.jpg?t=1732556017",
-                    "url": "https://ellipszist.github.io/releases/Luma_Island.zip",
+                    "cover": "https://shared.cloudflare.steamstatic.com/store_item_assets/steam/apps/2408820/library_600x900_2x.jpg?t=1732556017",
+                    "mod": "https://ellipszist.github.io/releases/Luma_Island.zip",
                     "platform": ["Windows", "Steam"]
                 },
                 {
                     "id": "wildfrost",
                     "name": "Wildfrost",
-                    "image": "https://shared.cloudflare.steamstatic.com/store_item_assets/steam/apps/1811990/library_600x900.jpg",
-                    "url": "https://ellipszist.github.io/releases/Wildfrost.zip",
+                    "cover": "https://shared.cloudflare.steamstatic.com/store_item_assets/steam/apps/1811990/library_600x900.jpg",
+                    "mod": "https://ellipszist.github.io/releases/Wildfrost.zip",
                     "platform": ["Windows", "Steam"]
                 },
                 {
                     "id": "pharaohanewera",
                     "name": "Pharaoh™: A New Era",
-                    "image": "https://shared.cloudflare.steamstatic.com/store_item_assets/steam/apps/1351080/library_600x900_2x.jpg?t=1727192315",
-                    "url": "https://ellipszist.github.io/releases/Pharaoh_A_New_Era.zip",
+                    "cover": "https://shared.cloudflare.steamstatic.com/store_item_assets/steam/apps/1351080/library_600x900_2x.jpg?t=1727192315",
+                    "mod": "https://ellipszist.github.io/releases/Pharaoh_A_New_Era.zip",
                     "platform": ["Windows", "Steam"]
                 }
             ]

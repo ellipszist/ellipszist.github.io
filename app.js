@@ -95,7 +95,7 @@ function renderMods(container, mods) {
         radio.style.display = 'none';
 
         const img = document.createElement('img');
-        img.src = mod.image;
+        img.src = mod.cover;
         img.alt = mod.name;
         img.loading = 'lazy';
 
@@ -209,7 +209,7 @@ async function downloadAndInstallMod(selectedMod, dirHandle) {
     try {
         renderProgressMessage(MESSAGES.STATUS.DOWNLOADING_INSTALLING);
 
-        const response = await fetch(selectedMod.url);
+        const response = await fetch(selectedMod.mod);
         if (!response.ok) throw new Error(MESSAGES.ERROR.DOWNLOAD_FAILED);
 
         const contentLength = response.headers.get('Content-Length');
