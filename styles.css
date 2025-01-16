@@ -1,10 +1,18 @@
+html {
+    --duration: 1s;
+    --ease-slider: cubic-bezier(0.4, 0, 0.2, 1);
+}
+
 body {
     font-family: "Noto Serif Thai", Arial, sans-serif;
     text-align: center;
     background-color: #f5f5f5;
     max-width: 1140px;
     margin: 0 auto;
-    padding: 0 20px 20px 20px;
+    padding: 0 20px 20px;
+    background-color: var(--body-bg, #fff);
+    -webkit-tap-highlight-color: transparent;
+    transition: var(--duration) background-color var(--ease-slider);
 }
 
 a {

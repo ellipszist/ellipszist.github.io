@@ -136,6 +136,8 @@ function handleModSelection(card, mod) {
 
     //console.log('mod.platform:', mod.platform);
 
+    document.body.style.setProperty('--body-bg', mod.bg || '#ffffff');
+
     const platform = mod.platform && Array.isArray(mod.platform)
         ? mod.platform.join(', ')
         : 'ไม่ทราบข้อมูล';
