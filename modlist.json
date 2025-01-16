@@ -4,6 +4,7 @@
             "name": "Black Chick",
             "mods": [
                 {
+                    "bg": "#df9f008f",
                     "id": "stardewvalley",
                     "name": "Stardew Valley",
                     "cover": "https://shared.cloudflare.steamstatic.com/store_item_assets/steam/apps/413150/library_600x900_2x.jpg?t=1710874357",
@@ -11,6 +12,7 @@
                     "platform": ["Windows", "Linux", "macOS"]
                 },
                 {
+                    "bg": "#6a3525",
                     "id": "hades",
                     "name": "Hades",
                     "cover": "https://shared.cloudflare.steamstatic.com/store_item_assets/steam/apps/1145360/library_600x900_2x.jpg?t=1679345331",
@@ -19,6 +21,7 @@
                     "status": "translationPaused"
                 },
                 {
+                    "bg": "#00afb2a1",
                     "id": "davethediver",
                     "name": "DAVE THE DIVER",
                     "cover": "https://shared.cloudflare.steamstatic.com/store_item_assets/steam/apps/1868140/library_600x900_2x.jpg?t=1734352298",
@@ -26,6 +29,7 @@
                     "platform": ["Windows", "Steam"]
                 },
                 {
+                    "bg": "#e7e8ed",
                     "id": "minimotorways",
                     "name": "Mini Motorways",
                     "cover": "https://shared.cloudflare.steamstatic.com/store_item_assets/steam/apps/1127500/library_600x900_2x.jpg?t=1667780939",
@@ -34,6 +38,7 @@
                     "status": "inTranslation"
                 },
                 {
+                    "bg": "#c1bef9",
                     "id": "littlekittybigcity",
                     "name": "Little Kitty, Big City",
                     "cover": "https://shared.cloudflare.steamstatic.com/store_item_assets/steam/apps/1177980/library_600x900_2x.jpg?t=1734569573",
@@ -41,6 +46,7 @@
                     "platform": ["Windows", "Steam"]
                 },
                 {
+                    "bg": "#9db2b1",
                     "id": "snufkinmelodyofmoominvalley",
                     "name": "Snufkin: Melody of Moominvalley",
                     "cover": "https://shared.cloudflare.steamstatic.com/store_item_assets/steam/apps/1808680/library_600x900_2x.jpg?t=1732721335",
@@ -48,6 +54,7 @@
                     "platform": ["Windows", "Steam"]
                 },
                 {
+                    "bg": "#c0e3f7",
                     "id": "storyofseasonsfriendsofmineraltown",
                     "name": "STORY OF SEASONS: Friends of Mineral Town",
                     "cover": "https://shared.cloudflare.steamstatic.com/store_item_assets/steam/apps/978780/library_600x900_2x.jpg?t=1622850402",
@@ -55,6 +62,7 @@
                     "platform": ["Windows", "Linux"]
                 },
                 {
+                    "bg": "#2c3135",
                     "id": "deathsdoor",
                     "name": "Death's Door",
                     "cover": "https://shared.cloudflare.steamstatic.com/store_item_assets/steam/apps/894020/library_600x900_2x.jpg?t=1704910472",
@@ -62,6 +70,7 @@
                     "platform": ["Windows", "Steam"]
                 },
                 {
+                    "bg": "#1575a8",
                     "id": "overcooked2",
                     "name": "Overcooked! 2",
                     "cover": "https://shared.cloudflare.steamstatic.com/store_item_assets/steam/apps/728880/library_600x900_2x.jpg?t=1718290420",
@@ -69,6 +78,7 @@
                     "platform": ["Windows", "Steam"]
                 },
                 {
+                    "bg": "#fbd942",
                     "id": "eastward",
                     "name": "Eastward",
                     "cover": "https://shared.cloudflare.steamstatic.com/store_item_assets/steam/apps/977880/library_600x900_2x.jpg?t=1730827084",
@@ -77,6 +87,7 @@
                     "status": "inTranslation"
                 },
                 {
+                    "bg": "#8fbe86",
                     "id": "lumaisland",
                     "name": "Luma Island",
                     "cover": "https://shared.cloudflare.steamstatic.com/store_item_assets/steam/apps/2408820/library_600x900_2x.jpg?t=1732556017",
@@ -84,6 +95,7 @@
                     "platform": ["Windows", "Steam"]
                 },
                 {
+                    "bg": "#16c5f0",
                     "id": "wildfrost",
                     "name": "Wildfrost",
                     "cover": "https://shared.cloudflare.steamstatic.com/store_item_assets/steam/apps/1811990/library_600x900.jpg",
@@ -91,6 +103,7 @@
                     "platform": ["Windows", "Steam"]
                 },
                 {
+                    "bg": "#f4ceb9",
                     "id": "pharaohanewera",
                     "name": "Pharaoh™: A New Era",
                     "cover": "https://shared.cloudflare.steamstatic.com/store_item_assets/steam/apps/1351080/library_600x900_2x.jpg?t=1727192315",
