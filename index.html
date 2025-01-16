@@ -37,8 +37,51 @@
     <footer>
       © 2025 'ELL
     </footer>
-    <script src="https://cdn.jsdelivr.net/npm/streamsaver@2.0.6/StreamSaver.min.js"></script>
-    <script src="https://cdn.jsdelivr.net/npm/jszip@3.10.1/dist/jszip.min.js"></script>
+    <script>
+        /**
+         * Loads a script from the given URL and appends a fallback URL if the first one fails.
+         * @param {string} url The primary script URL.
+         * @param {string} fallbackUrl The fallback script URL in case the primary URL fails.
+         */
+        function loadScript(url, fallbackUrl) {
+            const script = document.createElement('script');
+            script.src = url;
+
+            script.onload = () => {
+                console.log(`Successfully loaded script from ${url}`);
+            };
+
+            script.onerror = () => {
+                console.error(`Failed to load script from ${url}`);
+                if (fallbackUrl) {
+                    console.log(`Attempting to load fallback script from ${fallbackUrl}`);
+                    const fallbackScript = document.createElement('script');
+                    fallbackScript.src = fallbackUrl;
+                    fallbackScript.onload = () => {
+                        console.log(`Successfully loaded fallback script from ${fallbackUrl}`);
+                    };
+                    fallbackScript.onerror = () => {
+                        console.error(`Failed to load fallback script from ${fallbackUrl}`);
+                    };
+                    document.head.appendChild(fallbackScript);
+                }
+            };
+
+            document.head.appendChild(script);
+        }
+
+        // Loading the primary script and fallback script for StreamSaver
+        loadScript(
+            'https://cdn.jsdelivr.net/npm/streamsaver@2.0.6/StreamSaver.min.js',
+            'https://unpkg.com/streamsaver@2.0.6/StreamSaver.js'
+        );
+
+        // Loading the primary script and fallback script for JSZip
+        loadScript(
+            'https://cdn.jsdelivr.net/npm/jszip@3.10.1/dist/jszip.min.js',
+            'https://unpkg.com/jszip@3.10.1/dist/jszip.min.js'
+        );
+    </script>
     <script src="app.min.js"></script>
 </body>
 </html>
