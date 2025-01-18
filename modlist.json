@@ -4,7 +4,7 @@
             "name": "Black Chick",
             "mods": [
                 {
-                    "bg": "#df9f008f",
+                    "bg": "#033c7c",
                     "id": "stardewvalley",
                     "name": "Stardew Valley",
                     "cover": "https://shared.cloudflare.steamstatic.com/store_item_assets/steam/apps/413150/library_600x900_2x.jpg?t=1710874357",
@@ -21,7 +21,7 @@
                     "status": "translationPaused"
                 },
                 {
-                    "bg": "#00afb2a1",
+                    "bg": "#5eccce",
                     "id": "davethediver",
                     "name": "DAVE THE DIVER",
                     "cover": "https://shared.cloudflare.steamstatic.com/store_item_assets/steam/apps/1868140/library_600x900_2x.jpg?t=1734352298",
