@@ -171,7 +171,7 @@ function handleModSelection(card, mod) {
     selectedGameId = mod.id;
 
     installBtn.textContent = mod.manual_url ? 'ดาวน์โหลดม็อด' : 'ติดตั้งม็อด';
-    renderProgressMessage(`ม็อดภาษาไทยเกม: ${mod.name}`);
+    renderProgressMessage(`ม็อดภาษาไทย ${mod.name}`);
 
     //console.log('mod.platform:', mod.platform);
 
