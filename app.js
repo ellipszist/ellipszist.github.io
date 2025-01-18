@@ -1,3 +1,42 @@
+// Fallback script for loading external JavaScript files
+function loadScriptWithFallback(url, fallbackUrl, callback) {
+    const script = document.createElement('script');
+    script.src = url;
+    script.onload = () => {
+        console.log(`Loaded script: ${url}`);
+        if (callback) callback();
+    };
+    script.onerror = () => {
+        console.error(`Failed to load script: ${url}`);
+        if (fallbackUrl) {
+            console.log(`Attempting fallback URL: ${fallbackUrl}`);
+            const fallbackScript = document.createElement('script');
+            fallbackScript.src = fallbackUrl;
+            fallbackScript.onload = () => {
+                console.log(`Loaded fallback script: ${fallbackUrl}`);
+                if (callback) callback();
+            };
+            fallbackScript.onerror = () => {
+                console.error(`Failed to load fallback script: ${fallbackUrl}`);
+            };
+            document.head.appendChild(fallbackScript);
+        }
+    };
+    document.head.appendChild(script);
+}
+
+// Load StreamSaver and JSZip with fallback URLs
+loadScriptWithFallback(
+    'https://cdn.jsdelivr.net/npm/streamsaver@2.0.6/StreamSaver.min.js',
+    'https://unpkg.com/streamsaver@2.0.6/StreamSaver.min.js',
+    () => console.log('StreamSaver is ready!')
+);
+loadScriptWithFallback(
+    'https://cdn.jsdelivr.net/npm/jszip@3.10.1/dist/jszip.min.js',
+    'https://unpkg.com/jszip@3.10.1/dist/jszip.min.js',
+    () => console.log('JSZip is ready!')
+);
+
 const MESSAGES = {
     ERROR: {
         SELECT_GAME: 'กรุณาเลือกม็อด',
