@@ -44,7 +44,7 @@ h2 {
     /* position: relative; */
     width: 180px;
     height: 270px;
-    padding: 10px;
+    padding: 7px;
     border: 2px solid #ccc;
     border-radius: 8px;
     background-color: #fff;
@@ -213,16 +213,16 @@ footer {
 /* Medium Screens */
 @media (max-width: 1024px) {
     .game-card {
-        width: 150px;
-        height: 225px;
+        /* width:150px; */
+        /* height:225px; */
     }
 }
 
 /* Small Screens */
 @media (max-width: 768px) {
     .game-card {
-        width: 120px;
-        height: 180px;
+        /* width:120px; */
+        /* height:180px; */
     }
 
     #install-mod-btn {
@@ -233,8 +233,8 @@ footer {
 /* Extra Small Screens */
 @media (max-width: 480px) {
     .game-card {
-        width: 100px;
-        height: 150px;
+        /* width:100px; */
+        /* height:150px; */
     }
 
     #install-mod-btn {
