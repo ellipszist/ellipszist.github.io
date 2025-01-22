@@ -91,7 +91,7 @@
                     "id": "lumaisland",
                     "name": "Luma Island",
                     "cover": "https://shared.cloudflare.steamstatic.com/store_item_assets/steam/apps/2408820/library_600x900_2x.jpg?t=1732556017",
-                    "mod": "https://ellipszist.github.io/releases/Luma_Island.zip",
+                    "manual_url": "https://store.steampowered.com/app/2408820/",
                     "platform": ["Windows", "Steam"]
                 },
                 {
