@@ -4,7 +4,7 @@
             "name": "Black Chick",
             "mods": [
                 {
-                    "bg": "#033c7c",
+                    "bg": "#7eb9fc",
                     "id": "stardewvalley",
                     "name": "Stardew Valley",
                     "cover": "https://shared.cloudflare.steamstatic.com/store_item_assets/steam/apps/413150/library_600x900_2x.jpg?t=1710874357",
@@ -12,7 +12,7 @@
                     "platform": ["Windows", "Linux", "macOS"]
                 },
                 {
-                    "bg": "#6a3525",
+                    "bg": "#dba999",
                     "id": "hades",
                     "name": "Hades",
                     "cover": "https://shared.cloudflare.steamstatic.com/store_item_assets/steam/apps/1145360/library_600x900_2x.jpg?t=1679345331",
@@ -46,7 +46,7 @@
                     "platform": ["Windows", "Steam"]
                 },
                 {
-                    "bg": "#41765a",
+                    "bg": "#8cc0a4",
                     "id": "snufkinmelodyofmoominvalley",
                     "name": "Snufkin: Melody of Moominvalley",
                     "cover": "https://shared.cloudflare.steamstatic.com/store_item_assets/steam/apps/1808680/library_600x900_2x.jpg?t=1732721335",
@@ -62,7 +62,7 @@
                     "platform": ["Windows", "Linux"]
                 },
                 {
-                    "bg": "#2c3135",
+                    "bg": "#aeb6bc",
                     "id": "deathsdoor",
                     "name": "Death's Door",
                     "cover": "https://shared.cloudflare.steamstatic.com/store_item_assets/steam/apps/894020/library_600x900_2x.jpg?t=1704910472",
@@ -70,7 +70,7 @@
                     "platform": ["Windows", "Steam"]
                 },
                 {
-                    "bg": "#1575a8",
+                    "bg": "#65bdec",
                     "id": "overcooked2",
                     "name": "Overcooked! 2",
                     "cover": "https://shared.cloudflare.steamstatic.com/store_item_assets/steam/apps/728880/library_600x900_2x.jpg?t=1718290420",
