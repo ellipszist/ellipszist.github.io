@@ -246,3 +246,76 @@ footer {
         padding: 6px 10px;
     }
 }
+
+#browser-support-message {
+    color: green;
+}
+
+.mod-stardewvalley h1,
+.mod-stardewvalley #donate,
+.mod-stardewvalley footer {
+    color: #e0a000;
+}
+.mod-stardewvalley #browser-support-message {
+    color: #2be059;
+}
+
+.mod-hades h1,
+.mod-hades #donate,
+.mod-hades footer {
+    color: #fff;
+    text-shadow: 2px 0 #bf1512;
+}
+.mod-hades #browser-support-message {
+    color: #2be059;
+}
+
+.mod-davethediver h1,
+.mod-davethediver #donate,
+.mod-davethediver footer {
+    color: #ffb500;
+    text-shadow: 2px 0 #07a9cc;
+}
+.mod-davethediver #browser-support-message {
+    color: #02829d;
+}
+
+.mod-snufkinmelodyofmoominvalley h1,
+.mod-snufkinmelodyofmoominvalley #donate,
+.mod-snufkinmelodyofmoominvalley footer {
+    color: #fff;
+}
+.mod-snufkinmelodyofmoominvalley #browser-support-message {
+    color: #2be059;
+}
+
+.mod-deathsdoor h1,
+.mod-deathsdoor #donate,
+.mod-deathsdoor footer {
+    color: #fff;
+}
+.mod-deathsdoor #browser-support-message {
+    color: #2be059;
+}
+
+.mod-overcooked2 h1,
+.mod-overcooked2 #donate,
+.mod-overcooked2 footer {
+    color: #fff;
+    text-shadow: 2px 0 #9f3122;
+}
+.mod-overcooked2 #browser-support-message {
+    color: #2be059;
+}
+
+.mod-lumaisland h1,
+.mod-lumaisland #donate,
+.mod-lumaisland footer {
+    color: #e9e7e3;
+}
+
+.mod-pharaohanewera h1,
+.mod-pharaohanewera #donate,
+.mod-pharaohanewera footer {
+    color: #8d2e07;
+}

@@ -70,7 +70,7 @@ document.addEventListener('DOMContentLoaded', () => {
 
     if ('showDirectoryPicker' in window) {
         supportMessage.textContent = 'เบราว์เซอร์นี้รองรับการติดตั้งม็อด 🎉';
-        supportMessage.style.color = 'green';
+        //supportMessage.style.color = 'green';
     } else {
         supportMessage.innerHTML = 'เบราว์เซอร์นี้ไม่รองรับการติดตั้งม็อด โปรดใช้ <strong>Chrome, Edge</strong> หรือ <strong>Opera</strong>';
         supportMessage.style.color = 'red';
@@ -175,6 +175,13 @@ function handleModSelection(card, mod) {
 
     //console.log('mod.platform:', mod.platform);
 
+    document.body.classList.forEach(cls => {
+        if (cls.startsWith('mod-')) {
+            document.body.classList.remove(cls);
+        }
+    });
+
+    document.body.classList.add(`mod-${mod.id}`);
     document.body.style.setProperty('--body-bg', mod.bg || '#ffffff');
 
     const platform = mod.platform && Array.isArray(mod.platform)
