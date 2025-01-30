@@ -190,6 +190,7 @@ h2 {
 }
 
 :popover-open {
+    background-color: var(--body-bg, #fff);
     border-radius: 5px;
     border: none;
     padding: 20px;
@@ -198,6 +199,10 @@ h2 {
 
 [popover] > button {
     float: right;
+    border-radius: 50%;
+    width: 33px;
+    height: 33px;
+    border: none;
 }
 
 #donate img {
