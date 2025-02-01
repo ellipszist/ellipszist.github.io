@@ -12,15 +12,6 @@
                     "platform": ["Windows", "Linux", "macOS"]
                 },
                 {
-                    "bg": "#6a3525",
-                    "id": "hades",
-                    "name": "Hades",
-                    "cover": "https://shared.cloudflare.steamstatic.com/store_item_assets/steam/apps/1145360/library_600x900_2x.jpg?t=1679345331",
-                    "mod": "https://ellipszist.github.io/releases/Hades.zip",
-                    "platform": ["Windows", "macOS"],
-                    "status": "translationPaused"
-                },
-                {
                     "bg": "#5eccce",
                     "id": "davethediver",
                     "name": "DAVE THE DIVER",
