@@ -1,3 +1,5 @@
+@import url("https://fonts.googleapis.com/css2?family=Noto+Serif+Thai:wght@600;700&display=swap");
+
 html {
     --duration: 1s;
     --ease-slider: cubic-bezier(0.4, 0, 0.2, 1);
