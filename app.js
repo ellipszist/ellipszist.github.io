@@ -28,7 +28,7 @@ function loadScriptWithFallback(url, fallbackUrl, callback) {
 // Load StreamSaver and JSZip with fallback URLs
 loadScriptWithFallback(
     'https://cdn.jsdelivr.net/npm/streamsaver@2.0.6/StreamSaver.min.js',
-    'https://unpkg.com/streamsaver@2.0.6/StreamSaver.min.js',
+    'https://unpkg.com/streamsaver@2.0.6/StreamSaver.js',
     () => console.log('StreamSaver is ready!')
 );
 loadScriptWithFallback(
