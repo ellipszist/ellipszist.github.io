@@ -98,7 +98,7 @@
                     "id": "pharaohanewera",
                     "name": "Pharaoh™: A New Era",
                     "cover": "https://shared.cloudflare.steamstatic.com/store_item_assets/steam/apps/1351080/library_600x900_2x.jpg?t=1727192315",
-                    "manual_url": "https://www.nexusmods.com/pharaohanewera/mods/9",
+                    "mod": "https://ellipszist.github.io/releases/Pharaoh_A_New_Era.zip",
                     "platform": ["Windows", "Steam"]
                 }
             ]
