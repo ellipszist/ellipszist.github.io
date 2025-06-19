@@ -73,8 +73,7 @@
                     "name": "Eastward",
                     "cover": "https://shared.cloudflare.steamstatic.com/store_item_assets/steam/apps/977880/library_600x900_2x.jpg?t=1730827084",
                     "mod": "https://ellipszist.github.io/releases/Eastward.zip",
-                    "platform": ["Windows", "Steam"],
-                    "status": "inTranslation"
+                    "platform": ["Windows", "Steam"]
                 },
                 {
                     "bg": "#8fbe86",
