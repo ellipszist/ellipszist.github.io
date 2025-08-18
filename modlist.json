@@ -17,7 +17,8 @@
                     "name": "DAVE THE DIVER",
                     "cover": "https://shared.cloudflare.steamstatic.com/store_item_assets/steam/apps/1868140/library_600x900_2x.jpg?t=1734352298",
                     "mod": "https://ellipszist.github.io/releases/DAVE_THE_DIVER.zip",
-                    "platform": ["Windows", "Steam"]
+                    "platform": ["Windows", "Steam"],
+                    "status": "updating"
                 },
                 {
                     "bg": "#e7e8ed",
