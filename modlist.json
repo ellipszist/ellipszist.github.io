@@ -36,6 +36,14 @@
                     "platform": ["Windows", "Steam"]
                 },
                 {
+                    "bg": "#8f1721",
+                    "id": "ninesols",
+                    "name": "Nine Sols",
+                    "cover": "https://shared.fastly.steamstatic.com/store_item_assets/steam/apps/1809540/library_600x900_2x.jpg",
+                    "manual_url": "https://www.nexusmods.com/ninesols/mods/9",
+                    "platform": ["Windows", "Steam"]
+                },
+                {
                     "bg": "#41765a",
                     "id": "snufkinmelodyofmoominvalley",
                     "name": "Snufkin: Melody of Moominvalley",
