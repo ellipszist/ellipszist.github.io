@@ -33,7 +33,8 @@
                     "name": "Little Kitty, Big City",
                     "cover": "https://shared.cloudflare.steamstatic.com/store_item_assets/steam/apps/1177980/library_600x900_2x.jpg?t=1734569573",
                     "mod": "https://ellipszist.github.io/releases/Little_Kitty_Big_City.zip",
-                    "platform": ["Windows", "Steam"]
+                    "platform": ["Windows", "Steam"],
+                    "status": "updating"
                 },
                 {
                     "bg": "#8f1721",
