@@ -25,7 +25,8 @@
                     "name": "Mini Motorways",
                     "cover": "https://shared.cloudflare.steamstatic.com/store_item_assets/steam/apps/1127500/library_600x900_2x.jpg?t=1667780939",
                     "mod": "https://ellipszist.github.io/releases/Mini_Motorways.zip",
-                    "platform": ["Windows", "Steam"]
+                    "platform": ["Windows", "Steam"],
+                    "status": "updating"
                 },
                 {
                     "bg": "#c1bef9",
