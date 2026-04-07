@@ -1,0 +1,58 @@
+<!DOCTYPE html>
+<html lang="th">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Redirecting to Thai Mod Collector...</title>
+    
+    <!-- ส่งไปที่ Chrome Web Store หลังจากผ่านไป 0 วินาที -->
+    <meta http-equiv="refresh" content="0; url=https://chromewebstore.google.com/detail/thai-mod-collector/fmpjmolkckgboofhdnfkaphienmkeojb">
+    
+    <style>
+        body {
+            font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+            display: flex;
+            flex-direction: column;
+            align-items: center;
+            justify-content: center;
+            height: 100vh;
+            margin: 0;
+            background-color: #f4f4f9;
+            color: #333;
+            text-align: center;
+        }
+        .loader {
+            border: 4px solid #f3f3f3;
+            border-top: 4px solid #3498db;
+            border-radius: 50%;
+            width: 40px;
+            height: 40px;
+            animation: spin 1s linear infinite;
+            margin-bottom: 20px;
+        }
+        @keyframes spin {
+            0% { transform: rotate(0deg); }
+            100% { transform: rotate(360deg); }
+        }
+        a {
+            color: #3498db;
+            text-decoration: none;
+            font-weight: bold;
+        }
+        a:hover {
+            text-decoration: underline;
+        }
+    </style>
+</head>
+<body>
+
+    <div class="loader"></div>
+    <h1>กำลังนำคุณไปที่ Chrome Web Store...</h1>
+    <p>หากหน้าเว็บไม่เปลี่ยนไปโดยอัตโนมัติ <a href="https://chromewebstore.google.com/detail/thai-mod-collector/fmpjmolkckgboofhdnfkaphienmkeojb">คลิกที่นี่</a></p>
+
+    <script>
+        // ใช้ JavaScript เพื่อ Redirect ทันทีที่โหลดหน้า
+        window.location.href = "https://chromewebstore.google.com/detail/thai-mod-collector/fmpjmolkckgboofhdnfkaphienmkeojb";
+    </script>
+</body>
+</html>
