@@ -1,0 +1,63 @@
+/* ป้องกันหน้ากระตุกก่อน Vue โหลดเสร็จ */
+[v-cloak] {
+  display: none !important;
+}
+
+/* ล้างและบังคับขนาด Native Date Picker บน iOS Safari ให้ชิดซ้าย ไม่ล้นกรอบ */
+input[type="date"] {
+  -webkit-appearance: none;
+  -moz-appearance: none;
+  appearance: none;
+  display: block;
+  width: 100% !important;
+  max-width: 100% !important;
+  box-sizing: border-box !important;
+  text-align: left !important;
+}
+
+/* บังคับข้อความวันที่บน iOS Safari ให้จัดชิดซ้าย */
+input[type="date"]::-webkit-date-and-time-value {
+  text-align: left !important;
+}
+
+/* ปรับไอคอนปฏิทินของเบราว์เซอร์ */
+input[type="date"]::-webkit-calendar-picker-indicator {
+  cursor: pointer;
+  opacity: 0.6;
+  padding: 0;
+  margin: 0;
+}
+
+/* แปลง Table เป็น Card บนหน้าจอขนาดเล็กกว่า 640px */
+@media (max-width: 639px) {
+  .table-responsive tr {
+    display: block;
+    background-color: #ffffff;
+    border: 1px solid #e2e8f0;
+    border-radius: 0.75rem;
+    margin-bottom: 0.75rem;
+    padding: 0.75rem 1rem;
+  }
+
+  .table-responsive td {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    padding: 0.5rem 0;
+    border-bottom: 1px dashed #f1f5f9;
+  }
+
+  .table-responsive td:last-child {
+    border-bottom: none;
+    padding-top: 0.75rem;
+  }
+
+  .table-responsive td::before {
+    content: attr(data-label);
+    font-size: 0.75rem;
+    font-weight: 700;
+    color: #94a3b8;
+    text-transform: uppercase;
+    letter-spacing: 0.05em;
+  }
+}

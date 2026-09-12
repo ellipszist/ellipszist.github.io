@@ -1,0 +1,186 @@
+<!DOCTYPE html>
+<html lang="th">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0, maximum-scale=1.0, user-scalable=no">
+    <title>Smart Inventory (Mobile App)</title>
+    
+    <script src="https://cdn.tailwindcss.com"></script>
+    <link href="https://fonts.googleapis.com/css2?family=Prompt:wght@300;400;500;600;700&display=swap" rel="stylesheet">
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.4.0/css/all.min.css">
+    <script src="https://cdn.jsdelivr.net/npm/chart.js"></script>
+    <script src="https://cdn.jsdelivr.net/npm/sweetalert2@11"></script>
+    <script src="https://unpkg.com/html5-qrcode"></script>
+    <script src="https://cdn.jsdelivr.net/npm/jsbarcode@3.11.5/dist/JsBarcode.all.min.js"></script>
+
+    <script>
+        tailwind.config = {
+            theme: {
+                extend: {
+                    fontFamily: { sans: ['Prompt', 'sans-serif'] },
+                    colors: { primary: '#4f46e5' }
+                }
+            }
+        }
+    </script>
+
+    <link rel="stylesheet" href="style.css">
+</head>
+<body class="text-slate-800 antialiased min-h-screen pb-20">
+
+    <header class="bg-indigo-600 text-white sticky top-0 z-40 shadow-md">
+        <div class="px-4 py-3 flex justify-between items-center">
+            <div class="flex items-center gap-3">
+                <div class="w-10 h-10 bg-white/20 rounded-xl flex items-center justify-center text-xl">
+                    <i class="fa-solid fa-bolt"></i>
+                </div>
+                <div>
+                    <h1 class="text-lg font-bold leading-tight">Smart Inventory</h1>
+                    <p class="text-[10px] text-indigo-200">ระบบเบิกจ่ายอุปกรณ์</p>
+                </div>
+            </div>
+            <button onclick="startAutoScanner()" class="bg-emerald-500 hover:bg-emerald-400 w-10 h-10 rounded-full shadow-lg flex items-center justify-center transition-transform active:scale-95">
+                <i class="fa-solid fa-barcode text-lg"></i>
+            </button>
+        </div>
+    </header>
+
+    <main class="px-4 mt-4 max-w-lg mx-auto">
+        <!-- TAB 1: Dashboard -->
+        <div id="tab-dashboard" class="tab-content active space-y-4">
+            <div class="grid grid-cols-2 gap-3">
+                <div class="bg-white p-4 rounded-3xl shadow-sm border border-slate-100 flex flex-col justify-center items-center text-center">
+                    <div class="w-10 h-10 rounded-full bg-indigo-50 text-indigo-600 flex items-center justify-center mb-2"><i class="fa-solid fa-boxes-stacked"></i></div>
+                    <p class="text-2xl font-bold text-slate-800" id="statTotalItems">0</p>
+                    <p class="text-[10px] font-medium text-slate-500 uppercase tracking-wide">อุปกรณ์ทั้งหมด</p>
+                </div>
+                <div class="bg-white p-4 rounded-3xl shadow-sm border border-slate-100 flex flex-col justify-center items-center text-center relative">
+                    <div class="w-10 h-10 rounded-full bg-amber-50 text-amber-600 flex items-center justify-center mb-2"><i class="fa-solid fa-hand-holding-hand"></i></div>
+                    <p class="text-2xl font-bold text-amber-600" id="statPending">0</p>
+                    <p class="text-[10px] font-medium text-slate-500 uppercase tracking-wide">ของกำลังถูกยืม</p>
+                </div>
+            </div>
+
+            <div class="bg-white p-5 rounded-3xl shadow-sm border border-slate-100 mt-4">
+                <h2 class="text-sm font-bold text-slate-800 mb-3"><i class="fa-solid fa-chart-column text-indigo-500 mr-2"></i>ภาพรวมสต็อก</h2>
+                <div class="h-48 w-full"><canvas id="stockChart"></canvas></div>
+            </div>
+
+            <div class="bg-rose-50 p-5 rounded-3xl border border-rose-100 mt-4">
+                <h2 class="text-sm font-bold text-rose-700 mb-3"><i class="fa-solid fa-bell mr-2"></i>สต็อกเหลือน้อย</h2>
+                <div id="lowStockBody" class="space-y-2"></div>
+            </div>
+        </div>
+
+        <!-- TAB 2: Items -->
+        <div id="tab-items" class="tab-content">
+            <div class="flex gap-2 mb-4 sticky top-[68px] bg-slate-100/90 backdrop-blur py-2 z-30 -mx-4 px-4">
+                <div class="relative flex-1">
+                    <i class="fa-solid fa-magnifying-glass absolute left-3 top-1/2 -translate-y-1/2 text-slate-400"></i>
+                    <input type="text" id="searchInput" placeholder="ค้นหา..." class="pl-9 pr-4 py-3 w-full bg-white rounded-2xl text-[16px] shadow-sm outline-none border-0 focus:ring-2 focus:ring-indigo-500" onkeyup="renderItems()">
+                </div>
+                <button onclick="openAddItemModal()" class="bg-indigo-600 text-white w-12 h-12 rounded-2xl shadow-sm flex items-center justify-center flex-shrink-0 active:scale-95">
+                    <i class="fa-solid fa-plus text-lg"></i>
+                </button>
+            </div>
+            
+            <div id="itemTableBody" class="space-y-3 pb-4"></div>
+        </div>
+
+        <!-- TAB 3: Pending -->
+        <div id="tab-pending" class="tab-content">
+            <h2 class="text-lg font-bold text-slate-800 mb-4 px-1"><i class="fa-solid fa-clock-rotate-left text-amber-500 mr-2"></i>รอรับคืน</h2>
+            <div id="pendingTableBody" class="space-y-3 pb-4"></div>
+        </div>
+
+        <!-- TAB 4: History -->
+        <div id="tab-history" class="tab-content">
+            <h2 class="text-lg font-bold text-slate-800 mb-2 px-1"><i class="fa-solid fa-list-check text-indigo-500 mr-2"></i>ประวัติล่าสุด</h2>
+            
+            <div class="flex overflow-x-auto gap-2 px-1 mb-4 hide-scrollbar" id="historyFilters">
+                <button onclick="filterHistory('all', this)" class="hist-filter-btn active flex-shrink-0 bg-slate-800 text-white px-3 py-1.5 rounded-xl text-xs font-bold shadow-sm transition">ทั้งหมด</button>
+                <button onclick="filterHistory('ยืม', this)" class="hist-filter-btn flex-shrink-0 bg-white text-slate-500 border border-slate-200 px-3 py-1.5 rounded-xl text-xs font-bold transition">ยืม</button>
+                <button onclick="filterHistory('เบิกขาด', this)" class="hist-filter-btn flex-shrink-0 bg-white text-slate-500 border border-slate-200 px-3 py-1.5 rounded-xl text-xs font-bold transition">เบิกขาด</button>
+                <button onclick="filterHistory('คืน', this)" class="hist-filter-btn flex-shrink-0 bg-white text-slate-500 border border-slate-200 px-3 py-1.5 rounded-xl text-xs font-bold transition">รับคืน</button>
+                <button onclick="filterHistory('สูญหาย', this)" class="hist-filter-btn flex-shrink-0 bg-white text-slate-500 border border-slate-200 px-3 py-1.5 rounded-xl text-xs font-bold transition">สูญหาย</button>
+                <button onclick="filterHistory('System', this)" class="hist-filter-btn flex-shrink-0 bg-white text-slate-500 border border-slate-200 px-3 py-1.5 rounded-xl text-xs font-bold transition">ระบบ (System)</button>
+            </div>
+
+            <div id="historyTableBody" class="space-y-3 pb-4 bg-white p-4 rounded-3xl shadow-sm border border-slate-100 min-h-[200px]"></div>
+        </div>
+
+        <!-- TAB 5: More -->
+        <div id="tab-more" class="tab-content space-y-4">
+            <div class="bg-white p-5 rounded-3xl shadow-sm border border-slate-100">
+                <h2 class="text-base font-bold text-slate-800 mb-4"><i class="fa-solid fa-users text-indigo-500 mr-2"></i>รายชื่อช่าง</h2>
+                <form id="addTechForm" class="flex gap-2 mb-4">
+                    <input type="text" id="techName" required placeholder="ชื่อช่าง/พนักงาน" class="flex-1 bg-slate-50 rounded-2xl px-4 py-3 text-[16px] outline-none border border-slate-200 focus:border-indigo-500">
+                    <button type="submit" class="bg-indigo-600 text-white px-4 rounded-2xl font-bold"><i class="fa-solid fa-check"></i></button>
+                </form>
+                <div id="techTableBody" class="space-y-2 max-h-60 overflow-y-auto pr-2"></div>
+            </div>
+
+            <div class="bg-white p-5 rounded-3xl shadow-sm border border-slate-100">
+                <h2 class="text-base font-bold text-slate-800 mb-4"><i class="fa-solid fa-gear text-slate-500 mr-2"></i>ระบบ</h2>
+                
+                <button onclick="printAllBarcodes()" class="w-full bg-slate-800 text-white py-3 rounded-2xl font-bold text-sm mb-3 shadow-sm active:scale-95"><i class="fa-solid fa-print mr-1"></i> พิมพ์ฉลาก Barcode ทั้งหมด</button>
+
+                <div class="grid grid-cols-2 gap-3">
+                    <button onclick="exportData()" class="bg-emerald-50 text-emerald-700 py-3 rounded-2xl font-bold text-sm"><i class="fa-solid fa-download mr-1"></i> Backup</button>
+                    <button onclick="document.getElementById('importFile').click()" class="bg-indigo-50 text-indigo-700 py-3 rounded-2xl font-bold text-sm"><i class="fa-solid fa-upload mr-1"></i> Restore</button>
+                    <input type="file" id="importFile" accept=".json" class="hidden" onchange="importData()">
+                </div>
+                <button onclick="clearAllData()" class="w-full bg-rose-50 text-rose-700 py-3 rounded-2xl font-bold text-sm mt-3"><i class="fa-solid fa-trash-can mr-1"></i> ล้างข้อมูลระบบ</button>
+            </div>
+        </div>
+    </main>
+
+    <!-- Bottom Navigation Bar -->
+    <nav class="fixed bottom-0 left-0 w-full bg-white border-t border-slate-200 z-50 pb-safe">
+        <div class="flex justify-around items-center h-16 max-w-lg mx-auto">
+            <button onclick="switchTab('dashboard', this)" class="bottom-nav-btn active">
+                <i class="fa-solid fa-chart-pie"></i><span class="text-[10px]">หน้าหลัก</span>
+            </button>
+            <button onclick="switchTab('items', this)" class="bottom-nav-btn">
+                <i class="fa-solid fa-box-open"></i><span class="text-[10px]">อุปกรณ์</span>
+            </button>
+            <button onclick="switchTab('pending', this)" class="bottom-nav-btn relative">
+                <i class="fa-solid fa-rotate-left"></i><span class="text-[10px]">ค้างคืน</span>
+                <span id="pendingBadge" class="absolute top-1 right-2 bg-rose-500 text-white text-[9px] font-bold w-4 h-4 rounded-full flex items-center justify-center hidden">0</span>
+            </button>
+            <button onclick="switchTab('history', this)" class="bottom-nav-btn">
+                <i class="fa-solid fa-clock-rotate-left"></i><span class="text-[10px]">ประวัติ</span>
+            </button>
+            <button onclick="switchTab('more', this)" class="bottom-nav-btn">
+                <i class="fa-solid fa-bars"></i><span class="text-[10px]">ตั้งค่า</span>
+            </button>
+        </div>
+    </nav>
+
+    <!-- Auto Scanner Modal -->
+    <div id="scannerModal" class="hidden fixed inset-0 bg-slate-900 z-50 flex flex-col">
+        <div class="px-4 py-4 flex justify-between items-center bg-slate-800 text-white">
+            <h3 class="font-bold text-lg"><i class="fa-solid fa-bolt text-emerald-400 mr-2"></i>Scan-to-Go</h3>
+            <button onclick="stopScanner()" class="w-10 h-10 bg-slate-700 rounded-full flex items-center justify-center active:bg-slate-600"><i class="fa-solid fa-xmark"></i></button>
+        </div>
+        
+        <div class="flex-1 flex flex-col justify-center items-center px-6">
+            <div id="scanStatus" class="bg-indigo-600 text-white px-6 py-3 rounded-full text-sm font-bold mb-6 shadow-lg transform transition-all duration-300">
+                1. สแกนรหัสพนักงาน
+            </div>
+            <div id="reader" class="w-full max-w-sm rounded-3xl overflow-hidden border-4 border-slate-700 shadow-2xl bg-black"></div>
+            
+            <div id="activeUserBadge" class="hidden mt-8 w-full max-w-sm bg-slate-800 border border-slate-700 text-white p-4 rounded-3xl flex items-center gap-4">
+                <div class="bg-emerald-500 w-12 h-12 rounded-full flex items-center justify-center text-xl text-white shadow-inner"><i class="fa-solid fa-user-check"></i></div>
+                <div class="flex-1">
+                    <p class="text-xs text-slate-400 font-bold uppercase tracking-wider">ผู้ทำรายการ</p>
+                    <p id="activeUserName" class="text-lg font-bold">...</p>
+                </div>
+                <button onclick="resetAutoScanner()" class="bg-slate-700 hover:bg-slate-600 px-4 py-2 rounded-xl text-sm font-bold active:scale-95 transition-transform">เปลี่ยน</button>
+            </div>
+        </div>
+    </div>
+
+    <script src="script.js"></script>
+</body>
+</html>

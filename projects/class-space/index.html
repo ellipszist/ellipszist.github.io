@@ -1,0 +1,322 @@
+<!DOCTYPE html>
+<html lang="th">
+<head>
+  <meta charset="UTF-8" />
+  <meta name="viewport" content="width=device-width, initial-scale=1.0, maximum-scale=1.0" />
+  <title>ClassSpace - ระบบจองห้องเรียน</title>
+  <!-- Google Fonts -->
+  <link rel="preconnect" href="https://fonts.googleapis.com">
+  <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+  <link href="https://fonts.googleapis.com/css2?family=Plus+Jakarta+Sans:wght@500;600;700&family=Sarabun:wght@300;400;500;600;700&display=swap" rel="stylesheet">
+  <!-- Tailwind CSS Play CDN -->
+  <script src="https://cdn.tailwindcss.com"></script>
+  <!-- Vue 3 CDN -->
+  <script src="https://unpkg.com/vue@3/dist/vue.global.prod.js"></script>
+  <link rel="stylesheet" href="style.css" />
+</head>
+<body class="bg-slate-50 text-slate-900 font-['Sarabun',sans-serif] min-h-screen antialiased overflow-x-hidden">
+
+  <div id="app" class="max-w-7xl mx-auto px-4 py-6" v-cloak>
+
+    <!-- Toast Notifications -->
+    <div class="fixed top-4 right-4 z-50 flex flex-col gap-2 w-full max-w-sm pointer-events-none px-4 sm:px-0">
+      <transition-group 
+        enter-active-class="transition duration-200 ease-out" 
+        enter-from-class="opacity-0 -translate-y-2 scale-95" 
+        enter-to-class="opacity-100 translate-y-0 scale-100" 
+        leave-active-class="transition duration-200 ease-in" 
+        leave-from-class="opacity-100 scale-100" 
+        leave-to-class="opacity-0 scale-90">
+        <div 
+          v-for="toast in toasts" 
+          :key="toast.id" 
+          :class="[
+            'pointer-events-auto flex items-center gap-3 p-4 rounded-xl shadow-lg border text-sm font-medium bg-white',
+            toast.type === 'success' ? 'border-l-4 border-l-emerald-500 border-slate-200 text-slate-800' : 'border-l-4 border-l-rose-500 border-slate-200 text-slate-800'
+          ]">
+          <span v-if="toast.type === 'success'" class="text-emerald-500 font-bold">✓</span>
+          <span v-else class="text-rose-500 font-bold">✕</span>
+          <span class="flex-1">{{ toast.message }}</span>
+        </div>
+      </transition-group>
+    </div>
+
+    <!-- Confirm Modal -->
+    <div v-if="showModal" class="fixed inset-0 z-50 bg-slate-900/50 backdrop-blur-sm flex items-center justify-center p-4">
+      <div class="bg-white rounded-2xl max-w-md w-full p-6 text-center shadow-xl border border-slate-100 transform transition-all">
+        <div class="w-12 h-12 bg-rose-50 text-rose-500 rounded-full flex items-center justify-center mx-auto mb-4 text-xl">
+          ⚠️
+        </div>
+        <h3 class="text-lg font-bold text-slate-900 mb-1">ยืนยันการยกเลิกการจอง?</h3>
+        <p class="text-sm text-slate-500 mb-6">หากยกเลิกแล้ว ห้องจะเปิดว่างให้ผู้ใช้อื่นสามารถจองช่วงเวลานี้ได้ทันที</p>
+        <div class="grid grid-cols-2 gap-3">
+          <button @click="closeModal" class="w-full py-2.5 px-4 rounded-xl border border-slate-200 text-slate-600 hover:bg-slate-50 font-semibold text-sm transition">
+            ย้อนกลับ
+          </button>
+          <button @click="confirmCancelBooking" class="w-full py-2.5 px-4 rounded-xl bg-rose-600 hover:bg-rose-700 text-white font-semibold text-sm transition">
+            ยืนยันยกเลิก
+          </button>
+        </div>
+      </div>
+    </div>
+
+    <!-- Navbar -->
+    <header class="bg-white border border-slate-200 rounded-2xl p-4 sm:px-6 mb-6 shadow-sm flex flex-col sm:flex-row justify-between items-stretch sm:items-center gap-4">
+      <div class="flex items-center gap-3">
+        <div class="w-10 h-10 rounded-xl bg-indigo-600 text-white flex items-center justify-center shadow-md shadow-indigo-200 font-bold text-lg">
+          📚
+        </div>
+        <div>
+          <span class="font-['Plus_Jakarta_Sans'] font-bold text-lg text-slate-900 leading-tight block">ClassSpace</span>
+          <span class="text-xs font-medium text-slate-400">Classroom Booking Portal</span>
+        </div>
+      </div>
+
+      <!-- User Logged In Profile -->
+      <div v-if="currentUser" class="flex items-center justify-between sm:justify-end gap-3 pt-3 sm:pt-0 border-t sm:border-t-0 border-slate-100">
+        <div class="w-9 h-9 rounded-full bg-indigo-50 border border-indigo-100 text-indigo-600 font-bold flex items-center justify-center text-sm">
+          {{ currentUser.name.charAt(0) }}
+        </div>
+        <div class="flex flex-col items-start sm:items-end">
+          <div class="flex items-center gap-2">
+            <span class="text-sm font-semibold text-slate-800">{{ currentUser.name }}</span>
+            <span :class="[
+              'text-[10px] font-bold px-2 py-0.5 rounded-full border',
+              currentUser.role === 'admin' ? 'bg-rose-50 text-rose-600 border-rose-200' : 'bg-indigo-50 text-indigo-600 border-indigo-200'
+            ]">
+              {{ currentUser.role.toUpperCase() }}
+            </span>
+          </div>
+          <button @click="logout" class="text-xs text-slate-400 hover:text-rose-600 transition flex items-center gap-1 mt-0.5">
+            ออกจากระบบ
+          </button>
+        </div>
+      </div>
+    </header>
+
+    <!-- Main Content -->
+    <main>
+      <!-- 1. Authentication View -->
+      <section v-if="!currentUser" class="flex justify-center items-center py-10">
+        <div class="bg-white border border-slate-200 rounded-3xl p-6 sm:p-8 w-full max-w-md shadow-xl shadow-slate-100">
+          <div class="text-center mb-6">
+            <h2 class="text-xl font-bold text-slate-900">เข้าสู่ระบบ</h2>
+            <p class="text-sm text-slate-500 mt-1">เลือกบัญชีหรือกรอกข้อมูลเพื่อจัดการห้องเรียน</p>
+          </div>
+
+          <form @submit.prevent="handleLogin" class="space-y-4">
+            <div>
+              <label class="block text-xs font-bold text-slate-700 uppercase tracking-wider mb-1.5">ชื่อผู้ใช้งาน (Username)</label>
+              <input v-model="loginForm.username" type="text" placeholder="admin หรือ student1" required 
+                class="w-full px-3.5 py-2.5 rounded-xl border border-slate-200 text-sm focus:outline-none focus:ring-2 focus:ring-indigo-500 focus:border-transparent transition" />
+            </div>
+
+            <div>
+              <label class="block text-xs font-bold text-slate-700 uppercase tracking-wider mb-1.5">รหัสผ่าน (Password)</label>
+              <input v-model="loginForm.password" type="password" placeholder="••••••••" required 
+                class="w-full px-3.5 py-2.5 rounded-xl border border-slate-200 text-sm focus:outline-none focus:ring-2 focus:ring-indigo-500 focus:border-transparent transition" />
+            </div>
+
+            <button type="submit" class="w-full py-3 bg-indigo-600 hover:bg-indigo-700 text-white font-semibold text-sm rounded-xl shadow-md shadow-indigo-200 transition">
+              ลงชื่อเข้าใช้
+            </button>
+          </form>
+
+          <!-- Quick Test Credentials -->
+          <div class="mt-6 pt-5 border-t border-slate-100">
+            <span class="text-xs text-slate-400 font-medium block mb-2 text-center">บัญชีสำหรับทดสอบ (คลิกเพื่อกรอกอัตโนมัติ):</span>
+            <div class="grid grid-cols-2 gap-2">
+              <button @click="fillCredentials('admin', '123')" type="button" class="py-2 px-3 text-xs font-semibold rounded-lg bg-rose-50 text-rose-700 border border-rose-200 hover:bg-rose-100 transition text-center">
+                🛡️ ผู้ดูแล (Admin)
+              </button>
+              <button @click="fillCredentials('student1', '123')" type="button" class="py-2 px-3 text-xs font-semibold rounded-lg bg-indigo-50 text-indigo-700 border border-indigo-200 hover:bg-indigo-100 transition text-center">
+                🎓 นักศึกษา (User)
+              </button>
+            </div>
+          </div>
+        </div>
+      </section>
+
+      <!-- 2. Dashboard View -->
+      <section v-else class="space-y-6">
+        
+        <!-- Summary Metric Cards -->
+        <div class="grid grid-cols-1 sm:grid-cols-3 gap-4">
+          <div class="bg-white border border-slate-200 rounded-2xl p-4 flex items-center gap-4 shadow-sm">
+            <div class="w-12 h-12 rounded-xl bg-indigo-50 text-indigo-600 flex items-center justify-center text-xl font-bold">
+              🗓️
+            </div>
+            <div>
+              <span class="text-xs text-slate-400 font-medium block">การจองทั้งหมด</span>
+              <span class="text-xl font-bold font-['Plus_Jakarta_Sans'] text-slate-900">{{ bookings.length }}</span>
+            </div>
+          </div>
+
+          <div class="bg-white border border-slate-200 rounded-2xl p-4 flex items-center gap-4 shadow-sm">
+            <div class="w-12 h-12 rounded-xl bg-emerald-50 text-emerald-600 flex items-center justify-center text-xl font-bold">
+              👤
+            </div>
+            <div>
+              <span class="text-xs text-slate-400 font-medium block">รายการของฉัน</span>
+              <span class="text-xl font-bold font-['Plus_Jakarta_Sans'] text-slate-900">{{ myBookingsCount }}</span>
+            </div>
+          </div>
+
+          <div class="bg-white border border-slate-200 rounded-2xl p-4 flex items-center gap-4 shadow-sm">
+            <div class="w-12 h-12 rounded-xl bg-amber-50 text-amber-600 flex items-center justify-center text-xl font-bold">
+              🚪
+            </div>
+            <div>
+              <span class="text-xs text-slate-400 font-medium block">ห้องเรียนในระบบ</span>
+              <span class="text-xl font-bold font-['Plus_Jakarta_Sans'] text-slate-900">{{ roomOptions.length }} ห้อง</span>
+            </div>
+          </div>
+        </div>
+
+        <div class="grid grid-cols-1 lg:grid-cols-12 gap-6 items-start">
+          
+          <!-- Booking Form -->
+          <div class="lg:col-span-4 bg-white border border-slate-200 rounded-2xl p-5 sm:p-6 shadow-sm overflow-hidden">
+            <div class="border-b border-slate-100 pb-4 mb-4">
+              <h3 class="font-bold text-slate-900">แบบฟอร์มจองห้องเรียน</h3>
+              <p class="text-xs text-slate-400">ระบุรายละเอียดและเวลาที่ต้องการใช้งาน</p>
+            </div>
+
+            <form @submit.prevent="handleBooking" class="space-y-4">
+              <div>
+                <label class="block text-xs font-semibold text-slate-700 mb-1">เลือกห้องเรียน</label>
+                <select v-model="bookingForm.room" required class="w-full h-10 px-3 py-2 text-sm rounded-xl border border-slate-200 bg-white text-slate-800 focus:ring-2 focus:ring-indigo-500 focus:outline-none transition">
+                  <option v-for="room in roomOptions" :key="room" :value="room">{{ room }}</option>
+                </select>
+              </div>
+
+              <!-- Fixed Width & Balanced Layout for Date & Time -->
+              <div class="grid grid-cols-1 gap-4">
+                <div>
+                  <label class="block text-xs font-semibold text-slate-700 mb-1">วันที่ต้องการใช้งาน</label>
+                  <div class="w-full">
+                    <input 
+                      v-model="bookingForm.date" 
+                      type="date" 
+                      :min="todayDate" 
+                      required 
+                      class="w-full h-10 px-3 text-sm rounded-xl border border-slate-200 bg-white text-slate-800 focus:ring-2 focus:ring-indigo-500 focus:outline-none transition" />
+                  </div>
+                </div>
+
+                <div>
+                  <label class="block text-xs font-semibold text-slate-700 mb-1">ช่วงเวลา</label>
+                  <div class="relative w-full">
+                    <select 
+                      v-model="bookingForm.timeSlot" 
+                      required 
+                      class="w-full h-10 px-3 text-sm rounded-xl border border-slate-200 bg-white text-slate-800 focus:ring-2 focus:ring-indigo-500 focus:outline-none transition appearance-none pr-8">
+                      <option value="09:00 - 12:00">09:00 - 12:00 (รอบเช้า)</option>
+                      <option value="13:00 - 16:00">13:00 - 16:00 (รอบบ่าย)</option>
+                      <option value="17:00 - 20:00">17:00 - 20:00 (รอบค่ำ)</option>
+                    </select>
+                    <span class="absolute right-3 top-1/2 -translate-y-1/2 pointer-events-none text-slate-400 text-xs">▼</span>
+                  </div>
+                </div>
+              </div>
+
+              <div>
+                <label class="block text-xs font-semibold text-slate-700 mb-1">วัตถุประสงค์</label>
+                <textarea v-model="bookingForm.purpose" rows="3" placeholder="เช่น บรรยายพิเศษ, สัมมนาโครงงาน..." required class="w-full px-3 py-2 text-sm rounded-xl border border-slate-200 bg-white text-slate-800 focus:ring-2 focus:ring-indigo-500 focus:outline-none resize-none"></textarea>
+              </div>
+
+              <button type="submit" class="w-full py-2.5 px-4 bg-indigo-600 hover:bg-indigo-700 text-white font-semibold text-sm rounded-xl shadow-md shadow-indigo-100 transition">
+                ยืนยันการจองห้อง
+              </button>
+            </form>
+          </div>
+
+          <!-- Bookings List Table -->
+          <div class="lg:col-span-8 bg-white border border-slate-200 rounded-2xl p-5 sm:p-6 shadow-sm overflow-hidden">
+            <div class="flex flex-col sm:flex-row justify-between items-start sm:items-center gap-3 border-b border-slate-100 pb-4 mb-4">
+              <div>
+                <h3 class="font-bold text-slate-900">ตารางการใช้งานห้องเรียน</h3>
+                <p class="text-xs text-slate-400">ตรวจสอบและจัดการรายการจองทั้งหมดในระบบ</p>
+              </div>
+              <div class="flex bg-slate-100 p-1 rounded-xl w-full sm:w-auto">
+                <button @click="currentFilter = 'all'" :class="['flex-1 sm:flex-initial px-3 py-1 text-xs font-semibold rounded-lg transition', currentFilter === 'all' ? 'bg-white text-indigo-600 shadow-sm' : 'text-slate-500 hover:text-slate-900']">
+                  ทั้งหมด
+                </button>
+                <button @click="currentFilter = 'mine'" :class="['flex-1 sm:flex-initial px-3 py-1 text-xs font-semibold rounded-lg transition', currentFilter === 'mine' ? 'bg-white text-indigo-600 shadow-sm' : 'text-slate-500 hover:text-slate-900']">
+                  เฉพาะของฉัน
+                </button>
+              </div>
+            </div>
+
+            <!-- Empty State -->
+            <div v-if="filteredBookings.length === 0" class="text-center py-12">
+              <div class="w-12 h-12 rounded-full bg-slate-100 text-slate-400 flex items-center justify-center mx-auto mb-3 text-lg">
+                📋
+              </div>
+              <h4 class="text-sm font-semibold text-slate-800">ไม่มีข้อมูลการจอง</h4>
+              <p class="text-xs text-slate-400 mt-1">ยังไม่มีรายการใช้งานในช่วงเวลานี้ สามารถทำการจองได้ทันที</p>
+            </div>
+
+            <!-- Responsive Table / Card View -->
+            <div v-else class="overflow-x-auto">
+              <table class="w-full text-left border-collapse table-responsive">
+                <thead class="hidden sm:table-header-group">
+                  <tr class="border-b border-slate-200 text-slate-400 text-[11px] font-bold uppercase tracking-wider">
+                    <th class="pb-3 pl-2">ห้องเรียน</th>
+                    <th class="pb-3">วัน - เวลา</th>
+                    <th class="pb-3">ผู้จอง</th>
+                    <th class="pb-3">วัตถุประสงค์</th>
+                    <th class="pb-3 pr-2 text-right">จัดการ</th>
+                  </tr>
+                </thead>
+                <tbody class="divide-y divide-slate-100">
+                  <tr v-for="item in filteredBookings" :key="item.id" class="hover:bg-slate-50/70 transition block sm:table-row py-3 sm:py-0 border sm:border-0 rounded-xl mb-3 sm:mb-0 p-3 sm:p-0">
+                    <td data-label="ห้องเรียน" class="sm:py-3.5 sm:pl-2 block sm:table-cell flex justify-between sm:justify-start items-center">
+                      <span class="font-semibold text-sm text-slate-900">{{ item.room }}</span>
+                    </td>
+                    <td data-label="วัน-เวลา" class="sm:py-3.5 block sm:table-cell flex justify-between sm:justify-start items-center">
+                      <div class="flex flex-col sm:items-start items-end">
+                        <span class="text-xs font-semibold text-slate-800">{{ formatDate(item.date) }}</span>
+                        <span class="text-[11px] bg-slate-100 text-slate-600 px-2 py-0.5 rounded font-medium mt-0.5">{{ item.timeSlot }}</span>
+                      </div>
+                    </td>
+                    <td data-label="ผู้จอง" class="sm:py-3.5 block sm:table-cell flex justify-between sm:justify-start items-center">
+                      <span class="text-xs text-slate-700">
+                        {{ item.bookedByName }}
+                        <span v-if="item.bookedBy === currentUser.username" class="text-[10px] bg-indigo-50 text-indigo-600 px-1.5 py-0.5 rounded font-bold ml-1">คุณ</span>
+                      </span>
+                    </td>
+                    <td data-label="วัตถุประสงค์" class="sm:py-3.5 block sm:table-cell flex justify-between sm:justify-start items-center text-xs text-slate-500 max-w-xs truncate">
+                      {{ item.purpose }}
+                    </td>
+                    <td data-label="การจัดการ" class="sm:py-3.5 sm:pr-2 block sm:table-cell text-right pt-2 sm:pt-3.5">
+                      <div class="inline-flex justify-end items-center">
+                        <button 
+                          v-if="canCancel(item)" 
+                          @click="promptCancel(item.id)" 
+                          class="inline-flex items-center justify-center gap-1.5 text-xs border border-slate-200 text-slate-600 hover:text-rose-600 hover:border-rose-200 hover:bg-rose-50 px-3 py-1.5 rounded-lg transition font-medium shadow-sm">
+                          <svg class="w-3.5 h-3.5 text-slate-400 group-hover:text-rose-500" fill="none" stroke="currentColor" viewBox="0 0 24 24">
+                            <path stroke-linecap="round" stroke-linejoin="round" stroke-width="2" d="M19 7l-.867 12.142A2 2 0 0116.138 21H7.862a2 2 0 01-1.995-1.858L5 7m5 4v6m4-6v6m1-10V4a1 1 0 00-1-1h-4a1 1 0 00-1 1v3M4 7h16" />
+                          </svg>
+                          <span>ยกเลิก</span>
+                        </button>
+                        <span v-else class="text-[11px] text-slate-400 bg-slate-100 border border-slate-200 px-2.5 py-1 rounded-md inline-flex items-center gap-1 font-medium">
+                          🔒 <span>ล็อก</span>
+                        </span>
+                      </div>
+                    </td>
+                  </tr>
+                </tbody>
+              </table>
+            </div>
+          </div>
+
+        </div>
+      </section>
+    </main>
+
+  </div>
+
+  <script src="script.js"></script>
+</body>
+</html>

@@ -1,0 +1,63 @@
+/* Mobile Specific Styles */
+body { 
+    background-color: #f1f5f9; 
+    -webkit-tap-highlight-color: transparent; 
+}
+
+.tab-content { 
+    display: none; 
+    opacity: 0; 
+    transition: opacity 0.2s ease-in; 
+}
+
+.tab-content.active { 
+    display: block; 
+    opacity: 1; 
+}
+
+.hide-scrollbar::-webkit-scrollbar { 
+    display: none; 
+}
+
+/* Bottom Navigation */
+.bottom-nav-btn { 
+    display: flex; 
+    flex-direction: column; 
+    align-items: center; 
+    justify-content: center; 
+    width: 100%; 
+    color: #94a3b8; 
+    padding: 0.5rem 0; 
+    transition: 0.2s; 
+}
+
+.bottom-nav-btn.active { 
+    color: #4f46e5; 
+    font-weight: 600; 
+}
+
+.bottom-nav-btn i { 
+    font-size: 1.25rem; 
+    margin-bottom: 0.25rem; 
+}
+
+.bottom-nav-btn.active i { 
+    transform: scale(1.1); 
+}
+
+/* Number Input Arrows Hide */
+input[type=number]::-webkit-inner-spin-button, 
+input[type=number]::-webkit-outer-spin-button { 
+    -webkit-appearance: none; 
+    margin: 0; 
+}
+
+/* SweetAlert Form Fix iOS Zoom */
+.swal2-input, .swal2-select { 
+    font-size: 16px !important; 
+}
+
+/* Safe Area for iPhone */
+.pb-safe {
+    padding-bottom: env(safe-area-inset-bottom);
+}
